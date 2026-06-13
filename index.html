@@ -6746,16 +6746,52 @@ cmPills.forEach(pill => {
 const erPills = document.querySelectorAll('.er-pill');
 let activeErCategory = 'all';
 
+// Parse date text from .er-year into a sortable integer (YYYYMMDD)
+function parseErDate(text) {
+  if (!text) return 0;
+  text = text.trim();
+  var months = {january:1,february:2,march:3,april:4,may:5,june:6,
+                july:7,august:8,september:9,october:10,november:11,december:12};
+  // "Month DD, YYYY"  e.g. "July 11, 2024"
+  var m = text.match(/([a-z]+)\s+(\d{1,2}),\s*(\d{4})/i);
+  if (m) return parseInt(m[3])*10000 + (months[m[1].toLowerCase()]||0)*100 + parseInt(m[2]);
+  // "Month YYYY"  e.g. "February 2026"
+  m = text.match(/([a-z]+)\s+(\d{4})/i);
+  if (m) return parseInt(m[2])*10000 + (months[m[1].toLowerCase()]||0)*100;
+  // "YYYY" only
+  m = text.match(/\b(\d{4})\b/);
+  if (m) return parseInt(m[1])*10000;
+  return 0;
+}
+
 function applyErFilter() {
-  document.querySelectorAll('.er-card').forEach(card => {
+  var erGrid = document.querySelector('.er-grid');
+  if (!erGrid) return;
+
+  var cards = Array.from(erGrid.querySelectorAll('.er-card'));
+
+  // 1. Show / hide by category
+  cards.forEach(function(card) {
     if (activeErCategory === 'all') {
       card.classList.remove('er-hidden');
     } else {
       card.classList.toggle('er-hidden', card.dataset.category !== activeErCategory);
     }
   });
-  const erGrid = document.querySelector('.er-grid');
-  if (erGrid) erGrid.scrollLeft = 0;
+
+  // 2. Sort visible cards latest-first, hidden cards follow
+  var visible = cards.filter(function(c) { return !c.classList.contains('er-hidden'); });
+  var hidden  = cards.filter(function(c) { return  c.classList.contains('er-hidden'); });
+
+  visible.sort(function(a, b) {
+    return parseErDate((b.querySelector('.er-year')||{}).textContent)
+         - parseErDate((a.querySelector('.er-year')||{}).textContent);
+  });
+
+  // 3. Re-insert in sorted order
+  visible.concat(hidden).forEach(function(card) { erGrid.appendChild(card); });
+
+  erGrid.scrollLeft = 0;
 }
 
 erPills.forEach(pill => {
@@ -6766,6 +6802,9 @@ erPills.forEach(pill => {
     applyErFilter();
   });
 });
+
+// Sort on initial load (All view, latest first)
+applyErFilter();
 
 // ── ADVOCATE VOICES FILTER
 (function() {
