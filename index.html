@@ -57,14 +57,23 @@
     .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
     .hamburger span { width: 24px; height: 2px; background: white; border-radius: 2px; transition: all 0.3s; }
     .mobile-menu {
-      display: none; position: fixed; inset: 0; z-index: 999;
+      display: none; position: fixed; inset: 0; z-index: 1100;
       background: rgba(5,8,16,0.97); backdrop-filter: blur(20px);
       flex-direction: column; align-items: center; justify-content: center; gap: 36px;
     }
     .mobile-menu.open { display: flex; }
     .mobile-menu a { font-family: 'Bebas Neue', sans-serif; font-size: 38px; color: white; text-decoration: none; letter-spacing: 2px; transition: color 0.2s; }
     .mobile-menu a:hover { color: var(--gold); }
-    .mobile-close { position: absolute; top: 24px; right: 40px; font-size: 28px; cursor: pointer; color: white; background: none; border: none; }
+    .mobile-close {
+      position: absolute; top: 20px; right: 24px;
+      width: 44px; height: 44px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 28px; line-height: 1;
+      cursor: pointer; color: white; background: rgba(255,255,255,0.08);
+      border: 1.5px solid rgba(255,255,255,0.2); border-radius: 50%;
+      transition: background 0.2s;
+    }
+    .mobile-close:hover { background: rgba(255,255,255,0.18); }
 
     /* ── HERO ── */
     #hero {
