@@ -2159,6 +2159,113 @@
         margin-bottom: 12px !important;
       }
     }
+
+    /* ── FINAL OVERRIDES — placed last to win all cascade conflicts ── */
+
+    /* FIX 1: Hero image position on mobile — defeats all earlier rules */
+    @media (max-width: 768px) {
+      #hero,
+      .hero,
+      section#hero,
+      section.hero {
+        background-position: 25% top !important;
+        background-attachment: scroll !important;
+      }
+    }
+
+    /* FIX 3: Mobile stats section visibility */
+    @media (max-width: 768px) {
+      #mobile-stats {
+        background: #0f1628 !important;
+        display: block !important;
+      }
+    }
+    @media (min-width: 769px) {
+      #mobile-stats {
+        display: none !important;
+      }
+    }
+
+    /* ── COMPREHENSIVE MOBILE COMPATIBILITY PASS ─────────────────
+       All changes below are ≤768px only.
+       Goal: fix every section that the ≤900px rules left too large
+       for real phones (375–430px viewport).
+    ──────────────────────────────────────────────────────────── */
+    @media (max-width: 768px) {
+
+      /* ── LEGAL ROADMAP ─────────────────────────────────────── */
+      #legal-roadmap { padding: 48px 16px 0 !important; }
+      .lr-headline { font-size: 28px !important; line-height: 1.25 !important; }
+      .lr-body { max-width: 100% !important; font-size: 15px !important; }
+      .lr-child-section { padding: 24px 16px !important; margin-top: 32px !important; }
+      .lr-child-grid { grid-template-columns: 1fr !important; gap: 20px !important; }
+      .lr-dlsa-box { padding: 16px !important; margin-top: 32px !important; }
+      .lr-ai-section { padding: 20px 14px !important; margin-top: 32px !important; }
+      .lr-steps { padding-left: 52px !important; }
+      .lr-steps::before { left: 13px !important; }
+      .lr-num { left: -52px !important; width: 34px !important; height: 34px !important; font-size: 16px !important; }
+
+      /* ── ADVOCATES ─────────────────────────────────────────── */
+      .av-headline { font-size: 32px !important; line-height: 1.25 !important; }
+      .av-body { max-width: 100% !important; font-size: 15px !important; }
+      .av-grid > .av-card { flex: 0 0 220px !important; min-width: 220px !important; max-width: 220px !important; }
+
+      /* ── TIMELINE HUB ──────────────────────────────────────── */
+      .th-headline { font-size: 38px !important; padding: 40px 16px 0 !important; }
+      .th-panel { padding: 40px 16px !important; }
+      .mvt-headline { font-size: 36px !important; }
+      .mvt-subhead { font-size: 15px !important; margin-bottom: 32px !important; }
+      .lh-headline { font-size: 28px !important; }
+      .pt-headline { font-size: 34px !important; }
+
+      /* ── JOIN SECTION ──────────────────────────────────────── */
+      #join { padding: 48px 16px !important; }
+      .join-headline { font-size: 28px !important; line-height: 1.25 !important; }
+      .join-body { font-size: 15px !important; }
+      .join-two-col { gap: 36px !important; }
+
+      /* ── UPDATES SECTION ───────────────────────────────────── */
+      #updates { padding: 48px 16px !important; }
+      .update-card { min-width: 280px !important; max-width: 280px !important; padding: 18px 16px !important; }
+
+      /* ── ISSUES SECTION ────────────────────────────────────── */
+      #issues { padding: 48px 16px !important; }
+      .issue-card { padding: 24px 16px !important; }
+      .issues-grid { gap: 20px !important; }
+
+      /* ── ACTION SECTION ────────────────────────────────────── */
+      #action { padding: 48px 16px !important; }
+      .action-card { padding: 24px 18px !important; }
+
+      /* ── ABOUT SECTION ─────────────────────────────────────── */
+      #about { padding: 40px 16px !important; }
+      .about-headline { font-size: 28px !important; }
+
+      /* ── SECTION HEADLINE SCALE-DOWN ───────────────────────── */
+      .section-headline-dark { font-size: 42px !important; }
+      .section-headline-light { font-size: 32px !important; }
+
+      /* ── FOOTER ────────────────────────────────────────────── */
+      footer { padding: 40px 16px !important; }
+      .footer-inner { gap: 28px !important; }
+      .footer-logo-title { font-size: 26px !important; }
+
+      /* ── NAV & GLOBAL SPACING ──────────────────────────────── */
+      .section-inner { padding: 0 !important; }
+    }
+
+    /* Narrowest phones: 480px and below */
+    @media (max-width: 480px) {
+      .update-card { min-width: 260px !important; max-width: 260px !important; }
+      .av-grid > .av-card { flex: 0 0 200px !important; min-width: 200px !important; max-width: 200px !important; }
+      .lr-headline { font-size: 24px !important; }
+      .join-headline { font-size: 24px !important; }
+      .av-headline { font-size: 26px !important; }
+      .th-headline { font-size: 30px !important; }
+      .mvt-headline { font-size: 28px !important; }
+      .section-headline-dark { font-size: 34px !important; }
+      .section-headline-light { font-size: 26px !important; }
+    }
   </style>
 </head>
 <body>
@@ -2197,7 +2304,7 @@
 </div>
 
 <!-- SECTION 1 — HERO -->
-<section id="hero" style="background-position: center 70px !important;">
+<section id="hero">
   <div id="hero-overlay"></div>
   <canvas id="particles-canvas"></canvas>
 
@@ -2287,65 +2394,65 @@
 </section>
 
 <!-- MOBILE STATS — shown below hero on mobile only -->
-<section id="mobile-stats" style="background:#0f1628;padding:28px 20px 24px;display:none;">
+<section id="mobile-stats" style="background:#0f1628 !important;padding:32px 20px 28px !important;display:none;">
 
-  <p style="font-size:9px;color:#F59E0B;letter-spacing:3px;text-transform:uppercase;font-family:Inter,sans-serif;margin:0 0 16px 0;">THE MOVEMENT IN NUMBERS</p>
+  <p style="font-size:9px;color:#F59E0B;letter-spacing:3px;text-transform:uppercase;font-family:Inter,sans-serif;margin:0 0 16px 0;font-weight:700;">THE MOVEMENT IN NUMBERS</p>
 
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px;">
-    <div>
-      <div style="font-family:'Bebas Neue',sans-serif;font-size:32px;color:#F59E0B;line-height:1;">8,500+</div>
-      <div style="font-size:11px;color:rgba(255,255,255,0.6);font-family:Inter,sans-serif;margin-top:3px;line-height:1.3;">Petition Signatures</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px 12px;margin-bottom:24px;">
+    <div style="display:flex;flex-direction:column;gap:4px;">
+      <span style="font-family:'Bebas Neue',sans-serif;font-size:36px;color:#F59E0B;line-height:1;">8,500+</span>
+      <span style="font-family:Inter,sans-serif;font-size:12px;color:rgba(255,255,255,0.65);line-height:1.3;">Petition Signatures</span>
     </div>
-    <div>
-      <div style="font-family:'Bebas Neue',sans-serif;font-size:32px;color:#F59E0B;line-height:1;">20</div>
-      <div style="font-size:11px;color:rgba(255,255,255,0.6);font-family:Inter,sans-serif;margin-top:3px;line-height:1.3;">Petitions Filed</div>
+    <div style="display:flex;flex-direction:column;gap:4px;">
+      <span style="font-family:'Bebas Neue',sans-serif;font-size:36px;color:#F59E0B;line-height:1;">20</span>
+      <span style="font-family:Inter,sans-serif;font-size:12px;color:rgba(255,255,255,0.65);line-height:1.3;">Petitions Filed</span>
     </div>
-    <div>
-      <div style="font-family:'Bebas Neue',sans-serif;font-size:32px;color:#F59E0B;line-height:1;">51</div>
-      <div style="font-size:11px;color:rgba(255,255,255,0.6);font-family:Inter,sans-serif;margin-top:3px;line-height:1.3;">Landmark Judgments</div>
+    <div style="display:flex;flex-direction:column;gap:4px;">
+      <span style="font-family:'Bebas Neue',sans-serif;font-size:36px;color:#F59E0B;line-height:1;">51</span>
+      <span style="font-family:Inter,sans-serif;font-size:12px;color:rgba(255,255,255,0.65);line-height:1.3;">Landmark Judgments</span>
     </div>
-    <div>
-      <div style="font-family:'Bebas Neue',sans-serif;font-size:32px;color:#F59E0B;line-height:1;">20+</div>
-      <div style="font-size:11px;color:rgba(255,255,255,0.6);font-family:Inter,sans-serif;margin-top:3px;line-height:1.3;">Years of Activism</div>
+    <div style="display:flex;flex-direction:column;gap:4px;">
+      <span style="font-family:'Bebas Neue',sans-serif;font-size:36px;color:#F59E0B;line-height:1;">20+</span>
+      <span style="font-family:Inter,sans-serif;font-size:12px;color:rgba(255,255,255,0.65);line-height:1.3;">Years of Activism</span>
     </div>
-    <div>
-      <div style="font-family:'Bebas Neue',sans-serif;font-size:32px;color:#F59E0B;line-height:1;">19</div>
-      <div style="font-size:11px;color:rgba(255,255,255,0.6);font-family:Inter,sans-serif;margin-top:3px;line-height:1.3;">Coalition Members</div>
+    <div style="display:flex;flex-direction:column;gap:4px;">
+      <span style="font-family:'Bebas Neue',sans-serif;font-size:36px;color:#F59E0B;line-height:1;">19</span>
+      <span style="font-family:Inter,sans-serif;font-size:12px;color:rgba(255,255,255,0.65);line-height:1.3;">Coalition Members</span>
     </div>
   </div>
 
-  <div style="border-top:1px solid rgba(239,68,68,0.25);margin-bottom:16px;"></div>
+  <div style="border-top:1px solid rgba(239,68,68,0.3);margin-bottom:16px;"></div>
 
-  <p style="font-size:9px;color:#EF4444;letter-spacing:2px;text-transform:uppercase;font-family:Inter,sans-serif;margin:0 0 14px 0;">WHY REFORM CANNOT WAIT</p>
+  <p style="font-size:9px;color:#EF4444;letter-spacing:2px;text-transform:uppercase;font-family:Inter,sans-serif;margin:0 0 14px 0;font-weight:700;">WHY REFORM CANNOT WAIT</p>
 
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
-    <div>
-      <div style="font-family:'Bebas Neue',sans-serif;font-size:28px;color:#EF4444;line-height:1;">50 Lakh+</div>
-      <div style="font-size:11px;color:rgba(255,255,255,0.55);font-family:Inter,sans-serif;margin-top:3px;line-height:1.3;">Families in Marital Disputes</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px 12px;margin-bottom:16px;">
+    <div style="display:flex;flex-direction:column;gap:4px;">
+      <span style="font-family:'Bebas Neue',sans-serif;font-size:30px;color:#EF4444;line-height:1;">50 Lakh+</span>
+      <span style="font-family:Inter,sans-serif;font-size:12px;color:rgba(255,255,255,0.55);line-height:1.3;">Families in Marital Disputes</span>
     </div>
-    <div>
-      <div style="font-family:'Bebas Neue',sans-serif;font-size:28px;color:#EF4444;line-height:1;">1,34,000+</div>
-      <div style="font-size:11px;color:rgba(255,255,255,0.55);font-family:Inter,sans-serif;margin-top:3px;line-height:1.3;">498A Cases Per Year</div>
+    <div style="display:flex;flex-direction:column;gap:4px;">
+      <span style="font-family:'Bebas Neue',sans-serif;font-size:30px;color:#EF4444;line-height:1;">1,34,000+</span>
+      <span style="font-family:Inter,sans-serif;font-size:12px;color:rgba(255,255,255,0.55);line-height:1.3;">498A Cases Per Year</span>
     </div>
-    <div>
-      <div style="font-family:'Bebas Neue',sans-serif;font-size:28px;color:#EF4444;line-height:1;">12%</div>
-      <div style="font-size:11px;color:rgba(255,255,255,0.55);font-family:Inter,sans-serif;margin-top:3px;line-height:1.3;">498A Conviction Rate</div>
+    <div style="display:flex;flex-direction:column;gap:4px;">
+      <span style="font-family:'Bebas Neue',sans-serif;font-size:30px;color:#EF4444;line-height:1;">12%</span>
+      <span style="font-family:Inter,sans-serif;font-size:12px;color:rgba(255,255,255,0.55);line-height:1.3;">498A Conviction Rate</span>
     </div>
-    <div>
-      <div style="font-family:'Bebas Neue',sans-serif;font-size:28px;color:#EF4444;line-height:1;">88%</div>
-      <div style="font-size:11px;color:rgba(255,255,255,0.55);font-family:Inter,sans-serif;margin-top:3px;line-height:1.3;">Lives Destroyed Without Accountability</div>
+    <div style="display:flex;flex-direction:column;gap:4px;">
+      <span style="font-family:'Bebas Neue',sans-serif;font-size:30px;color:#EF4444;line-height:1;">88%</span>
+      <span style="font-family:Inter,sans-serif;font-size:12px;color:rgba(255,255,255,0.55);line-height:1.3;">Lives Destroyed Without Accountability</span>
     </div>
-    <div>
-      <div style="font-family:'Bebas Neue',sans-serif;font-size:28px;color:#EF4444;line-height:1;">324 Yrs</div>
-      <div style="font-size:11px;color:rgba(255,255,255,0.55);font-family:Inter,sans-serif;margin-top:3px;line-height:1.3;">To Clear Court Backlog</div>
+    <div style="display:flex;flex-direction:column;gap:4px;">
+      <span style="font-family:'Bebas Neue',sans-serif;font-size:30px;color:#EF4444;line-height:1;">324 Yrs</span>
+      <span style="font-family:Inter,sans-serif;font-size:12px;color:rgba(255,255,255,0.55);line-height:1.3;">To Clear Court Backlog</span>
     </div>
-    <div>
-      <div style="font-family:'Bebas Neue',sans-serif;font-size:28px;color:#EF4444;line-height:1;">0</div>
-      <div style="font-size:11px;color:rgba(255,255,255,0.55);font-family:Inter,sans-serif;margin-top:3px;line-height:1.3;">Reform Bills Passed in 40 Years</div>
+    <div style="display:flex;flex-direction:column;gap:4px;">
+      <span style="font-family:'Bebas Neue',sans-serif;font-size:30px;color:#EF4444;line-height:1;">0</span>
+      <span style="font-family:Inter,sans-serif;font-size:12px;color:rgba(255,255,255,0.55);line-height:1.3;">Reform Bills Passed in 40 Years</span>
     </div>
   </div>
 
-  <p style="font-size:9px;color:rgba(255,255,255,0.25);font-family:Inter,sans-serif;margin-top:16px;line-height:1.4;">Sources: NCRB 2023, NJDG 2024-25, NITI Aayog 2018. Matrimonial figure is an estimate.</p>
+  <p style="font-size:9px;color:rgba(255,255,255,0.25);font-family:Inter,sans-serif;margin:0;line-height:1.4;">Sources: NCRB 2023, NJDG 2024-25, NITI Aayog 2018</p>
 
 </section>
 
