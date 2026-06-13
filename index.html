@@ -2541,6 +2541,18 @@
         order: -1 !important;
       }
     }
+
+    /* ── HERO: TRUE FULL-SCREEN ON MOBILE ──────────────────────── */
+    @media (max-width: 768px) {
+      section#hero {
+        /* dvh = dynamic viewport height: fills exactly the visible area
+           including accounting for browser chrome showing/hiding        */
+        height: 100dvh !important;
+        min-height: 100dvh !important;
+        max-height: 100dvh !important;
+        overflow: hidden !important;
+      }
+    }
   </style>
 </head>
 <body>
@@ -2733,7 +2745,7 @@
 
 <!-- SECTION 2 — ABOUT -->
 <section id="about">
-  <div class="section-inner about-grid">
+  <div class="section-inner about-grid" style="display:block!important;width:100%!important;grid-template-columns:1fr!important;">
     <div>
       <span class="about-label reveal">WHY THIS EXISTS</span>
       <h2 class="about-headline reveal reveal-delay-1">
@@ -2753,21 +2765,21 @@
     <div class="principle-cards">
       <div class="principle-card reveal reveal-delay-1">
         <div class="principle-card-icon">🏛️</div>
-        <div>
+        <div style="min-width:0;flex:1;overflow-wrap:break-word;word-break:break-word;">
           <div class="principle-card-title">Every Past Effort Lives Here</div>
           <p class="principle-card-body">Petitions from 2011. Protests from 2014. Court victories from 2017. All documented, credited, and linked &mdash; so no effort is ever forgotten.</p>
         </div>
       </div>
       <div class="principle-card reveal reveal-delay-2">
         <div class="principle-card-icon">🔗</div>
-        <div>
+        <div style="min-width:0;flex:1;overflow-wrap:break-word;word-break:break-word;">
           <div class="principle-card-title">No Competitor. Only Coalition.</div>
           <p class="principle-card-body">FLRN does not replace SIF, AIFCR, Vaastav, or any existing voice. It connects them &mdash; so every new person finds all of them in one place.</p>
         </div>
       </div>
       <div class="principle-card reveal reveal-delay-3">
         <div class="principle-card-icon">📈</div>
-        <div>
+        <div style="min-width:0;flex:1;overflow-wrap:break-word;word-break:break-word;">
           <div class="principle-card-title">The Next Step Starts at 20+</div>
           <p class="principle-card-body">Because of what came before, this movement doesn&rsquo;t start at zero. It starts at 20+ years of combined activism, 8,500+ signatures, and 51 landmark judgments.</p>
         </div>
