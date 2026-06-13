@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <title>Family Law Reform Network India | FLRN — Uniting India's Family Law Reform Movement</title>
   <meta name="description" content="FLRN is India's coalition platform aggregating petitions, protests, and advocates fighting for gender-neutral family law reform, co-parenting rights, and accountability for false accusations.">
   <meta property="og:title" content="Family Law Reform Network India | FLRN">
@@ -2265,6 +2265,186 @@
       .mvt-headline { font-size: 28px !important; }
       .section-headline-dark { font-size: 34px !important; }
       .section-headline-light { font-size: 26px !important; }
+    }
+
+    /* ════════════════════════════════════════════════════════════
+       MOBILE FIX PASS 2 — targeted layout & overflow fixes
+       All rules: @media (max-width: 768px) only
+    ════════════════════════════════════════════════════════════ */
+
+    /* FIX 1 — HERO IMAGE POSITION */
+    @media (max-width: 768px) {
+      #hero, .hero, section#hero, section.hero {
+        background-position: 42% top !important;
+      }
+      #hero-bg-img {
+        object-position: 42% top !important;
+      }
+    }
+
+    /* FIX 2 — LEGAL ROADMAP: COLLAPSE TWO-COLUMN, HIDE SNAPSHOT */
+    @media (max-width: 768px) {
+      .legal-roadmap-inner,
+      #legal-roadmap .section-inner,
+      [class*="roadmap-inner"],
+      [class*="roadmap-wrapper"] {
+        display: block !important;
+        grid-template-columns: 1fr !important;
+        width: 100% !important;
+        overflow: hidden !important;
+      }
+      .lr-left-col {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow: hidden !important;
+      }
+      /* Hide sticky snapshot card on mobile — saves scroll length */
+      .roadmap-snapshot,
+      #roadmap-snapshot {
+        display: none !important;
+      }
+    }
+
+    /* FIX 3 — UNIVERSAL TWO-COLUMN COLLAPSE */
+    @media (max-width: 768px) {
+      .join-two-col,
+      [class*="join-grid"],
+      [class*="join-columns"],
+      [class*="join-inner"] {
+        display: block !important;
+        width: 100% !important;
+      }
+      .join-two-col > div,
+      [class*="join-grid"] > div,
+      [class*="join-columns"] > div {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-bottom: 32px !important;
+      }
+      .about-grid,
+      [class*="about-inner"],
+      [class*="about-grid"] {
+        display: block !important;
+        width: 100% !important;
+      }
+      [class*="parliament-inner"],
+      [class*="parliament-grid"],
+      #parliament .section-inner {
+        display: block !important;
+        width: 100% !important;
+      }
+      .status-scorecard,
+      [class*="scorecard"],
+      [class*="status-card"] {
+        position: relative !important;
+        top: auto !important;
+        width: 100% !important;
+        margin-top: 24px !important;
+      }
+      [class*="dashboard-grid"],
+      [class*="panels-grid"],
+      [class*="data-panels"] {
+        display: block !important;
+        width: 100% !important;
+      }
+      [class*="dashboard-panel"],
+      [class*="data-panel"] {
+        width: 100% !important;
+        margin-bottom: 16px !important;
+      }
+      [class*="principle-card"],
+      [class*="about-right"] > div {
+        width: 100% !important;
+        margin-bottom: 12px !important;
+      }
+    }
+
+    /* FIX 4 — PREVENT HORIZONTAL OVERFLOW */
+    @media (max-width: 768px) {
+      body {
+        overflow-x: hidden !important;
+        max-width: 100vw !important;
+      }
+      section,
+      .section,
+      [class*="-section"] {
+        max-width: 100vw !important;
+        overflow-x: hidden !important;
+        box-sizing: border-box !important;
+      }
+      section > *,
+      .section > * {
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+      }
+      p, h1, h2, h3, h4, h5,
+      li, span, a {
+        word-break: break-word !important;
+        overflow-wrap: break-word !important;
+      }
+      table {
+        display: block !important;
+        overflow-x: auto !important;
+        width: 100% !important;
+        font-size: 12px !important;
+      }
+    }
+
+    /* FIX 5 — LEGAL ROADMAP STEP CARDS */
+    @media (max-width: 768px) {
+      .lr-card,
+      .roadmap-step,
+      [class*="step-card"],
+      [class*="lr-step"] {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+      .lr-tab,
+      [class*="roadmap-tab"],
+      [class*="path-tab"] {
+        flex: 1 !important;
+        text-align: center !important;
+        font-size: 13px !important;
+        padding: 10px 8px !important;
+      }
+      [class*="roadmap"] p,
+      [class*="roadmap"] li,
+      #legal-roadmap p,
+      #legal-roadmap li {
+        font-size: 14px !important;
+        line-height: 1.6 !important;
+      }
+      [class*="info-box"],
+      [class*="note-box"],
+      [class*="warning-box"] {
+        width: 100% !important;
+        box-sizing: border-box !important;
+        font-size: 13px !important;
+      }
+    }
+
+    /* FIX 6 — ADVOCATE SECTION */
+    @media (max-width: 768px) {
+      #advocates .section-inner,
+      [class*="advocates-inner"],
+      [class*="advocate-layout"] {
+        display: block !important;
+        width: 100% !important;
+      }
+      [class*="advocate-strip"],
+      [class*="advocate-info"],
+      [class*="discovery-strip"] {
+        width: 100% !important;
+        display: block !important;
+      }
+      [class*="advocate-strip"] > div,
+      [class*="discovery-strip"] > div {
+        width: 100% !important;
+        margin-bottom: 20px !important;
+      }
     }
   </style>
 </head>
