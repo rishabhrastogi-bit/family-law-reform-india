@@ -6467,6 +6467,29 @@ Important: Flag any case citations you include so I can verify them on Indian Ka
 </footer>
 
 <script>
+// ── MOBILE HERO: TRUE FULL-SCREEN HEIGHT
+// CSS viewport units (dvh/svh) are unreliable across iOS Safari versions.
+// window.innerHeight is the exact visible viewport at this moment.
+(function fixMobileHeroHeight() {
+  if (window.innerWidth > 768) return;
+  var hero = document.getElementById('hero');
+  if (!hero) return;
+  var h = window.innerHeight + 'px';
+  hero.style.setProperty('height', h, 'important');
+  hero.style.setProperty('min-height', h, 'important');
+  hero.style.setProperty('max-height', h, 'important');
+  hero.style.setProperty('overflow', 'hidden', 'important');
+})();
+window.addEventListener('resize', function() {
+  if (window.innerWidth > 768) return;
+  var hero = document.getElementById('hero');
+  if (!hero) return;
+  var h = window.innerHeight + 'px';
+  hero.style.setProperty('height', h, 'important');
+  hero.style.setProperty('min-height', h, 'important');
+  hero.style.setProperty('max-height', h, 'important');
+}, { passive: true });
+
 // ── NAV
 const navbar = document.getElementById('navbar');
 const hamburgerBtn = document.getElementById('hamburger-btn');
