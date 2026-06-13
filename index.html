@@ -2272,13 +2272,16 @@
        All rules: @media (max-width: 768px) only
     ════════════════════════════════════════════════════════════ */
 
-    /* FIX 1 — HERO IMAGE POSITION */
+    /* FIX 1 — HERO IMAGE: SWAP TO PORTRAIT IMAGE ON MOBILE */
     @media (max-width: 768px) {
       #hero, .hero, section#hero, section.hero {
-        background-position: 55% top !important;
+        background-image: url('hero-bg 2.png') !important;
+        background-position: center top !important;
+        background-size: cover !important;
       }
       #hero-bg-img {
-        object-position: 55% top !important;
+        content: url('hero-bg 2.png') !important;
+        object-position: center top !important;
       }
     }
 
