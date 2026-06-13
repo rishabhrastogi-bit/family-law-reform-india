@@ -1281,7 +1281,7 @@
       padding-top: 80px !important;
       margin-top: 0 !important;
       position: relative !important;
-      z-index: 2 !important;
+      z-index: 25 !important;
       clear: both !important;
     }
     .hero-stats-zone {
@@ -1304,6 +1304,38 @@
       display: block !important;
       visibility: visible !important;
       opacity: 1 !important;
+    }
+
+    /* ── FIX 3: CRISIS STATS STRIP / EYEBROW LABEL ──────────────── */
+    /* Stats strip must not visually override the next section */
+    .hero-stats-zone,
+    [class*="crisis-stats"],
+    .hsz-row-crisis {
+      position: relative !important;
+      z-index: 1 !important;
+      overflow: visible !important;
+    }
+    /* Second section sits above everything from hero */
+    section:nth-of-type(2),
+    #about, #why-this-exists,
+    [class*="about-section"],
+    [class*="flrn-intro"] {
+      position: relative !important;
+      z-index: 25 !important;
+      padding-top: 80px !important;
+      background: #F8FAFC !important;
+    }
+    /* Eyebrow label — force visible */
+    #about .about-label,
+    section:nth-of-type(2) .section-label,
+    section:nth-of-type(2) [class*="eyebrow"],
+    section:nth-of-type(2) [class*="section-label"] {
+      display: block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+      position: relative !important;
+      z-index: 26 !important;
+      margin-bottom: 8px !important;
     }
 
     /* ── FIX 2: CLOSEABLE WARNING BANNERS ──────────────────────── */
@@ -1722,6 +1754,278 @@
     @media (min-width: 769px) {
       .petition-scroll-hint { display: none !important; }
     }
+
+    /* ── HERO STATS RESTRUCTURE ─────────────────────────────────── */
+
+    /* Desktop: left column — flex column, vertically centred, 48% width */
+    @media (min-width: 769px) {
+      .hero-content {
+        position: absolute !important;
+        top: 50% !important;
+        left: 0 !important;
+        transform: translateY(-50%) !important;
+        width: 48% !important;
+        padding: 0 0 0 60px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 0 !important;
+        max-height: 90vh !important;
+        overflow-y: auto !important;
+        scrollbar-width: none !important;
+        text-align: left !important;
+      }
+      .hero-content::-webkit-scrollbar { display: none !important; }
+    }
+
+    /* Old stats zone — empty, hide it */
+    .hero-stats-zone {
+      display: none !important;
+    }
+
+    /* Gold divider above stats */
+    .hero-gold-divider {
+      width: 100% !important;
+      height: 1px !important;
+      background: rgba(245,158,11,0.3) !important;
+      margin: 20px 0 16px 0 !important;
+      flex-shrink: 0 !important;
+    }
+
+    /* Red divider before crisis stats */
+    .hero-red-divider {
+      width: 100% !important;
+      height: 1px !important;
+      background: rgba(239,68,68,0.25) !important;
+      margin: 16px 0 0 0 !important;
+      flex-shrink: 0 !important;
+    }
+
+    /* Stats inline container — no box */
+    .hero-stats-inline {
+      width: 100% !important;
+      background: none !important;
+      border: none !important;
+      box-shadow: none !important;
+      backdrop-filter: none !important;
+      padding: 0 !important;
+    }
+
+    /* Movement stats — vertical list */
+    .hero-inline-stats {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 8px !important;
+      width: 100% !important;
+    }
+
+    /* Each stat row — number left, label right */
+    .hero-stat-row {
+      display: flex !important;
+      flex-direction: row !important;
+      align-items: baseline !important;
+      gap: 12px !important;
+    }
+
+    /* Gold counter numbers */
+    .hero-stats-inline .counter-number {
+      font-family: 'Bebas Neue', sans-serif !important;
+      font-size: 22px !important;
+      color: #F59E0B !important;
+      line-height: 1 !important;
+      min-width: 80px !important;
+      display: inline !important;
+    }
+
+    /* Red crisis numbers */
+    .hero-stats-inline .hsz-red {
+      color: #EF4444 !important;
+      font-size: 20px !important;
+      text-shadow: none !important;
+    }
+
+    /* Amber crisis numbers */
+    .hero-stats-inline .hsz-amber {
+      color: #FBBF24 !important;
+      font-size: 20px !important;
+    }
+
+    /* Stat labels — muted white */
+    .hero-stats-inline .hsz-label {
+      font-family: Inter, sans-serif !important;
+      font-size: 12px !important;
+      color: rgba(255,255,255,0.6) !important;
+      line-height: 1 !important;
+      display: inline !important;
+      margin-top: 0 !important;
+    }
+
+    /* Crisis stats container — no box */
+    .hero-crisis-stats {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 8px !important;
+      padding: 0 !important;
+      background: none !important;
+      border: none !important;
+    }
+
+    /* WHY REFORM CANNOT WAIT label */
+    .hero-stats-inline .hsz-crisis-label {
+      font-size: 9px !important;
+      color: #EF4444 !important;
+      letter-spacing: 2px !important;
+      margin: 16px 0 10px 0 !important;
+    }
+
+    /* Source footnote */
+    .hero-stats-inline .hsz-footnote {
+      font-size: 9px !important;
+      color: rgba(255,255,255,0.3) !important;
+      margin-top: 10px !important;
+      text-align: left !important;
+    }
+
+    /* Mobile: hide stats inside hero (image-only hero) */
+    @media (max-width: 768px) {
+      .hero-stats-inline,
+      .hero-gold-divider,
+      .hero-red-divider,
+      .hero-crisis-stats,
+      #counters-strip {
+        display: none !important;
+      }
+      #mobile-stats { display: block !important; }
+    }
+    @media (min-width: 769px) {
+      #mobile-stats { display: none !important; }
+    }
+
+    /* ── MOBILE HERO — FULL SCREEN IMAGE ONLY ─────────────────── */
+    @media (max-width: 768px) {
+      #hero, .hero {
+        height: 100svh !important;
+        min-height: 100svh !important;
+        width: 100% !important;
+        position: relative !important;
+        overflow: hidden !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: flex-end !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        background-position: 60% top !important;
+        background-size: cover !important;
+        background-attachment: scroll !important;
+      }
+
+      /* Very light overlay — clear at top, dark only at bottom */
+      #hero-overlay,
+      .hero-overlay,
+      #hero::before,
+      #hero::after,
+      [class*="hero-overlay"] {
+        background: linear-gradient(
+          to bottom,
+          rgba(5,8,16,0.0) 0%,
+          rgba(5,8,16,0.0) 40%,
+          rgba(5,8,16,0.5) 72%,
+          rgba(5,8,16,0.92) 100%
+        ) !important;
+      }
+
+      /* Hide all hero content */
+      .hero-label,
+      [class*="est-label"],
+      [class*="hero-label"],
+      .hero-headline,
+      .typewriter,
+      [class*="typewriter"],
+      [class*="hero-headline"],
+      .hero-sub,
+      .hero-subhead,
+      [class*="hero-subhead"],
+      [class*="hero-sub"],
+      .hero-ctas,
+      .hero-buttons,
+      [class*="hero-buttons"],
+      [class*="hero-cta"],
+      .hero-stats-zone,
+      .hero-counter-strip,
+      [class*="counter-strip"],
+      [class*="stats-strip"],
+      .crisis-stats,
+      [class*="crisis-stats"],
+      [class*="why-reform-stats"],
+      #particles-canvas,
+      canvas[class*="particle"],
+      .hero-content,
+      [class*="hero-content"] {
+        display: none !important;
+      }
+
+      /* Show scroll indicator at bottom centre */
+      .scroll-indicator,
+      [class*="scroll-indicator"],
+      #mobile-scroll-hint {
+        display: flex !important;
+        position: absolute !important;
+        bottom: 32px !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 6px !important;
+        z-index: 20 !important;
+        color: rgba(255,255,255,0.7) !important;
+        font-size: 12px !important;
+        font-family: Inter, sans-serif !important;
+        letter-spacing: 2px !important;
+        text-transform: uppercase !important;
+        animation: mobileScrollBounce 2s infinite !important;
+      }
+    }
+
+    @keyframes mobileScrollBounce {
+      0%, 100% {
+        transform: translateX(-50%) translateY(0px);
+        opacity: 0.7;
+      }
+      50% {
+        transform: translateX(-50%) translateY(8px);
+        opacity: 1;
+      }
+    }
+
+    /* ── MOBILE SECOND SECTION ─────────────────────────────────── */
+    @media (max-width: 768px) {
+      section:nth-of-type(2),
+      #about, #why-this-exists,
+      [class*="about-section"],
+      [class*="flrn-intro"] {
+        padding-top: 48px !important;
+        padding-bottom: 48px !important;
+        margin-top: 0 !important;
+      }
+
+      section:nth-of-type(2) h2,
+      section:nth-of-type(2) [class*="section-headline"] {
+        font-size: 28px !important;
+        line-height: 1.3 !important;
+      }
+
+      section:nth-of-type(2) .section-label,
+      section:nth-of-type(2) [class*="eyebrow"],
+      #about .about-label {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        font-size: 10px !important;
+        letter-spacing: 3px !important;
+        color: #F59E0B !important;
+        margin-bottom: 8px !important;
+      }
+    }
   </style>
 </head>
 <body>
@@ -1778,6 +2082,67 @@
       <a href="#join" class="btn-primary">Join the Network</a>
       <a href="#coalition" class="btn-outline">Explore the Coalition</a>
     </div>
+
+    <!-- Stats moved inside left column -->
+    <div class="hero-stats-inline" id="counters-strip">
+      <div class="hero-gold-divider"></div>
+
+      <div class="hero-inline-stats">
+        <div class="hero-stat-row">
+          <span class="counter-number" data-target="8500" data-suffix="+">0</span>
+          <span class="hsz-label">Petition Signatures</span>
+        </div>
+        <div class="hero-stat-row">
+          <span class="counter-number" data-target="20">0</span>
+          <span class="hsz-label">Petitions Filed</span>
+        </div>
+        <div class="hero-stat-row">
+          <span class="counter-number" data-target="51">0</span>
+          <span class="hsz-label">Landmark Judgments</span>
+        </div>
+        <div class="hero-stat-row">
+          <span class="counter-number" data-target="20" data-suffix="+">0</span>
+          <span class="hsz-label">Years of Activism</span>
+        </div>
+        <div class="hero-stat-row">
+          <span class="counter-number" data-target="19">0</span>
+          <span class="hsz-label">Coalition Members</span>
+        </div>
+      </div>
+
+      <div class="hero-red-divider"></div>
+
+      <div class="hsz-row-crisis">
+        <p class="hsz-crisis-label">WHY REFORM CANNOT WAIT</p>
+        <div class="hero-crisis-stats">
+          <div class="hero-stat-row hero-crisis-row">
+            <span class="counter-number hsz-red" data-target="50" data-suffix=" Lakh+">0</span>
+            <span class="hsz-label">Families in Marital Disputes Right Now</span>
+          </div>
+          <div class="hero-stat-row hero-crisis-row">
+            <span class="counter-number hsz-red" data-target="134000" data-suffix="+">0</span>
+            <span class="hsz-label">498A Cases Filed Every Year</span>
+          </div>
+          <div class="hero-stat-row hero-crisis-row">
+            <span class="counter-number hsz-amber" data-target="12" data-suffix="%">0</span>
+            <span class="hsz-label">498A Conviction Rate</span>
+          </div>
+          <div class="hero-stat-row hero-crisis-row">
+            <span class="counter-number hsz-red" data-target="88" data-suffix="%">0</span>
+            <span class="hsz-label">Lives Destroyed Without Accountability</span>
+          </div>
+          <div class="hero-stat-row hero-crisis-row">
+            <span class="counter-number hsz-red" data-target="324" data-suffix=" Yrs">0</span>
+            <span class="hsz-label">To Clear Court Backlog</span>
+          </div>
+          <div class="hero-stat-row hero-crisis-row">
+            <span class="counter-number hsz-red" data-target="0">0</span>
+            <span class="hsz-label">Reform Bills Passed in 40 Years</span>
+          </div>
+        </div>
+        <p class="hsz-footnote">Sources: NCRB 2023, NJDG 2024-25, NITI Aayog 2018. Matrimonial dispute figure is an aggregated estimate.</p>
+      </div>
+    </div>
   </div>
 
   <div class="scroll-indicator" aria-hidden="true">
@@ -1786,68 +2151,63 @@
     </svg>
   </div>
 
-  <div class="hero-stats-zone" id="counters-strip">
-    <!-- ROW 1: Movement Stats -->
-    <div class="hsz-row hsz-row-movement">
-      <div class="hsz-stat">
-        <span class="counter-number" data-target="8500" data-suffix="+">0</span>
-        <span class="hsz-label">Petition Signatures</span>
-      </div>
-      <div class="hsz-sep"></div>
-      <div class="hsz-stat">
-        <span class="counter-number" data-target="20">0</span>
-        <span class="hsz-label">Petitions Filed</span>
-      </div>
-      <div class="hsz-sep"></div>
-      <div class="hsz-stat">
-        <span class="counter-number" data-target="51">0</span>
-        <span class="hsz-label">Landmark Judgments</span>
-      </div>
-      <div class="hsz-sep"></div>
-      <div class="hsz-stat">
-        <span class="counter-number" data-target="20" data-suffix="+">0</span>
-        <span class="hsz-label">Years of Activism</span>
-      </div>
-      <div class="hsz-sep"></div>
-      <div class="hsz-stat">
-        <span class="counter-number" data-target="19">0</span>
-        <span class="hsz-label">Coalition Members</span>
-      </div>
+</section>
+
+<!-- MOBILE STATS — shown below hero on mobile only -->
+<section id="mobile-stats" style="display:none;background:#0f1628;padding:32px 20px;">
+  <p style="font-size:10px;color:#F59E0B;letter-spacing:2px;text-transform:uppercase;margin-bottom:16px;font-family:Inter,sans-serif;">THE MOVEMENT IN NUMBERS</p>
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:20px;">
+    <div style="text-align:center">
+      <div style="font-family:'Bebas Neue',sans-serif;font-size:28px;color:#F59E0B">8,500+</div>
+      <div style="font-size:10px;color:rgba(255,255,255,0.6);font-family:Inter,sans-serif;margin-top:3px">Petition Signatures</div>
     </div>
-    <!-- Divider -->
-    <div class="hsz-divider"></div>
-    <!-- ROW 2: Crisis Stats -->
-    <div class="hsz-row-crisis">
-      <p class="hsz-crisis-label">WHY REFORM CANNOT WAIT</p>
-      <div class="hsz-crisis-stats">
-        <div class="hsz-stat">
-          <span class="counter-number hsz-red" data-target="50" data-suffix=" Lakh+">0</span>
-          <span class="hsz-label">Families in Marital Disputes Right Now</span>
-        </div>
-        <div class="hsz-stat">
-          <span class="counter-number hsz-red" data-target="134000" data-suffix="+">0</span>
-          <span class="hsz-label">498A Cases Filed Every Year</span>
-        </div>
-        <div class="hsz-stat">
-          <span class="counter-number hsz-amber" data-target="12" data-suffix="%">0</span>
-          <span class="hsz-label">498A Conviction Rate</span>
-        </div>
-        <div class="hsz-stat">
-          <span class="counter-number hsz-red" data-target="88" data-suffix="%">0</span>
-          <span class="hsz-label">Lives Destroyed Without Accountability</span>
-        </div>
-        <div class="hsz-stat">
-          <span class="counter-number hsz-red" data-target="324" data-suffix=" Yrs">0</span>
-          <span class="hsz-label">To Clear Court Backlog</span>
-        </div>
-        <div class="hsz-stat">
-          <span class="counter-number hsz-red" data-target="0">0</span>
-          <span class="hsz-label">Reform Bills Passed in 40 Years</span>
-        </div>
-      </div>
-      <p class="hsz-footnote">Sources: NCRB 2023, NJDG 2024-25, NITI Aayog 2018. Matrimonial dispute figure is an aggregated estimate.</p>
+    <div style="text-align:center">
+      <div style="font-family:'Bebas Neue',sans-serif;font-size:28px;color:#F59E0B">20</div>
+      <div style="font-size:10px;color:rgba(255,255,255,0.6);font-family:Inter,sans-serif;margin-top:3px">Petitions Filed</div>
+    </div>
+    <div style="text-align:center">
+      <div style="font-family:'Bebas Neue',sans-serif;font-size:28px;color:#F59E0B">51</div>
+      <div style="font-size:10px;color:rgba(255,255,255,0.6);font-family:Inter,sans-serif;margin-top:3px">Landmark Judgments</div>
+    </div>
+    <div style="text-align:center">
+      <div style="font-family:'Bebas Neue',sans-serif;font-size:28px;color:#F59E0B">20+</div>
+      <div style="font-size:10px;color:rgba(255,255,255,0.6);font-family:Inter,sans-serif;margin-top:3px">Years of Activism</div>
+    </div>
+    <div style="text-align:center">
+      <div style="font-family:'Bebas Neue',sans-serif;font-size:28px;color:#F59E0B">19</div>
+      <div style="font-size:10px;color:rgba(255,255,255,0.6);font-family:Inter,sans-serif;margin-top:3px">Coalition Members</div>
     </div>
   </div>
+  <div style="border-top:1px solid rgba(239,68,68,0.2);padding-top:16px;margin-bottom:12px">
+    <p style="font-size:9px;color:#EF4444;letter-spacing:2px;text-transform:uppercase;font-family:Inter,sans-serif;margin-bottom:12px">WHY REFORM CANNOT WAIT</p>
+    <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:14px">
+      <div style="text-align:center">
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:24px;color:#EF4444">50 Lakh+</div>
+        <div style="font-size:10px;color:rgba(255,255,255,0.55);font-family:Inter,sans-serif;margin-top:3px">Families in Disputes</div>
+      </div>
+      <div style="text-align:center">
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:24px;color:#EF4444">1,34,000+</div>
+        <div style="font-size:10px;color:rgba(255,255,255,0.55);font-family:Inter,sans-serif;margin-top:3px">498A Cases / Year</div>
+      </div>
+      <div style="text-align:center">
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:24px;color:#EF4444">12%</div>
+        <div style="font-size:10px;color:rgba(255,255,255,0.55);font-family:Inter,sans-serif;margin-top:3px">Conviction Rate</div>
+      </div>
+      <div style="text-align:center">
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:24px;color:#EF4444">88%</div>
+        <div style="font-size:10px;color:rgba(255,255,255,0.55);font-family:Inter,sans-serif;margin-top:3px">Lives Destroyed</div>
+      </div>
+      <div style="text-align:center">
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:24px;color:#EF4444">324 Yrs</div>
+        <div style="font-size:10px;color:rgba(255,255,255,0.55);font-family:Inter,sans-serif;margin-top:3px">Court Backlog</div>
+      </div>
+      <div style="text-align:center">
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:24px;color:#EF4444">0</div>
+        <div style="font-size:10px;color:rgba(255,255,255,0.55);font-family:Inter,sans-serif;margin-top:3px">Bills Passed in 40 Yrs</div>
+      </div>
+    </div>
+  </div>
+  <p style="font-size:9px;color:rgba(255,255,255,0.25);font-family:Inter,sans-serif;margin-top:12px;line-height:1.4">Sources: NCRB 2023, NJDG 2024-25, NITI Aayog 2018</p>
 </section>
 
 <!-- SECTION 2 — ABOUT -->
@@ -5994,6 +6354,22 @@ document.querySelectorAll('.er-card').forEach(function(card) {
     });
   });
 })();
+
+// ── MOBILE SCROLL INDICATOR
+if (window.innerWidth <= 768) {
+  const hero = document.querySelector('#hero, .hero');
+  if (hero && !document.querySelector('#mobile-scroll-hint')) {
+    const hint = document.createElement('div');
+    hint.id = 'mobile-scroll-hint';
+    hint.style.cssText = 'position:absolute;bottom:32px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:4px;z-index:20;color:rgba(255,255,255,0.7);cursor:pointer;';
+    hint.innerHTML = '<span style="font-size:28px;line-height:1">⌄</span><span style="font-size:10px;letter-spacing:2px;font-family:Inter,sans-serif;text-transform:uppercase;opacity:0.7">SCROLL</span>';
+    hint.addEventListener('click', () => {
+      const next = hero.nextElementSibling;
+      if (next) next.scrollIntoView({ behavior: 'smooth' });
+    });
+    hero.appendChild(hint);
+  }
+}
 </script>
 </body>
 </html>
