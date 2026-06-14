@@ -242,7 +242,7 @@
     .sig-count { font-family: 'Bebas Neue', sans-serif; font-size: 36px; color: var(--gold); line-height: 1; }
     .sig-label { font-size: 14px; color: var(--muted); }
     .progress-bar-track { background: #EEF2FF; border-radius: 100px; height: 8px; overflow: hidden; margin-bottom: 8px; border: 1px solid var(--border); }
-    .progress-bar-fill { height: 100%; background: linear-gradient(90deg, var(--gold), var(--gold-light)); border-radius: 100px; width: 0%; transition: width 1.3s cubic-bezier(0.4, 0, 0.2, 1); }
+    .progress-bar-fill { height: 100%; background: linear-gradient(90deg, var(--gold), var(--gold-light)); border-radius: 100px; width: 0%; min-width: 3px; transition: width 1.3s cubic-bezier(0.4, 0, 0.2, 1); }
     .petition-meta { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
     .petition-goal { font-size: 12px; color: var(--muted); }
     .status-pill { font-size: 11px; font-weight: 600; padding: 4px 10px; border-radius: 20px; letter-spacing: 0.5px; }
@@ -2631,7 +2631,7 @@
 
       <div class="hero-inline-stats">
         <div class="hero-stat-row">
-          <span class="counter-number" data-target="8500" data-suffix="+">0</span>
+          <span class="counter-number" data-target="8000" data-suffix="+">0</span>
           <span class="hsz-label">Petition Signatures</span>
         </div>
         <div class="hero-stat-row">
@@ -2702,7 +2702,7 @@
 
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px 12px;margin-bottom:24px;">
     <div style="display:flex;flex-direction:column;gap:4px;">
-      <span style="font-family:'Bebas Neue',sans-serif;font-size:36px;color:#F59E0B;line-height:1;">8,500+</span>
+      <span style="font-family:'Bebas Neue',sans-serif;font-size:36px;color:#F59E0B;line-height:1;">8,000+</span>
       <span style="font-family:Inter,sans-serif;font-size:12px;color:rgba(255,255,255,0.65);line-height:1.3;">Petition Signatures</span>
     </div>
     <div style="display:flex;flex-direction:column;gap:4px;">
@@ -2796,7 +2796,7 @@
         <div class="principle-card-icon">📈</div>
         <div style="min-width:0;flex:1;overflow-wrap:break-word;word-break:break-word;">
           <div class="principle-card-title">The Next Step Starts at 20+</div>
-          <p class="principle-card-body">Because of what came before, this movement doesn&rsquo;t start at zero. It starts at 20+ years of combined activism, 8,500+ signatures, and 51 landmark judgments.</p>
+          <p class="principle-card-body">Because of what came before, this movement doesn&rsquo;t start at zero. It starts at 20+ years of combined activism, 8,000+ signatures, and 51 landmark judgments.</p>
         </div>
       </div>
       <div class="reveal reveal-delay-3" style="background: rgba(245,158,11,0.07); border: 1px solid rgba(245,158,11,0.2); border-radius: 8px; padding: 14px 20px; margin-top: 20px; width: 100%; box-sizing: border-box; display: flex; flex-wrap: wrap; align-items: center; gap: 8px;">
@@ -3267,8 +3267,8 @@
 
     <!-- Tabs -->
     <div class="petition-tabs reveal">
-      <button class="petition-tab active" data-tab="active">Active Petitions <span class="tab-count">10</span></button>
-      <button class="petition-tab" data-tab="archived">Archived Petitions <span class="tab-count">10</span></button>
+      <button class="petition-tab active" data-tab="active">Active Petitions <span class="tab-count">5</span></button>
+      <button class="petition-tab" data-tab="archived">Archived Petitions <span class="tab-count">15</span></button>
     </div>
 
     <!-- Filter pills -->
@@ -3286,6 +3286,17 @@
       <button class="petition-scroll-btn left" onclick="this.closest('.petition-scroll-wrapper').querySelector('.petitions-grid').scrollBy({left:-320,behavior:'smooth'})">&#8249;</button>
       <div id="tab-active" class="petitions-grid">
 
+      <div class="petition-card" data-focus="co-parenting false-accusations">
+        <div class="petition-header">
+          <div class="petition-title">Every Child Deserves Both Parents</div>
+          <span class="platform-tag">Change.org</span>
+        </div>
+        <p class="petition-starter">by Fathers Rights India</p>
+        <p class="petition-desc">Children have an equal right to both parents. This petition demands default co-parenting and an end to one-sided custody decisions driven by false accusations.</p>
+        <div class="progress-bar-track"><div class="progress-bar-fill" data-pct="0.05"></div></div>
+        <div class="petition-sig-below">5 of 10,000 signatures</div>
+        <a href="https://c.org/88JdHC2JP9" target="_blank" rel="noopener noreferrer" class="btn-primary petition-btn">Sign the Petition</a>
+      </div>
 
       <div class="petition-card" data-focus="498a false-accusations">
         <div class="petition-header">
@@ -3294,33 +3305,9 @@
         </div>
         <p class="petition-starter">by Under Coverist</p>
         <p class="petition-desc">Demanding reform of matrimonial laws, judicial accountability, and equal parental rights following the Atul Subhash case.</p>
-        <div class="progress-bar-track"><div class="progress-bar-fill" data-pct="52.4"></div></div>
+        <div class="progress-bar-track"><div class="progress-bar-fill" data-pct="52"></div></div>
         <div class="petition-sig-below">262 of 500 signatures</div>
         <a href="https://www.change.org/p/justice-denied-the-tragic-tale-of-atul-subhash-call-for-reform-in-india-s-legal-system" target="_blank" rel="noopener noreferrer" class="btn-primary petition-btn">Sign This Petition</a>
-      </div>
-
-      <div class="petition-card" data-focus="498a false-accusations">
-        <div class="petition-header">
-          <div class="petition-title">False 498A Cases Against Men for Money Extortion</div>
-          <span class="platform-tag">Change.org</span>
-        </div>
-        <p class="petition-starter">by Anonymous</p>
-        <p class="petition-desc">Calling on the Indian judiciary to act against the misuse of Section 498A as a money extortion tool, and to punish false complainants.</p>
-        <div class="progress-bar-track"><div class="progress-bar-fill" data-pct="75"></div></div>
-        <div class="petition-sig-below">750 of 1,000 signatures</div>
-        <a href="https://www.change.org/p/indian-judiciary-false-498a-case-against-men-for-money-extortion" target="_blank" rel="noopener noreferrer" class="btn-primary petition-btn">Sign This Petition</a>
-      </div>
-
-      <div class="petition-card" data-focus="498a">
-        <div class="petition-header">
-          <div class="petition-title">Lookout Circulars in 498A — A Bane for the Innocent</div>
-          <span class="platform-tag">Change.org</span>
-        </div>
-        <p class="petition-starter">by NRI victim</p>
-        <p class="petition-desc">Petitioning the Supreme Court to restrict misuse of Lookout Circulars in 498A cases — a tool disproportionately weaponised against NRI husbands.</p>
-        <div class="progress-bar-track"><div class="progress-bar-fill" data-pct="80"></div></div>
-        <div class="petition-sig-below">400 of 500 signatures</div>
-        <a href="https://www.change.org/p/supreme-court-of-india-lookout-circulars-in-498a-a-bane-for-innocent" target="_blank" rel="noopener noreferrer" class="btn-primary petition-btn">Sign This Petition</a>
       </div>
 
       <div class="petition-card" data-focus="co-parenting">
@@ -3335,41 +3322,16 @@
         <a href="https://www.change.org/p/balanced-parenting-rights-ensuring-children-s-well-being-through-shared-parenting" target="_blank" rel="noopener noreferrer" class="btn-primary petition-btn">Sign This Petition</a>
       </div>
 
-
       <div class="petition-card" data-focus="498a false-accusations">
         <div class="petition-header">
-          <div class="petition-title">Punish All False Complainants for Misuse of 498A</div>
+          <div class="petition-title">False 498A Cases Against Men for Money Extortion</div>
           <span class="platform-tag">Change.org</span>
         </div>
         <p class="petition-starter">by Anonymous</p>
-        <p class="petition-desc">Demanding that every false 498A complainant face criminal punishment — no exceptions. Accountability is the only deterrent that works.</p>
-        <div class="progress-bar-track"><div class="progress-bar-fill" data-pct="30"></div></div>
-        <div class="petition-sig-below">300 of 1,000 signatures</div>
-        <a href="https://www.change.org/p/law-minister-punish-all-false-complainants-for-misuse-of-498a-no-exceptions" target="_blank" rel="noopener noreferrer" class="btn-primary petition-btn">Sign This Petition</a>
-      </div>
-
-      <div class="petition-card" data-focus="maintenance gender-neutral">
-        <div class="petition-header">
-          <div class="petition-title">Don&rsquo;t Be Prejudiced Against Men in Maintenance, DV &amp; 498A</div>
-          <span class="platform-tag">Change.org</span>
-        </div>
-        <p class="petition-starter">by Anonymous</p>
-        <p class="petition-desc">Asking courts to apply the law without gender bias in maintenance, divorce, domestic violence, and 498A proceedings — equal treatment under equal laws.</p>
-        <div class="progress-bar-track"><div class="progress-bar-fill" data-pct="20"></div></div>
-        <div class="petition-sig-below">200 of 1,000 signatures</div>
-        <a href="https://www.change.org/p/don-t-be-prejudiced-against-men-in-maintenance-divorce-domestic-violence-or-498a-cases" target="_blank" rel="noopener noreferrer" class="btn-primary petition-btn">Sign This Petition</a>
-      </div>
-
-      <div class="petition-card" data-focus="498a gender-neutral">
-        <div class="petition-header">
-          <div class="petition-title">Make 498A Bailable, DV Act Gender Neutral</div>
-          <span class="platform-tag">Change.org</span>
-        </div>
-        <p class="petition-starter">by Anonymous</p>
-        <p class="petition-desc">Petitioning the Ministry of Law to make Section 498A bailable and the Domestic Violence Act gender neutral — stop extortion by wrongful misuse.</p>
-        <div class="progress-bar-track"><div class="progress-bar-fill" data-pct="15"></div></div>
-        <div class="petition-sig-below">150 of 1,000 signatures</div>
-        <a href="https://www.change.org/p/ministry-of-law-and-justicehuman-rightspresident-of-indiagovt-of-india-make-498a-bailable-dv-gender-neutral-stop-extortion-by-wrongful-wifes" target="_blank" rel="noopener noreferrer" class="btn-primary petition-btn">Sign This Petition</a>
+        <p class="petition-desc">Calling on the Indian judiciary to act against the misuse of Section 498A as a money extortion tool, and to punish false complainants.</p>
+        <div class="progress-bar-track"><div class="progress-bar-fill" data-pct="77.9"></div></div>
+        <div class="petition-sig-below">779 of 1,000 signatures</div>
+        <a href="https://www.change.org/p/indian-judiciary-false-498a-case-against-men-for-money-extortion" target="_blank" rel="noopener noreferrer" class="btn-primary petition-btn">Sign This Petition</a>
       </div>
 
       <div class="petition-card" data-focus="498a gender-neutral">
@@ -3379,33 +3341,9 @@
         </div>
         <p class="petition-starter">by Anonymous</p>
         <p class="petition-desc">Calling on the judiciary to recognise that men are victims too — demanding gender neutral application of 498A and the Domestic Violence Act.</p>
-        <div class="progress-bar-track"><div class="progress-bar-fill" data-pct="20"></div></div>
-        <div class="petition-sig-below">100 of 500 signatures</div>
+        <div class="progress-bar-track"><div class="progress-bar-fill" data-pct="63.2"></div></div>
+        <div class="petition-sig-below">632 of 1,000 signatures</div>
         <a href="https://www.change.org/p/our-judiciary-system-protection-of-mens-rights" target="_blank" rel="noopener noreferrer" class="btn-primary petition-btn">Sign This Petition</a>
-      </div>
-
-      <div class="petition-card" data-focus="498a">
-        <div class="petition-header">
-          <div class="petition-title">Amendment in Criminal 498A Law</div>
-          <span class="platform-tag">Change.org</span>
-        </div>
-        <p class="petition-starter">by Smit Shah</p>
-        <p class="petition-desc">Demanding legislative amendment to Section 498A to prevent its misuse as a tool of harassment while protecting genuine victims of dowry cruelty.</p>
-        <div class="progress-bar-track"><div class="progress-bar-fill" data-pct="16"></div></div>
-        <div class="petition-sig-below">80 of 500 signatures</div>
-        <a href="https://www.change.org/p/law-minister-of-india-amendment-in-criminal-498a-law" target="_blank" rel="noopener noreferrer" class="btn-primary petition-btn">Sign This Petition</a>
-      </div>
-
-      <div class="petition-card" data-focus="co-parenting false-accusations">
-        <div class="petition-header">
-          <div class="petition-title">Every Child Deserves Both Parents</div>
-          <span class="platform-tag">Change.org</span>
-        </div>
-        <p class="petition-starter">by Fathers Rights India</p>
-        <p class="petition-desc">Children have an equal right to both parents. This petition demands default co-parenting and an end to one-sided custody decisions driven by false accusations.</p>
-        <div class="progress-bar-track"><div class="progress-bar-fill" data-pct="0.05"></div></div>
-        <div class="petition-sig-below">5 of 10,000 signatures</div>
-        <a href="https://c.org/88JdHC2JP9" target="_blank" rel="noopener noreferrer" class="btn-primary petition-btn">Sign the Petition</a>
       </div>
 
     </div>
@@ -3417,6 +3355,86 @@
     <div class="petition-scroll-wrapper" id="archived-petition-wrap" style="display:none;">
       <button class="petition-scroll-btn left" onclick="this.closest('.petition-scroll-wrapper').querySelector('.petitions-grid').scrollBy({left:-320,behavior:'smooth'})">&#8249;</button>
       <div id="tab-archived" class="petitions-grid">
+
+      <div class="petition-card petition-archived" data-focus="498a false-accusations">
+        <div class="petition-header">
+          <div class="petition-title">Punish All False Complainants for Misuse of 498A</div>
+          <div style="display:flex;gap:8px;align-items:center;flex-shrink:0;">
+            <span class="platform-tag">Change.org</span>
+            <span class="closed-badge">Closed 2026</span>
+          </div>
+        </div>
+        <p class="petition-starter">by Anonymous</p>
+        <p class="petition-desc">Demanding that every false 498A complainant face criminal punishment — no exceptions. Accountability is the only deterrent that works.</p>
+        <div class="progress-bar-track archived-track"><div class="progress-bar-fill archived-fill" data-pct="100"></div></div>
+        <div class="petition-sig-below archived-sig">1,570 signatures collected</div>
+        <p class="archived-quote">&ldquo;This voice was raised. It lives here.&rdquo;</p>
+        <a href="https://www.change.org/p/law-minister-punish-all-false-complainants-for-misuse-of-498a-no-exceptions" target="_blank" rel="noopener noreferrer" class="btn-archived petition-btn">View Archive</a>
+      </div>
+
+      <div class="petition-card petition-archived" data-focus="maintenance gender-neutral">
+        <div class="petition-header">
+          <div class="petition-title">Don&rsquo;t Be Prejudiced Against Men in Maintenance, DV &amp; 498A</div>
+          <div style="display:flex;gap:8px;align-items:center;flex-shrink:0;">
+            <span class="platform-tag">Change.org</span>
+            <span class="closed-badge">Closed 2026</span>
+          </div>
+        </div>
+        <p class="petition-starter">by Anonymous</p>
+        <p class="petition-desc">Asking courts to apply the law without gender bias in maintenance, divorce, domestic violence, and 498A proceedings — equal treatment under equal laws.</p>
+        <div class="progress-bar-track archived-track"><div class="progress-bar-fill archived-fill" data-pct="99.8"></div></div>
+        <div class="petition-sig-below archived-sig">998 signatures collected</div>
+        <p class="archived-quote">&ldquo;This voice was raised. It lives here.&rdquo;</p>
+        <a href="https://www.change.org/p/don-t-be-prejudiced-against-men-in-maintenance-divorce-domestic-violence-or-498a-cases" target="_blank" rel="noopener noreferrer" class="btn-archived petition-btn">View Archive</a>
+      </div>
+
+      <div class="petition-card petition-archived" data-focus="498a">
+        <div class="petition-header">
+          <div class="petition-title">Lookout Circulars in 498A — A Bane for the Innocent</div>
+          <div style="display:flex;gap:8px;align-items:center;flex-shrink:0;">
+            <span class="platform-tag">Change.org</span>
+            <span class="closed-badge">Closed 2026</span>
+          </div>
+        </div>
+        <p class="petition-starter">by NRI victim</p>
+        <p class="petition-desc">Petitioning the Supreme Court to restrict misuse of Lookout Circulars in 498A cases — a tool disproportionately weaponised against NRI husbands.</p>
+        <div class="progress-bar-track archived-track"><div class="progress-bar-fill archived-fill" data-pct="87.6"></div></div>
+        <div class="petition-sig-below archived-sig">438 signatures collected</div>
+        <p class="archived-quote">&ldquo;This voice was raised. It lives here.&rdquo;</p>
+        <a href="https://www.change.org/p/supreme-court-of-india-lookout-circulars-in-498a-a-bane-for-innocent" target="_blank" rel="noopener noreferrer" class="btn-archived petition-btn">View Archive</a>
+      </div>
+
+      <div class="petition-card petition-archived" data-focus="498a">
+        <div class="petition-header">
+          <div class="petition-title">Amendment in Criminal 498A Law</div>
+          <div style="display:flex;gap:8px;align-items:center;flex-shrink:0;">
+            <span class="platform-tag">Change.org</span>
+            <span class="closed-badge">Closed 2026</span>
+          </div>
+        </div>
+        <p class="petition-starter">by Smit Shah</p>
+        <p class="petition-desc">Demanding legislative amendment to Section 498A to prevent its misuse as a tool of harassment while protecting genuine victims of dowry cruelty.</p>
+        <div class="progress-bar-track archived-track"><div class="progress-bar-fill archived-fill" data-pct="10.2"></div></div>
+        <div class="petition-sig-below archived-sig">51 signatures collected</div>
+        <p class="archived-quote">&ldquo;This voice was raised. It lives here.&rdquo;</p>
+        <a href="https://www.change.org/p/law-minister-of-india-amendment-in-criminal-498a-law" target="_blank" rel="noopener noreferrer" class="btn-archived petition-btn">View Archive</a>
+      </div>
+
+      <div class="petition-card petition-archived" data-focus="498a gender-neutral">
+        <div class="petition-header">
+          <div class="petition-title">Make 498A Bailable, DV Act Gender Neutral</div>
+          <div style="display:flex;gap:8px;align-items:center;flex-shrink:0;">
+            <span class="platform-tag">Change.org</span>
+            <span class="closed-badge">Closed 2026</span>
+          </div>
+        </div>
+        <p class="petition-starter">by Anonymous</p>
+        <p class="petition-desc">Petitioning the Ministry of Law to make Section 498A bailable and the Domestic Violence Act gender neutral — stop extortion by wrongful misuse.</p>
+        <div class="progress-bar-track archived-track"><div class="progress-bar-fill archived-fill" data-pct="1.5"></div></div>
+        <div class="petition-sig-below archived-sig">15 signatures collected</div>
+        <p class="archived-quote">&ldquo;This voice was raised. It lives here.&rdquo;</p>
+        <a href="https://www.change.org/p/ministry-of-law-and-justicehuman-rightspresident-of-indiagovt-of-india-make-498a-bailable-dv-gender-neutral-stop-extortion-by-wrongful-wifes" target="_blank" rel="noopener noreferrer" class="btn-archived petition-btn">View Archive</a>
+      </div>
 
       <div class="petition-card petition-archived" data-focus="498a false-accusations">
         <div class="petition-header">
@@ -4723,7 +4741,7 @@
         <div class="pt-sc-rows">
           <div class="pt-sc-row"><span class="pt-sc-issue">Coalition Orgs Active</span><span class="pt-sc-pill pt-sc-pill-green">&#10003; 19 &amp; Growing</span></div>
           <div class="pt-sc-row"><span class="pt-sc-issue">National Helplines</span><span class="pt-sc-pill pt-sc-pill-green">&#10003; Running</span></div>
-          <div class="pt-sc-row"><span class="pt-sc-issue">Petition Signatures</span><span class="pt-sc-pill pt-sc-pill-green">&#10003; 8,500+</span></div>
+          <div class="pt-sc-row"><span class="pt-sc-issue">Petition Signatures</span><span class="pt-sc-pill pt-sc-pill-green">&#10003; 8,000+</span></div>
           <div class="pt-sc-row"><span class="pt-sc-issue">Street Protests Held</span><span class="pt-sc-pill pt-sc-pill-green">&#10003; Multiple Cities</span></div>
           <div class="pt-sc-row"><span class="pt-sc-issue">Legislative Reform Won</span><span class="pt-sc-pill pt-sc-pill-red">&#10007; None Yet</span></div>
           <div class="pt-sc-row"><span class="pt-sc-issue">Govt. Acknowledgment</span><span class="pt-sc-pill pt-sc-pill-red">&#10007; Officially Denied</span></div>
