@@ -2567,6 +2567,283 @@
         overflow: hidden !important;
       }
     }
+
+    /* ── POLICE ALERT CARD ── */
+    .police-alert-card {
+      background: rgba(239,68,68,0.06);
+      border: 2px solid #EF4444;
+      border-radius: 12px;
+      padding: 0;
+      margin-bottom: 28px;
+      overflow: hidden;
+    }
+    .pac-header {
+      background: #EF4444;
+      padding: 12px 20px;
+    }
+    .pac-header-title {
+      font-family: Inter, sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      color: #fff;
+      text-transform: uppercase;
+      margin: 0 0 3px 0;
+    }
+    .pac-header-sub {
+      font-family: Inter, sans-serif;
+      font-size: 12px;
+      color: rgba(255,255,255,0.85);
+      margin: 0;
+    }
+    .pac-body {
+      padding: 20px 24px;
+    }
+    .pac-section-label {
+      font-family: Inter, sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #EF4444;
+      margin: 0 0 12px 0;
+    }
+    .pac-section-label-gold {
+      font-family: Inter, sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin: 0 0 12px 0;
+    }
+    .pac-question-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 20px 0;
+    }
+    .pac-question-list li {
+      display: flex;
+      gap: 14px;
+      margin-bottom: 12px;
+      align-items: flex-start;
+    }
+    .pac-q-num {
+      flex-shrink: 0;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: var(--gold);
+      color: #000;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .pac-q-text strong {
+      font-family: Inter, sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      color: #1e293b;
+      display: block;
+      margin-bottom: 2px;
+    }
+    .pac-q-text span {
+      font-family: Inter, sans-serif;
+      font-size: 11px;
+      color: #64748b;
+      line-height: 1.4;
+    }
+    .pac-rights-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+    @media (max-width: 768px) {
+      .pac-rights-grid { grid-template-columns: 1fr; }
+    }
+    .pac-right-item {
+      background: rgba(239,68,68,0.06);
+      border: 1px solid rgba(239,68,68,0.2);
+      border-radius: 8px;
+      padding: 10px 12px;
+    }
+    .pac-right-item strong {
+      font-family: Inter, sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      color: #EF4444;
+      display: block;
+      margin-bottom: 2px;
+    }
+    .pac-right-item span {
+      font-family: Inter, sans-serif;
+      font-size: 11px;
+      color: #475569;
+      line-height: 1.4;
+    }
+    .pac-action-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 20px 0;
+    }
+    .pac-action-list li {
+      display: flex;
+      gap: 14px;
+      margin-bottom: 10px;
+      align-items: flex-start;
+    }
+    .pac-a-num {
+      flex-shrink: 0;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: #EF4444;
+      color: #fff;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .pac-a-text strong {
+      font-family: Inter, sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      color: #1e293b;
+      display: block;
+    }
+    .pac-a-text span {
+      font-family: Inter, sans-serif;
+      font-size: 11px;
+      color: #64748b;
+      line-height: 1.4;
+    }
+    .pac-498a-box {
+      background: rgba(245,158,11,0.06);
+      border: 1.5px solid rgba(245,158,11,0.35);
+      border-radius: 10px;
+      padding: 14px 16px;
+      margin-bottom: 20px;
+    }
+    .pac-498a-box-title {
+      font-family: Inter, sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin: 0 0 8px 0;
+    }
+    .pac-498a-box p {
+      font-family: Inter, sans-serif;
+      font-size: 12px;
+      color: #475569;
+      margin: 0 0 6px 0;
+      line-height: 1.5;
+    }
+    .pac-498a-box p:last-child { margin-bottom: 0; }
+    .pac-sample-statement {
+      background: #f8fafc;
+      border-left: 3px solid var(--gold);
+      border-radius: 0 6px 6px 0;
+      padding: 10px 14px;
+      margin-top: 8px;
+      font-family: Inter, sans-serif;
+      font-size: 12px;
+      color: #334155;
+      font-style: italic;
+      line-height: 1.5;
+    }
+    .pac-numbers-box {
+      background: #0f1628;
+      border-radius: 10px;
+      padding: 16px 18px;
+      margin-bottom: 16px;
+    }
+    .pac-numbers-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    @media (max-width: 768px) {
+      .pac-numbers-grid { grid-template-columns: 1fr; }
+    }
+    .pac-num-item {
+      text-align: center;
+    }
+    .pac-num-label {
+      font-family: Inter, sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+      color: rgba(255,255,255,0.5);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin: 0 0 4px 0;
+    }
+    .pac-num-value {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 20px;
+      color: var(--gold);
+      letter-spacing: 1px;
+      margin: 0;
+    }
+    .pac-num-note {
+      font-family: Inter, sans-serif;
+      font-size: 11px;
+      color: rgba(255,255,255,0.35);
+      margin: 8px 0 0 0;
+      text-align: center;
+    }
+    .pac-divider {
+      border: none;
+      border-top: 1px solid rgba(239,68,68,0.15);
+      margin: 18px 0;
+    }
+    .pac-disclaimer {
+      font-family: Inter, sans-serif;
+      font-size: 11px;
+      color: #94a3b8;
+      font-style: italic;
+      line-height: 1.5;
+      margin: 0;
+    }
+    /* Snapshot red alert strip */
+    .snap-alert-strip {
+      background: #EF4444;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .snap-alert-strip:hover { background: #DC2626; }
+    .snap-alert-strip-text {
+      font-family: Inter, sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.5px;
+      margin: 0;
+    }
+    .snap-alert-strip-arrow {
+      font-size: 14px;
+      color: rgba(255,255,255,0.85);
+      flex-shrink: 0;
+    }
+    /* Mobile menu sub-link */
+    .mob-link-sub {
+      font-family: Inter, sans-serif !important;
+      font-size: 16px !important;
+      color: #EF4444 !important;
+      padding: 6px 20px 6px 36px !important;
+      letter-spacing: 0.5px !important;
+    }
   </style>
 </head>
 <body>
@@ -2601,6 +2878,7 @@
   <a href="#evidence-room" class="mob-link">Evidence Room</a>
   <a href="#advocates" class="mob-link">Advocate Voices</a>
   <a href="#legal-roadmap" class="mob-link">Legal Roadmap</a>
+  <a href="#police-alert-h" class="mob-link mob-link-sub" onclick="setTimeout(function(){var t=document.querySelector('.lr-tab[data-path=\'h\']');if(t)t.click();},100)">🚨 Know Your Rights</a>
   <a href="#join" class="mob-link" style="color:var(--gold)">Join Network</a>
 </div>
 
@@ -5280,6 +5558,150 @@
           </div>
           <p class="lr-pip-note">Indian courts are legally obligated to assist Party in Person litigants. Judges and court staff must guide you on procedure if you ask. You have a right to file your own petition.</p>
         </div>
+        <!-- POLICE ALERT CARD -->
+        <div class="police-alert-card" id="police-alert-h">
+          <div class="pac-header">
+            <p class="pac-header-title">🚨 If Police Come to Your Door</p>
+            <p class="pac-header-sub">Know your rights BEFORE you open the door &mdash; stay calm, stay protected.</p>
+          </div>
+          <div class="pac-body">
+
+            <!-- Section A: 5 Questions -->
+            <p class="pac-section-label">A &mdash; Ask These 5 Questions First</p>
+            <ul class="pac-question-list">
+              <li>
+                <div class="pac-q-num">1</div>
+                <div class="pac-q-text"><strong>Do you have a warrant?</strong><span>498A cases often arrive WITHOUT a warrant &mdash; that is your first right to verify.</span></div>
+              </li>
+              <li>
+                <div class="pac-q-num">2</div>
+                <div class="pac-q-text"><strong>Which police station? Badge number?</strong><span>Note it down or photograph if safe to do so. Identification is legally required.</span></div>
+              </li>
+              <li>
+                <div class="pac-q-num">3</div>
+                <div class="pac-q-text"><strong>FIR number and which section?</strong><span>If 498A / S.85 BNS &mdash; Arnesh Kumar guidelines automatically apply. Demand they follow the checklist.</span></div>
+              </li>
+              <li>
+                <div class="pac-q-num">4</div>
+                <div class="pac-q-text"><strong>Section 41A CrPC / Section 35 BNSS notice served first?</strong><span>For offences with up to 7 years punishment, police MUST issue notice before arresting. Direct arrest without notice is illegal.</span></div>
+              </li>
+              <li>
+                <div class="pac-q-num">5</div>
+                <div class="pac-q-text"><strong>I want to call my lawyer.</strong><span>Article 22 of the Constitution guarantees this right. You may not be denied it.</span></div>
+              </li>
+            </ul>
+
+            <hr class="pac-divider">
+
+            <!-- Section B: 8 Rights -->
+            <p class="pac-section-label">B &mdash; Your Constitutional &amp; Legal Rights</p>
+            <div class="pac-rights-grid">
+              <div class="pac-right-item">
+                <strong>Right to Know Grounds</strong>
+                <span>Article 22(1): Police must tell you why you are being arrested.</span>
+              </div>
+              <div class="pac-right-item">
+                <strong>Right to a Lawyer</strong>
+                <span>Article 22(1): You have the right to consult and be defended by a lawyer of your choice.</span>
+              </div>
+              <div class="pac-right-item">
+                <strong>Right to Silence</strong>
+                <span>Article 20(3): You cannot be compelled to be a witness against yourself. Do not give statements without a lawyer present.</span>
+              </div>
+              <div class="pac-right-item">
+                <strong>Right to Magistrate Within 24 Hours</strong>
+                <span>Article 22(2): You must be produced before a magistrate within 24 hours of arrest, excluding travel time.</span>
+              </div>
+              <div class="pac-right-item">
+                <strong>Right to Inform a Relative</strong>
+                <span>Section 41B CrPC / BNSS: Police must inform a family member or friend of your arrest promptly.</span>
+              </div>
+              <div class="pac-right-item">
+                <strong>Right Against Illegal Arrest</strong>
+                <span>Arnesh Kumar v. State of Bihar (2014): Magistrates cannot mechanically grant remand &mdash; reasons must be recorded.</span>
+              </div>
+              <div class="pac-right-item">
+                <strong>Right Against Night Arrest</strong>
+                <span>Section 46(4) CrPC / BNSS: No woman shall be arrested after sunset and before sunrise without special order of a Magistrate.</span>
+              </div>
+              <div class="pac-right-item">
+                <strong>Right of Elderly / Infirm</strong>
+                <span>Section 35(7) BNSS 2024: Person above 60 years or gravely ill &mdash; arrest only with prior permission of Deputy SP / DCP.</span>
+              </div>
+            </div>
+
+            <hr class="pac-divider">
+
+            <!-- Section C: 7 Actions -->
+            <p class="pac-section-label">C &mdash; What To Do Right Now</p>
+            <ul class="pac-action-list">
+              <li>
+                <div class="pac-a-num">1</div>
+                <div class="pac-a-text"><strong>DO NOT panic or argue.</strong><span>Arguing with police at the door escalates the situation. Stay calm, be polite, but be firm about your rights.</span></div>
+              </li>
+              <li>
+                <div class="pac-a-num">2</div>
+                <div class="pac-a-text"><strong>Call your lawyer immediately.</strong><span>SIF helpline: <strong>8882 498 498</strong> &mdash; available 24/7 for 498A cases. NALSA free legal aid: <strong>15100</strong>.</span></div>
+              </li>
+              <li>
+                <div class="pac-a-num">3</div>
+                <div class="pac-a-text"><strong>Tell a family member your location.</strong><span>Call or message someone you trust before anything else. They need to know where you are and why.</span></div>
+              </li>
+              <li>
+                <div class="pac-a-num">4</div>
+                <div class="pac-a-text"><strong>DO NOT sign anything.</strong><span>Do not sign any statement, confession, or document without reading it fully and consulting your lawyer first.</span></div>
+              </li>
+              <li>
+                <div class="pac-a-num">5</div>
+                <div class="pac-a-text"><strong>Remember / write down everything.</strong><span>Time, names, badge numbers, what was said. This information is critical for your defence and any future complaint.</span></div>
+              </li>
+              <li>
+                <div class="pac-a-num">6</div>
+                <div class="pac-a-text"><strong>Apply for anticipatory bail immediately.</strong><span>Section 438 CrPC / Section 484 BNSS &mdash; before arrest, get your lawyer to file anticipatory bail in the Sessions Court or High Court.</span></div>
+              </li>
+              <li>
+                <div class="pac-a-num">7</div>
+                <div class="pac-a-text"><strong>Challenge illegal arrest in High Court.</strong><span>If police skip Arnesh Kumar guidelines or Section 35 BNSS notice &mdash; writ petition under Article 226/32 is maintainable immediately.</span></div>
+              </li>
+            </ul>
+
+            <hr class="pac-divider">
+
+            <!-- Section D: 498A Specific -->
+            <p class="pac-section-label-gold">D &mdash; 498A / S.85 BNS Specific</p>
+            <div class="pac-498a-box">
+              <p class="pac-498a-box-title">Arnesh Kumar v. State of Bihar (2014) &mdash; Mandatory Checklist</p>
+              <p>The Supreme Court directed that before any arrest under 498A, the police officer MUST be satisfied that arrest is necessary because: (i) to prevent further offence, (ii) for proper investigation, (iii) to prevent tampering of evidence, (iv) to prevent accused from influencing witnesses, or (v) to ensure accused appears in court.</p>
+              <p>Magistrates are barred from mechanically authorising remand. They must apply mind and record reasons. If neither of these steps was followed &mdash; your arrest is illegal.</p>
+              <p><strong style="color:#0f1628">Sample statement at the door (if no warrant present):</strong></p>
+              <div class="pac-sample-statement">"I respectfully wish to know the grounds of arrest as required under Article 22(1). I would like to contact my advocate before cooperating further. I am not refusing to cooperate &mdash; I am exercising a Constitutional right. Has a Section 41A CrPC notice been issued to me prior to this visit?"</div>
+            </div>
+
+            <!-- Section E: Emergency Numbers -->
+            <p class="pac-section-label">E &mdash; Save These Numbers</p>
+            <div class="pac-numbers-box">
+              <div class="pac-numbers-grid">
+                <div class="pac-num-item">
+                  <p class="pac-num-label">SIF Helpline</p>
+                  <p class="pac-num-value">8882 498 498</p>
+                </div>
+                <div class="pac-num-item">
+                  <p class="pac-num-label">NALSA Legal Aid</p>
+                  <p class="pac-num-value">15100</p>
+                </div>
+                <div class="pac-num-item">
+                  <p class="pac-num-label">Your Lawyer</p>
+                  <p class="pac-num-value" style="font-size:14px;color:rgba(245,158,11,0.4);border-bottom:1px solid rgba(245,158,11,0.25);padding-bottom:2px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                </div>
+              </div>
+              <p class="pac-num-note">Track your case status on the eCourts app &bull; ecourts.gov.in</p>
+            </div>
+
+            <p class="pac-disclaimer">This card is for general awareness only. It is not legal advice. Every case is different. Always consult a qualified advocate for advice specific to your situation. Laws referenced: IPC 498A, BNS S.85, CrPC / BNSS, Constitution of India, Arnesh Kumar v. State of Bihar (2014) 8 SCC 273.</p>
+          </div>
+        </div>
+        <!-- end POLICE ALERT CARD -->
+
         <!-- H-Step 1: Pre-Litigation Mediation -->
         <div class="lr-step reveal">
           <div class="lr-num">1</div>
@@ -5562,6 +5984,150 @@
           </div>
           <p class="lr-pip-note">Indian courts are legally obligated to assist Party in Person litigants. Judges and court staff must guide you on procedure if you ask. You have a right to file your own petition.</p>
         </div>
+        <!-- POLICE ALERT CARD -->
+        <div class="police-alert-card" id="police-alert-w">
+          <div class="pac-header">
+            <p class="pac-header-title">🚨 If Police Come to Your Door</p>
+            <p class="pac-header-sub">Know your rights BEFORE you open the door &mdash; stay calm, stay protected.</p>
+          </div>
+          <div class="pac-body">
+
+            <!-- Section A: 5 Questions -->
+            <p class="pac-section-label">A &mdash; Ask These 5 Questions First</p>
+            <ul class="pac-question-list">
+              <li>
+                <div class="pac-q-num">1</div>
+                <div class="pac-q-text"><strong>Do you have a warrant?</strong><span>498A cases often arrive WITHOUT a warrant &mdash; that is your first right to verify.</span></div>
+              </li>
+              <li>
+                <div class="pac-q-num">2</div>
+                <div class="pac-q-text"><strong>Which police station? Badge number?</strong><span>Note it down or photograph if safe to do so. Identification is legally required.</span></div>
+              </li>
+              <li>
+                <div class="pac-q-num">3</div>
+                <div class="pac-q-text"><strong>FIR number and which section?</strong><span>If 498A / S.85 BNS &mdash; Arnesh Kumar guidelines automatically apply. Demand they follow the checklist.</span></div>
+              </li>
+              <li>
+                <div class="pac-q-num">4</div>
+                <div class="pac-q-text"><strong>Section 41A CrPC / Section 35 BNSS notice served first?</strong><span>For offences with up to 7 years punishment, police MUST issue notice before arresting. Direct arrest without notice is illegal.</span></div>
+              </li>
+              <li>
+                <div class="pac-q-num">5</div>
+                <div class="pac-q-text"><strong>I want to call my lawyer.</strong><span>Article 22 of the Constitution guarantees this right. You may not be denied it.</span></div>
+              </li>
+            </ul>
+
+            <hr class="pac-divider">
+
+            <!-- Section B: 8 Rights -->
+            <p class="pac-section-label">B &mdash; Your Constitutional &amp; Legal Rights</p>
+            <div class="pac-rights-grid">
+              <div class="pac-right-item">
+                <strong>Right to Know Grounds</strong>
+                <span>Article 22(1): Police must tell you why you are being arrested.</span>
+              </div>
+              <div class="pac-right-item">
+                <strong>Right to a Lawyer</strong>
+                <span>Article 22(1): You have the right to consult and be defended by a lawyer of your choice.</span>
+              </div>
+              <div class="pac-right-item">
+                <strong>Right to Silence</strong>
+                <span>Article 20(3): You cannot be compelled to be a witness against yourself. Do not give statements without a lawyer present.</span>
+              </div>
+              <div class="pac-right-item">
+                <strong>Right to Magistrate Within 24 Hours</strong>
+                <span>Article 22(2): You must be produced before a magistrate within 24 hours of arrest, excluding travel time.</span>
+              </div>
+              <div class="pac-right-item">
+                <strong>Right to Inform a Relative</strong>
+                <span>Section 41B CrPC / BNSS: Police must inform a family member or friend of your arrest promptly.</span>
+              </div>
+              <div class="pac-right-item">
+                <strong>Right Against Illegal Arrest</strong>
+                <span>Arnesh Kumar v. State of Bihar (2014): Magistrates cannot mechanically grant remand &mdash; reasons must be recorded.</span>
+              </div>
+              <div class="pac-right-item">
+                <strong>Right Against Night Arrest</strong>
+                <span>Section 46(4) CrPC / BNSS: No woman shall be arrested after sunset and before sunrise without special order of a Magistrate.</span>
+              </div>
+              <div class="pac-right-item">
+                <strong>Right of Elderly / Infirm</strong>
+                <span>Section 35(7) BNSS 2024: Person above 60 years or gravely ill &mdash; arrest only with prior permission of Deputy SP / DCP.</span>
+              </div>
+            </div>
+
+            <hr class="pac-divider">
+
+            <!-- Section C: 7 Actions -->
+            <p class="pac-section-label">C &mdash; What To Do Right Now</p>
+            <ul class="pac-action-list">
+              <li>
+                <div class="pac-a-num">1</div>
+                <div class="pac-a-text"><strong>DO NOT panic or argue.</strong><span>Arguing with police at the door escalates the situation. Stay calm, be polite, but be firm about your rights.</span></div>
+              </li>
+              <li>
+                <div class="pac-a-num">2</div>
+                <div class="pac-a-text"><strong>Call your lawyer immediately.</strong><span>SIF helpline: <strong>8882 498 498</strong> &mdash; available 24/7 for 498A cases. NALSA free legal aid: <strong>15100</strong>.</span></div>
+              </li>
+              <li>
+                <div class="pac-a-num">3</div>
+                <div class="pac-a-text"><strong>Tell a family member your location.</strong><span>Call or message someone you trust before anything else. They need to know where you are and why.</span></div>
+              </li>
+              <li>
+                <div class="pac-a-num">4</div>
+                <div class="pac-a-text"><strong>DO NOT sign anything.</strong><span>Do not sign any statement, confession, or document without reading it fully and consulting your lawyer first.</span></div>
+              </li>
+              <li>
+                <div class="pac-a-num">5</div>
+                <div class="pac-a-text"><strong>Remember / write down everything.</strong><span>Time, names, badge numbers, what was said. This information is critical for your defence and any future complaint.</span></div>
+              </li>
+              <li>
+                <div class="pac-a-num">6</div>
+                <div class="pac-a-text"><strong>Apply for anticipatory bail immediately.</strong><span>Section 438 CrPC / Section 484 BNSS &mdash; before arrest, get your lawyer to file anticipatory bail in the Sessions Court or High Court.</span></div>
+              </li>
+              <li>
+                <div class="pac-a-num">7</div>
+                <div class="pac-a-text"><strong>Challenge illegal arrest in High Court.</strong><span>If police skip Arnesh Kumar guidelines or Section 35 BNSS notice &mdash; writ petition under Article 226/32 is maintainable immediately.</span></div>
+              </li>
+            </ul>
+
+            <hr class="pac-divider">
+
+            <!-- Section D: 498A Specific -->
+            <p class="pac-section-label-gold">D &mdash; 498A / S.85 BNS Specific</p>
+            <div class="pac-498a-box">
+              <p class="pac-498a-box-title">Arnesh Kumar v. State of Bihar (2014) &mdash; Mandatory Checklist</p>
+              <p>The Supreme Court directed that before any arrest under 498A, the police officer MUST be satisfied that arrest is necessary because: (i) to prevent further offence, (ii) for proper investigation, (iii) to prevent tampering of evidence, (iv) to prevent accused from influencing witnesses, or (v) to ensure accused appears in court.</p>
+              <p>Magistrates are barred from mechanically authorising remand. They must apply mind and record reasons. If neither of these steps was followed &mdash; your arrest is illegal.</p>
+              <p><strong style="color:#0f1628">Sample statement at the door (if no warrant present):</strong></p>
+              <div class="pac-sample-statement">"I respectfully wish to know the grounds of arrest as required under Article 22(1). I would like to contact my advocate before cooperating further. I am not refusing to cooperate &mdash; I am exercising a Constitutional right. Has a Section 41A CrPC notice been issued to me prior to this visit?"</div>
+            </div>
+
+            <!-- Section E: Emergency Numbers -->
+            <p class="pac-section-label">E &mdash; Save These Numbers</p>
+            <div class="pac-numbers-box">
+              <div class="pac-numbers-grid">
+                <div class="pac-num-item">
+                  <p class="pac-num-label">SIF Helpline</p>
+                  <p class="pac-num-value">8882 498 498</p>
+                </div>
+                <div class="pac-num-item">
+                  <p class="pac-num-label">NALSA Legal Aid</p>
+                  <p class="pac-num-value">15100</p>
+                </div>
+                <div class="pac-num-item">
+                  <p class="pac-num-label">Your Lawyer</p>
+                  <p class="pac-num-value" style="font-size:14px;color:rgba(245,158,11,0.4);border-bottom:1px solid rgba(245,158,11,0.25);padding-bottom:2px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                </div>
+              </div>
+              <p class="pac-num-note">Track your case status on the eCourts app &bull; ecourts.gov.in</p>
+            </div>
+
+            <p class="pac-disclaimer">This card is for general awareness only. It is not legal advice. Every case is different. Always consult a qualified advocate for advice specific to your situation. Laws referenced: IPC 498A, BNS S.85, CrPC / BNSS, Constitution of India, Arnesh Kumar v. State of Bihar (2014) 8 SCC 273.</p>
+          </div>
+        </div>
+        <!-- end POLICE ALERT CARD -->
+
         <!-- W-Step 1: Mediation -->
         <div class="lr-step reveal">
           <div class="lr-num">1</div>
@@ -6012,6 +6578,12 @@ Important: Flag any case citations you include so I can verify them on Indian Ka
     <!-- ── RIGHT COLUMN: STICKY SNAPSHOT CARD ── -->
     <div class="roadmap-snapshot" id="roadmap-snapshot">
       <div style="background:#0f1628;border:1px solid rgba(245,158,11,0.2);border-radius:16px;overflow:hidden;">
+
+        <!-- Red alert strip -->
+        <a href="#police-alert-h" class="snap-alert-strip" onclick="if(document.querySelector('.lr-tab[data-path=\'h\']')){document.querySelector('.lr-tab[data-path=\'h\']').click();}">
+          <p class="snap-alert-strip-text">🚨 If Police Come to Your Door &mdash; Know Your Rights</p>
+          <span class="snap-alert-strip-arrow">&#8594;</span>
+        </a>
 
         <div style="background:#F59E0B;padding:14px 20px;">
           <p style="font-family:Inter,sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;color:#000;margin:0 0 2px 0;text-transform:uppercase;">YOUR PATH AT A GLANCE</p>
