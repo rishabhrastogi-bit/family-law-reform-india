@@ -2310,7 +2310,7 @@
         max-width: 100% !important;
         overflow: hidden !important;
       }
-      /* Snapshot card: visible, full-width, above roadmap steps */
+      /* Snapshot card: visible, full-width, positioned by JS after tabs */
       .roadmap-snapshot,
       #roadmap-snapshot {
         display: block !important;
@@ -2318,7 +2318,6 @@
         top: auto !important;
         width: 100% !important;
         margin-bottom: 24px !important;
-        order: -1 !important;
       }
     }
 
@@ -6544,6 +6543,30 @@ window.addEventListener('resize', function() {
   hero.style.setProperty('min-height', h, 'important');
   hero.style.setProperty('max-height', h, 'important');
 }, { passive: true });
+
+// ── ROADMAP SNAPSHOT: reposition on mobile to sit between tabs and steps
+(function repositionSnapshot() {
+  var snapshot = document.getElementById('roadmap-snapshot');
+  var lrTabs   = document.querySelector('.lr-tabs');
+  var lrLeftCol = document.querySelector('.lr-left-col');
+  var lrInner   = document.querySelector('.legal-roadmap-inner');
+  if (!snapshot || !lrTabs || !lrLeftCol || !lrInner) return;
+  function doReposition() {
+    if (window.innerWidth <= 768) {
+      // Move snapshot inside lr-left-col, right after the tabs
+      if (snapshot.parentNode !== lrLeftCol) {
+        lrLeftCol.insertBefore(snapshot, lrTabs.nextSibling);
+      }
+    } else {
+      // Restore snapshot as last child of legal-roadmap-inner
+      if (snapshot.parentNode !== lrInner) {
+        lrInner.appendChild(snapshot);
+      }
+    }
+  }
+  doReposition();
+  window.addEventListener('resize', doReposition, { passive: true });
+})();
 
 // ── NAV
 const navbar = document.getElementById('navbar');
