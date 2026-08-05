@@ -85,30 +85,27 @@
       background-attachment: scroll;
     }
     #hero-overlay { position: absolute; inset: 0; z-index: 1; background: linear-gradient(to right, rgba(5,8,16,0.88) 0%, rgba(5,8,16,0.72) 30%, rgba(5,8,16,0.20) 55%, rgba(5,8,16,0.05) 100%), linear-gradient(to bottom, rgba(5,8,16,0.15) 0%, rgba(5,8,16,0.0) 40%, rgba(5,8,16,0.0) 60%, rgba(5,8,16,0.75) 85%, rgba(5,8,16,0.95) 100%); }
-    #particles-canvas { position: absolute; inset: 0; z-index: 5; opacity: 0.4; pointer-events: none; }
-    .hero-content { position: absolute; top: 15%; left: 0; width: 52%; padding: 0 0 0 60px; text-align: left; z-index: 10; }
+    .hero-content {
+      position: absolute; top: 50%; left: 0; width: 48%; padding: 0 0 0 60px;
+      transform: translateY(-50%); text-align: left; z-index: 10;
+      display: flex; flex-direction: column; align-items: flex-start;
+      max-height: 90vh; overflow-y: auto; scrollbar-width: none;
+    }
+    .hero-content::-webkit-scrollbar { display: none; }
     .hero-label {
       font-size: 11px; color: var(--gold); letter-spacing: 3px; text-transform: uppercase;
       margin-bottom: 28px; opacity: 0; animation: fadeInDown 0.8s ease 0.4s forwards;
     }
-    .hero-headline { font-family: 'Bebas Neue', sans-serif; font-size: 88px; line-height: 1.0; margin-bottom: 28px; min-height: 196px; text-shadow: 2px 2px 20px rgba(0,0,0,0.9), 0 0 60px rgba(0,0,0,0.6); }
+    .hero-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(34px, 7vw, 88px); line-height: 1.05; margin-bottom: 20px; text-shadow: 2px 2px 20px rgba(0,0,0,0.9), 0 0 60px rgba(0,0,0,0.6); }
     .hero-headline .line1 { color: var(--white); display: block; }
     .hero-headline .line2 { color: var(--gold); display: block; }
-    .typewriter-cursor {
-      display: inline-block; width: 4px; height: 0.82em;
-      background: var(--gold); vertical-align: middle; margin-left: 3px;
-      animation: blink 0.7s step-end infinite;
-    }
-    @keyframes blink { 50% { opacity: 0; } }
     .hero-sub {
       font-family: 'Playfair Display', serif; font-style: italic;
-      font-size: 22px; color: rgba(255,255,255,0.8); line-height: 1.65;
-      margin-bottom: 44px; opacity: 0; transition: opacity 0.9s ease;
-      text-shadow: 1px 1px 12px rgba(0,0,0,0.9);
+      font-size: clamp(14px, 2.2vw, 22px); color: rgba(255,255,255,0.85); line-height: 1.5;
+      margin-bottom: clamp(20px, 4vw, 44px); text-shadow: 1px 1px 12px rgba(0,0,0,0.9);
     }
-    .hero-sub.show { opacity: 1; }
-    .hero-ctas { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; margin-top: 32px; opacity: 0; transition: opacity 0.9s ease 0.2s; }
-    .hero-ctas.show { opacity: 1; }
+    .hero-ctas { display: flex; flex-direction: row; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
+    .hero-ctas .btn-primary, .hero-ctas .btn-outline { width: auto; min-width: 150px; max-width: 200px; padding: 11px 22px; font-size: 14px; }
     .btn-primary {
       font-size: 15px; font-weight: 600; background: var(--gold); color: var(--dark);
       border: none; padding: 16px 32px; border-radius: 8px; cursor: pointer;
@@ -450,10 +447,6 @@
       .nav-links { display: none; }
       .hamburger { display: flex; }
       #hero { background-position: center 70px !important; justify-content: flex-start; }
-      .hero-content { position: relative; width: 100%; padding: 80px 20px 20px; text-align: center; top: auto; bottom: auto; transform: none; }
-      .hero-headline { font-size: 52px; min-height: auto; }
-      .hero-sub { font-size: 17px; }
-      .hero-ctas { align-items: center; }
       .counters-strip { padding: 18px 16px; flex-wrap: wrap; }
       .counter-item { width: 33.333%; flex: none; padding: 12px 6px; }
       .counter-item:nth-child(4), .counter-item:nth-child(5) { width: 50%; }
@@ -499,7 +492,6 @@
       .footer-inner { grid-template-columns: 1fr; gap: 40px; }
     }
     @media (max-width: 480px) {
-      .hero-headline { font-size: 42px; }
       .counter-number { font-size: 36px; }
       .cm-full-grid { grid-template-columns: 1fr; }
     }
@@ -1293,10 +1285,6 @@
       z-index: 25 !important;
       clear: both !important;
     }
-    .hero-stats-zone {
-      padding-bottom: 0 !important;
-      margin-bottom: 0 !important;
-    }
     #about::before {
       content: '' !important;
       display: block !important;
@@ -1317,7 +1305,6 @@
 
     /* ── FIX 3: CRISIS STATS STRIP / EYEBROW LABEL ──────────────── */
     /* Stats strip must not visually override the next section */
-    .hero-stats-zone,
     [class*="crisis-stats"],
     .hsz-row-crisis {
       position: relative !important;
@@ -1364,23 +1351,13 @@
       }
     }
 
-    /* ── FIX 3: MOBILE HERO ─────────────────────────────────────── */
+    /* ── MOBILE HERO — full-bleed image, text overlaid at bottom ── */
     @media (max-width: 768px) {
       #hero, .hero {
         min-height: 100svh !important;
         height: 100svh !important;
         justify-content: flex-end !important;
         overflow: hidden !important;
-      }
-      #hero { background-position: 65% 70px !important; }
-      #hero-overlay {
-        background: linear-gradient(
-          to bottom,
-          rgba(5,8,16,0.15) 0%,
-          rgba(5,8,16,0.10) 40%,
-          rgba(5,8,16,0.65) 75%,
-          rgba(5,8,16,0.95) 100%
-        ) !important;
       }
       .hero-content {
         position: absolute !important;
@@ -1389,30 +1366,25 @@
         left: 0 !important;
         right: 0 !important;
         width: 100% !important;
+        max-height: none !important;
+        overflow: visible !important;
         padding: 0 24px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
         text-align: center !important;
         z-index: 10 !important;
       }
-      .typewriter { font-size: 36px !important; line-height: 1.15 !important; display: block !important; }
-      .hero-sub { font-size: 15px !important; margin: 8px 0 16px !important; display: block !important; }
+      .hero-label { display: none !important; }
       .hero-ctas {
         flex-direction: row !important;
         justify-content: center !important;
         gap: 10px !important;
         flex-wrap: wrap !important;
       }
-      .hero-label { display: none !important; }
-      #particles-canvas { display: none !important; }
-      .hero-stats-zone { display: none !important; }
       .scroll-indicator {
-        display: block !important;
-        position: absolute !important;
         bottom: 20px !important;
-        left: 50% !important;
-        transform: translateX(-50%) !important;
-        color: rgba(255,255,255,0.6) !important;
         font-size: 20px !important;
-        opacity: 1 !important;
       }
     }
     /* Timeline hub outer container has 0 padding; inner panels reduced */
@@ -1424,87 +1396,24 @@
     .mvt-subhead, .lh-subhead { margin-bottom: 20px !important; }
     .lh-tabs { margin-bottom: 28px !important; }
 
-    /* ── FIX 7: HERO SUBTEXT VISIBILITY ───────────────────────
-       Ensures hero-content has room and hero-sub is always visible */
-    @media (min-width: 901px) {
-      .hero-content { padding-bottom: 80px !important; }
-    }
-    .hero-sub {
-      color: rgba(255,255,255,0.85) !important;
-      font-size: 18px !important;
-      display: block !important;
-      visibility: visible !important;
-      opacity: 1 !important;
-      margin-top: 12px !important;
-    }
-
-    /* ── HERO STATS ZONE ──────────────────────────────────────── */
-    .hero-stats-zone {
-      position: absolute; bottom: 0; left: 0; right: 0;
-      background: rgba(5,8,16,0.90); backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
-      padding: 28px 60px; z-index: 20;
-      transform: translateY(50%);
-      border-top: 1px solid rgba(245,158,11,0.20);
-    }
-    .hsz-row { display: flex; align-items: center; justify-content: center; }
-    .hsz-stat { flex: 1; text-align: center; }
-    .hsz-sep { width: 1px; height: 44px; background: rgba(245,158,11,0.35); flex-shrink: 0; }
-    .hsz-sep-red { background: rgba(255,82,82,0.45) !important; }
+    /* ── HERO STATS LABELS (used by .hero-stats-inline crisis row) ── */
     .hsz-label { font-size: 11px; color: #94a3b8; margin-top: 4px; display: block; line-height: 1.3; }
-    .hsz-row-movement .counter-number { font-size: 42px !important; color: #F59E0B !important; }
-    .hsz-divider { height: 1px; background: rgba(239,68,68,0.3); margin: 12px 0; }
     .hsz-crisis-label { font-size: 10px; color: #FF6B6B; letter-spacing: 2px; text-transform: uppercase; margin: 0 0 10px; font-weight: 700; }
-    .hsz-crisis-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px 24px; align-items: start; }
     .hsz-footnote { font-family: 'Inter', sans-serif; font-size: 10px; color: #64748b; text-align: center; margin-top: 14px; line-height: 1.6; }
     .hsz-red { color: #FF5252 !important; font-size: 36px !important; text-shadow: 0 0 24px rgba(255,82,82,0.35); }
     .hsz-amber { color: #FBBF24 !important; font-size: 36px !important; }
-    .hsz-source-tip {
-      display: inline-block; font-size: 9px; color: rgba(255,255,255,0.3);
-      cursor: help; margin-left: 3px; position: relative; vertical-align: middle;
-    }
-    .hsz-source-tip::after {
-      content: attr(data-tip);
-      position: absolute; bottom: calc(100% + 6px); left: 50%;
-      transform: translateX(-50%);
-      background: rgba(5,8,16,0.97); color: #94a3b8; font-size: 10px; line-height: 1.4;
-      padding: 6px 10px; border-radius: 5px; border: 1px solid rgba(245,158,11,0.2);
-      white-space: normal; width: 200px; text-align: left;
-      pointer-events: none; opacity: 0; transition: opacity 0.2s; z-index: 200;
-    }
-    .hsz-source-tip:hover::after { opacity: 1; }
 
-    /* ── HERO MOBILE ──────────────────────────────────────────── */
     @media (max-width: 900px) {
-      .hero-stats-zone { position: relative !important; padding: 16px 20px; transform: none !important; }
-      .hsz-row { flex-wrap: wrap; }
-      .hsz-crisis-stats { flex-wrap: wrap; }
-      .hsz-stat { min-width: 50%; flex: none; padding: 8px 8px; }
-      .hsz-sep { display: none !important; }
-      .hsz-row-movement .counter-number { font-size: 28px !important; }
       .hsz-red { font-size: 22px !important; }
       .hsz-amber { font-size: 22px !important; }
-    }
-    @media (max-width: 768px) {
-      #hero, .hero {
-        background-position: center 70px !important;
-        background-attachment: scroll !important;
-      }
     }
     @media (max-width: 900px) and (orientation: landscape) {
       #hero { background-size: cover !important; }
     }
 
-    /* ── MOBILE FIXES (max-width: 768px) ─────────────────────────
-       FIX 1: overlay / image position
-       FIX 2: CTA buttons
-       FIX 3: movement counter grid
-       FIX 4: hero padding for navbar clearance
-       FIX 5: crisis stats grid
-    ─────────────────────────────────────────────────────────────── */
+    /* ── MOBILE HERO FIXES (max-width: 768px) ─────────────────── */
     @media (max-width: 768px) {
-
-      /* FIX 1 — Lighter overlay so image shows through, statue focus */
+      /* Lighter overlay so the background image shows through */
       #hero-overlay {
         background: linear-gradient(
           to bottom,
@@ -1514,16 +1423,8 @@
           rgba(5,8,16,0.90) 100%
         ) !important;
       }
-      #hero, .hero { background-position: 75% 70px !important; }
+      #hero, .hero { background-position: 75% 70px !important; padding-top: 70px !important; }
 
-      /* FIX 2 — CTA buttons side-by-side row */
-      .hero-ctas {
-        flex-direction: row !important;
-        flex-wrap: wrap !important;
-        justify-content: center !important;
-        align-items: center !important;
-        gap: 10px !important;
-      }
       .hero-ctas .btn-primary,
       .hero-ctas .btn-outline {
         width: auto !important;
@@ -1534,43 +1435,7 @@
         white-space: nowrap !important;
       }
 
-      /* FIX 3 — Movement counters: 3-column grid (3 + 2) */
-      .hsz-row-movement {
-        display: grid !important;
-        grid-template-columns: repeat(3, 1fr) !important;
-        gap: 12px 8px !important;
-        justify-items: center !important;
-      }
-      .hsz-row-movement .hsz-stat {
-        min-width: unset !important;
-        width: 100% !important;
-        padding: 6px 4px !important;
-        flex: none !important;
-      }
-      .hsz-row-movement .counter-number { font-size: 24px !important; }
       .hsz-label { font-size: 10px !important; }
-
-      /* FIX 4 — Navbar clearance via hero padding, not hero-content padding */
-      #hero, .hero { padding-top: 70px !important; }
-      .hero-content { padding-top: 20px !important; }
-
-      /* FIX 5 — Crisis stats: 2-column grid, lone last item centred */
-      .hsz-crisis-stats {
-        display: grid !important;
-        grid-template-columns: repeat(2, 1fr) !important;
-        gap: 10px !important;
-        padding: 8px 0 !important;
-        align-items: start !important;
-      }
-      .hsz-crisis-stats .hsz-stat {
-        min-width: unset !important;
-        width: 100% !important;
-      }
-      .hsz-crisis-stats .hsz-stat:last-child:nth-child(odd) {
-        grid-column: 1 / -1 !important;
-        max-width: 50% !important;
-        margin: 0 auto !important;
-      }
     }
 
     /* ── SHARED SCROLL WRAPPER / ARROWS ───────────────────────── */
@@ -1766,32 +1631,6 @@
 
     /* ── HERO STATS RESTRUCTURE ─────────────────────────────────── */
 
-    /* Desktop: left column — flex column, vertically centred, 48% width */
-    @media (min-width: 769px) {
-      .hero-content {
-        position: absolute !important;
-        top: 50% !important;
-        left: 0 !important;
-        transform: translateY(-50%) !important;
-        width: 48% !important;
-        padding: 0 0 0 60px !important;
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: flex-start !important;
-        gap: 0 !important;
-        max-height: 90vh !important;
-        overflow-y: auto !important;
-        scrollbar-width: none !important;
-        text-align: left !important;
-      }
-      .hero-content::-webkit-scrollbar { display: none !important; }
-    }
-
-    /* Old stats zone — empty, hide it */
-    .hero-stats-zone {
-      display: none !important;
-    }
-
     /* Gold divider above stats */
     .hero-gold-divider {
       width: 100% !important;
@@ -1910,177 +1749,12 @@
       #mobile-stats { display: none !important; }
     }
 
-    /* ── MOBILE HERO — FULL SCREEN IMAGE ONLY ─────────────────── */
+    /* ── MOBILE HERO — full-screen image, overflow clipped ──────── */
     @media (max-width: 768px) {
       #hero, .hero {
         height: 100svh !important;
         min-height: 100svh !important;
-        width: 100% !important;
-        position: relative !important;
         overflow: hidden !important;
-        display: flex !important;
-        flex-direction: column !important;
-        justify-content: flex-end !important;
-        padding: 0 !important;
-        margin: 0 !important;
-        background-position: 25% top !important;
-        background-size: cover !important;
-        background-attachment: scroll !important;
-      }
-
-      /* Very light overlay — clear at top, dark only at bottom */
-      #hero-overlay,
-      .hero-overlay,
-      #hero::before,
-      #hero::after,
-      [class*="hero-overlay"] {
-        background: linear-gradient(
-          to bottom,
-          rgba(5,8,16,0.0) 0%,
-          rgba(5,8,16,0.0) 40%,
-          rgba(5,8,16,0.5) 72%,
-          rgba(5,8,16,0.92) 100%
-        ) !important;
-      }
-
-      /* Hide all hero content */
-      .hero-label,
-      [class*="est-label"],
-      [class*="hero-label"],
-      .hero-headline,
-      .typewriter,
-      [class*="typewriter"],
-      [class*="hero-headline"],
-      .hero-sub,
-      .hero-subhead,
-      [class*="hero-subhead"],
-      [class*="hero-sub"],
-      .hero-ctas,
-      .hero-buttons,
-      [class*="hero-buttons"],
-      [class*="hero-cta"],
-      .hero-stats-zone,
-      .hero-counter-strip,
-      [class*="counter-strip"],
-      [class*="stats-strip"],
-      .crisis-stats,
-      [class*="crisis-stats"],
-      [class*="why-reform-stats"],
-      #particles-canvas,
-      canvas[class*="particle"],
-      .hero-content,
-      [class*="hero-content"] {
-        display: none !important;
-      }
-
-      /* Show scroll indicator at bottom centre */
-      .scroll-indicator,
-      [class*="scroll-indicator"],
-      #mobile-scroll-hint {
-        display: flex !important;
-        position: absolute !important;
-        bottom: 32px !important;
-        left: 50% !important;
-        transform: translateX(-50%) !important;
-        flex-direction: column !important;
-        align-items: center !important;
-        gap: 6px !important;
-        z-index: 20 !important;
-        color: rgba(255,255,255,0.7) !important;
-        font-size: 12px !important;
-        font-family: Inter, sans-serif !important;
-        letter-spacing: 2px !important;
-        text-transform: uppercase !important;
-        animation: mobileScrollBounce 2s infinite !important;
-      }
-    }
-
-    @keyframes mobileScrollBounce {
-      0%, 100% {
-        transform: translateX(-50%) translateY(0px);
-        opacity: 0.7;
-      }
-      50% {
-        transform: translateX(-50%) translateY(8px);
-        opacity: 1;
-      }
-    }
-
-    /* ── MOBILE HERO TEXT — overlaid at bottom of image ─────────── */
-    @media (max-width: 768px) {
-      .hero-content,
-      [class*="hero-content"] {
-        display: flex !important;
-        position: absolute !important;
-        bottom: 80px !important;
-        top: auto !important;
-        left: 0 !important;
-        right: 0 !important;
-        width: auto !important;
-        padding: 0 24px !important;
-        flex-direction: column !important;
-        align-items: center !important;
-        text-align: center !important;
-        z-index: 10 !important;
-        overflow: visible !important;
-        max-height: none !important;
-        transform: none !important;
-      }
-
-      .hero-headline,
-      .typewriter,
-      [class*="typewriter"],
-      [class*="hero-headline"] {
-        display: block !important;
-        font-size: 32px !important;
-        line-height: 1.1 !important;
-        text-align: center !important;
-        margin-bottom: 6px !important;
-        min-height: auto !important;
-      }
-
-      .hero-sub,
-      .hero-subhead,
-      [class*="hero-subhead"] {
-        display: block !important;
-        font-size: 13px !important;
-        text-align: center !important;
-        margin-bottom: 14px !important;
-        opacity: 0.85 !important;
-      }
-
-      .hero-ctas,
-      .hero-buttons,
-      [class*="hero-buttons"],
-      [class*="hero-cta"] {
-        display: flex !important;
-        flex-direction: row !important;
-        justify-content: center !important;
-        align-items: center !important;
-        gap: 8px !important;
-        margin-top: 0 !important;
-        opacity: 1 !important;
-      }
-
-      .hero-ctas .btn-primary,
-      .hero-ctas .btn-outline {
-        font-size: 12px !important;
-        padding: 9px 16px !important;
-        min-width: 120px !important;
-        max-width: 175px !important;
-      }
-
-      .hero-label,
-      [class*="est-label"] {
-        display: none !important;
-      }
-
-      .hero-stats-inline,
-      .hero-gold-divider,
-      .hero-red-divider,
-      .hero-crisis-stats,
-      #counters-strip {
-        display: none !important;
       }
     }
 
@@ -2138,34 +1812,6 @@
         position: relative !important;
         top: 0 !important;
         margin-bottom: 24px !important;
-      }
-    }
-
-    /* ── DESKTOP HERO BUTTONS ───────────────────────────────────── */
-    @media (min-width: 769px) {
-      .hero-buttons,
-      [class*="hero-buttons"],
-      [class*="hero-cta"] {
-        display: flex !important;
-        flex-direction: row !important;
-        gap: 12px !important;
-        margin-top: 12px !important;
-        margin-bottom: 16px !important;
-      }
-
-      .hero-buttons a,
-      .hero-buttons button,
-      [class*="hero-cta"] a {
-        width: auto !important;
-        min-width: 150px !important;
-        max-width: 200px !important;
-        padding: 11px 22px !important;
-        font-size: 14px !important;
-      }
-
-      .hero-subhead,
-      [class*="hero-subhead"] {
-        margin-bottom: 12px !important;
       }
     }
 
@@ -2885,19 +2531,18 @@
 <!-- SECTION 1 — HERO -->
 <section id="hero">
   <div id="hero-overlay"></div>
-  <canvas id="particles-canvas"></canvas>
 
   <div class="hero-content">
     <p class="hero-label">Est. 2026 &bull; India&rsquo;s Family Law Reform Coalition</p>
-    <h1 class="hero-headline" id="hero-headline" aria-label="Every Step Forward Builds On The Last.">
-      <span class="line1" id="hero-line1"></span>
-      <span class="line2" id="hero-line2"></span>
+    <h1 class="hero-headline">
+      <span class="line1">EVERY STEP FORWARD</span>
+      <span class="line2">BUILDS ON THE LAST.</span>
     </h1>
-    <p class="hero-sub" id="hero-sub">
+    <p class="hero-sub">
       No petition wasted. No protest forgotten.<br>
       No father, mother, or child left behind.
     </p>
-    <div class="hero-ctas" id="hero-ctas">
+    <div class="hero-ctas">
       <a href="#join" class="btn-primary">Join the Network</a>
       <a href="#coalition" class="btn-outline">Explore the Coalition</a>
     </div>
@@ -7561,82 +7206,6 @@ function closeMobileMenu() {
 }
 mobileClose.addEventListener('click', closeMobileMenu);
 document.querySelectorAll('.mob-link').forEach(l => l.addEventListener('click', closeMobileMenu));
-
-// ── PARTICLES
-const canvas = document.getElementById('particles-canvas');
-const ctx = canvas.getContext('2d');
-
-function resizeCanvas() {
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
-}
-resizeCanvas();
-window.addEventListener('resize', resizeCanvas, { passive: true });
-
-const particles = Array.from({ length: 40 }, () => ({
-  x: Math.random() * window.innerWidth,
-  y: Math.random() * window.innerHeight,
-  r: 1.5 + Math.random() * 2,
-  speed: 0.18 + Math.random() * 0.45,
-  drift: (Math.random() - 0.5) * 0.25,
-  opacity: 0.2 + Math.random() * 0.7,
-  opDir: Math.random() > 0.5 ? 1 : -1,
-  opSpeed: 0.003 + Math.random() * 0.007,
-  gold: Math.random() > 0.55
-}));
-
-function animateParticles() {
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-  for (const p of particles) {
-    p.y -= p.speed;
-    p.x += p.drift;
-    p.opacity += p.opDir * p.opSpeed;
-    if (p.opacity > 0.88) p.opDir = -1;
-    if (p.opacity < 0.1) p.opDir = 1;
-    if (p.y < -8) { p.y = canvas.height + 8; p.x = Math.random() * canvas.width; }
-    if (p.x < -8) p.x = canvas.width + 8;
-    if (p.x > canvas.width + 8) p.x = -8;
-    ctx.beginPath();
-    ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-    ctx.fillStyle = p.gold ? '#F59E0B' : '#ffffff';
-    ctx.globalAlpha = p.opacity;
-    ctx.fill();
-  }
-  ctx.globalAlpha = 1;
-  requestAnimationFrame(animateParticles);
-}
-animateParticles();
-
-// ── TYPEWRITER
-const line1El = document.getElementById('hero-line1');
-const line2El = document.getElementById('hero-line2');
-const heroSub = document.getElementById('hero-sub');
-const heroCtas = document.getElementById('hero-ctas');
-const L1 = 'EVERY STEP FORWARD';
-const L2 = 'BUILDS ON THE LAST.';
-let idx = 0, phase = 1;
-
-const cursor = document.createElement('span');
-cursor.className = 'typewriter-cursor';
-
-function typeChar() {
-  if (phase === 1) {
-    line1El.textContent = L1.slice(0, idx + 1);
-    line1El.appendChild(cursor);
-    idx++;
-    if (idx >= L1.length) { phase = 2; idx = 0; setTimeout(typeChar, 420); return; }
-  } else if (phase === 2) {
-    line2El.textContent = L2.slice(0, idx + 1);
-    line2El.appendChild(cursor);
-    idx++;
-    if (idx >= L2.length) {
-      setTimeout(() => { heroSub.classList.add('show'); heroCtas.classList.add('show'); }, 500);
-      return;
-    }
-  }
-  setTimeout(typeChar, 55 + Math.random() * 45);
-}
-setTimeout(typeChar, 800);
 
 // ── COUNTERS
 const counterEls = document.querySelectorAll('.counter-number');
