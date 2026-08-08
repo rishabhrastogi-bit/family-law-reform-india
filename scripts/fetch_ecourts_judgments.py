@@ -101,7 +101,7 @@ CATEGORY_QUERIES = {
 }
 
 
-def api_get(path, params):
+def api_get(path, params, retries=2):
     qs = urllib.parse.urlencode(params, safe='":()')
     url = f"{API_BASE}{path}?{qs}"
     req = urllib.request.Request(
@@ -115,8 +115,19 @@ def api_get(path, params):
             "User-Agent": "FLRN-EvidenceRoom-Research/1.0",
         },
     )
-    with urllib.request.urlopen(req, timeout=30, context=_SSL_CONTEXT) as resp:
-        return json.loads(resp.read())
+    # The /search endpoint routinely takes 15-20s (it's hitting a 28+ crore
+    # record Solr index, not a cached lookup) and occasionally returns a
+    # transient 500 under load — seen directly while building this script.
+    # Timeout is generous and 5xx responses get one retry; 4xx (bad
+    # request/auth) fails immediately since retrying won't help.
+    for attempt in range(retries + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=45, context=_SSL_CONTEXT) as resp:
+                return json.loads(resp.read())
+        except urllib.error.HTTPError as e:
+            if e.code < 500 or attempt == retries:
+                raise
+            print(f"  {e.code} on attempt {attempt + 1}, retrying: {url}", file=sys.stderr)
 
 
 def existing_case_names(html_path):
@@ -169,7 +180,20 @@ def search_category(category, queries):
     return results
 
 
+def preflight_check():
+    """One fast, free, cached-endpoint call before the real run, purely to
+    confirm the token is valid and the API is reachable at all. Note this
+    does NOT predict /search latency — that endpoint hits a live Solr index
+    over 28+ crore records and routinely takes 15-20s per call even when
+    everything is healthy, unlike this cached endpoint (~0.3s)."""
+    try:
+        api_get("/search/capabilities", {}, retries=0)
+    except Exception as e:
+        sys.exit(f"Preflight check failed — token invalid or API unreachable: {e}")
+
+
 def main():
+    preflight_check()
     known_names = existing_case_names(INDEX_HTML_PATH)
 
     sections = []
