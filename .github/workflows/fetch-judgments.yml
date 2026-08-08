@@ -1,0 +1,58 @@
+# Fetch eCourtsIndia Judgment Candidates
+#
+# REMOVABLE BY DESIGN — this workflow only ever opens a PR containing a
+# markdown research report (ecourts-candidates.md). It never edits
+# index.html. To stop using it:
+#   - Pause without deleting anything: Actions tab -> this workflow ->
+#     "..." -> Disable workflow. Re-enable any time.
+#   - Remove it permanently: delete this file, delete
+#     scripts/fetch_ecourts_judgments.py, and remove the
+#     ECOURTS_API_TOKEN secret (Settings -> Secrets and variables ->
+#     Actions). Nothing else on the site depends on either.
+#
+# Every judgment card already on the site — automation-assisted or
+# hand-written — is static HTML with no runtime dependency on this API.
+
+name: Fetch eCourtsIndia Judgment Candidates
+
+on:
+  schedule:
+    - cron: '0 6 1 * *'   # 06:00 UTC on the 1st of every month
+  workflow_dispatch: {}    # manual "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install --quiet certifi
+
+      - name: Fetch candidate judgments
+        env:
+          ECOURTS_API_TOKEN: ${{ secrets.ECOURTS_API_TOKEN }}
+        run: python3 scripts/fetch_ecourts_judgments.py
+
+      - name: Open PR with the research report
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "eCourtsIndia: new judgment candidates for review"
+          branch: ecourts-candidates/${{ github.run_number }}
+          title: "New judgment candidates from eCourtsIndia (automated research, not published)"
+          body: |
+            Automated research report from the eCourtsIndia API — **no changes to index.html**.
+
+            Review `ecourts-candidates.md`. For anything worth adding, verify the citation
+            independently (IndianKanoon / official source) and add the card by hand, same
+            standard as every other judgment on this site. Delete this branch/PR once reviewed.
+          add-paths: ecourts-candidates.md
+          delete-branch: true
