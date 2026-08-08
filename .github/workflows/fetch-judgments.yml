@@ -28,11 +28,13 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     # /search is slow (15-20s per call against a 28+ crore record index)
-    # and up to 13 queries run per invocation, each with up to one retry
-    # on a transient 5xx at a 45s timeout — realistic worst case is ~20
-    # minutes, not the couple of minutes a script this small would
-    # normally suggest.
-    timeout-minutes: 25
+    # and up to 17 queries run per invocation, each with up to two retries
+    # (on both 5xx and plain connection timeouts — both seen live) at a
+    # 45s timeout — realistic worst case is well over 30 minutes, not the
+    # couple of minutes a script this small would normally suggest. In
+    # practice most queries succeed on the first attempt in a few seconds;
+    # this ceiling is a safety net, not the expected runtime.
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
 

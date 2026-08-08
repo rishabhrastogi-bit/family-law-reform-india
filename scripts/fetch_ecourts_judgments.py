@@ -88,6 +88,10 @@ CATEGORY_QUERIES = {
         '"Domestic Violence Act"',
         'dowry harassment quashed',
         'bigamy "second marriage"',
+        '"perjury" matrimonial',
+        '"defamation" husband wife',
+        '"criminal intimidation" wife',
+        'harassment threatening matrimonial dispute',
     ],
     "maintenance": [
         '"Section 125" maintenance wife',
@@ -116,10 +120,12 @@ def api_get(path, params, retries=2):
         },
     )
     # The /search endpoint routinely takes 15-20s (it's hitting a 28+ crore
-    # record Solr index, not a cached lookup) and occasionally returns a
-    # transient 500 under load — seen directly while building this script.
-    # Timeout is generous and 5xx responses get one retry; 4xx (bad
-    # request/auth) fails immediately since retrying won't help.
+    # record Solr index, not a cached lookup), and has shown real flakiness
+    # while building this script: transient 500s AND plain connection
+    # timeouts with no response at all (the timeout case raises URLError,
+    # not HTTPError — retrying only on HTTPError missed it initially).
+    # 4xx (bad request/auth) fails immediately since retrying won't help;
+    # everything else transient gets retried.
     for attempt in range(retries + 1):
         try:
             with urllib.request.urlopen(req, timeout=45, context=_SSL_CONTEXT) as resp:
@@ -128,6 +134,10 @@ def api_get(path, params, retries=2):
             if e.code < 500 or attempt == retries:
                 raise
             print(f"  {e.code} on attempt {attempt + 1}, retrying: {url}", file=sys.stderr)
+        except (urllib.error.URLError, TimeoutError) as e:
+            if attempt == retries:
+                raise
+            print(f"  connection error on attempt {attempt + 1} ({e}), retrying: {url}", file=sys.stderr)
 
 
 def existing_case_names(html_path):
