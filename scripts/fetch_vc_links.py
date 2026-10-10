@@ -89,7 +89,7 @@ DISTRICT_SOURCES = {
 NON_VC_LINK_HINTS = re.compile(r"appointment|coordinator|order regarding", re.I)
 
 PDF_HREF_RE = re.compile(r'href="([^"]+\.pdf)"', re.I)
-FILENAME_DATE_RE = re.compile(r"/uploads/(\d{4})/(\d{2})/\1(\d{2})\d+\.pdf$")
+FILENAME_DATE_RE = re.compile(r"/uploads/(\d{4})/(\d{2})/\1\2(\d{2})\d+\.pdf$")
 PAGE_DATE_RE = re.compile(r"\b(\d{1,2})/(\d{1,2})/(\d{4})\b")
 
 HEADER_KEYWORDS = {
