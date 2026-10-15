@@ -184,10 +184,16 @@ def parse_pdf_rows(pdf_bytes, district, source_page, pdf_date):
     colmap = None
     with pdfplumber.open(io.BytesIO(pdf_bytes)) as pdf:
         for page in pdf.pages:
-            for table in page.extract_tables():
+            # Long URLs are often visually clipped at the cell edge (e.g.
+            # ".../meet/ddc.vc.nor" for ".../meet/ddc.vc.north01"), but the PDF's
+            # clickable link annotation still carries the full URI - keep them so
+            # a clipped cell can be completed from the annotation in the same row.
+            links = [h for h in page.hyperlinks if (h.get("uri") or "").startswith("http")]
+            for found in page.find_tables():
+                table = found.extract()
                 if not table:
                     continue
-                for row in table:
+                for row_obj, row in zip(found.rows, table):
                     if colmap is None:
                         maybe = match_header(row)
                         if maybe:
@@ -210,12 +216,19 @@ def parse_pdf_rows(pdf_bytes, district, source_page, pdf_date):
                     url_match = re.search(r"https?://\S+", raw_url_cell)
                     if not url_match:
                         continue
+                    url = url_match.group(0)
+                    _, top, _, bottom = row_obj.bbox
+                    in_row = {h["uri"] for h in links
+                              if top - 2 <= (h["top"] + h["bottom"]) / 2 <= bottom + 2
+                              and h["uri"] != url and h["uri"].startswith(url)}
+                    if len(in_row) == 1:
+                        url = in_row.pop()
                     rows_out.append({
                         "Judge Name": name_cell,
                         "Designation": designation,
                         "District/Complex": district,
                         "Email": email,
-                        "VC Link": url_match.group(0),
+                        "VC Link": url,
                         "PDF Last Updated": pdf_date,
                         "Source Page (official)": source_page,
                     })
