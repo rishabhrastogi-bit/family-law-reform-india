@@ -2496,7 +2496,42 @@
       padding: 6px 20px 6px 36px !important;
       letter-spacing: 0.5px !important;
     }
-  </style>
+  
+    /* ── Virtual Hearings / VC Link Finder feature panel ── */
+    .vcf { margin-top: 40px; background: linear-gradient(135deg, #050810 0%, #0b1424 60%, #0a1f17 100%); border: 1px solid rgba(37,211,102,0.35); border-radius: 18px; padding: 40px; color: #fff; box-shadow: 0 18px 50px rgba(5,8,16,0.25); position: relative; overflow: hidden; }
+    .vcf::before { content: ""; position: absolute; top: -120px; right: -120px; width: 320px; height: 320px; background: radial-gradient(circle, rgba(37,211,102,0.18), transparent 70%); pointer-events: none; }
+    .vcf-top { display: grid; grid-template-columns: 1.5fr 1fr; gap: 40px; align-items: center; position: relative; }
+    .vcf-badge { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--green); background: rgba(37,211,102,0.1); border: 1px solid rgba(37,211,102,0.35); padding: 5px 12px; border-radius: 20px; margin-bottom: 16px; }
+    .vcf-title { font-family: 'Inter', sans-serif; font-size: clamp(24px, 3vw, 34px); font-weight: 800; line-height: 1.15; margin: 0 0 14px; color: #fff; }
+    .vcf-lead { font-family: 'Inter', sans-serif; font-size: 15px; line-height: 1.65; color: rgba(255,255,255,0.75); margin: 0 0 20px; max-width: 560px; }
+    .vcf-steps { list-style: none; padding: 0; margin: 0 0 26px; display: flex; flex-direction: column; gap: 10px; }
+    .vcf-steps li { display: flex; align-items: center; gap: 12px; font-family: 'Inter', sans-serif; font-size: 15px; color: rgba(255,255,255,0.9); }
+    .vcf-steps li span { flex: 0 0 28px; height: 28px; border-radius: 50%; background: var(--gold); color: #050810; font-weight: 800; font-size: 14px; display: inline-flex; align-items: center; justify-content: center; }
+    .vcf-cta { display: inline-flex; align-items: center; gap: 8px; background: var(--green); color: #06210f; font-family: 'Inter', sans-serif; font-weight: 800; font-size: 16px; padding: 15px 28px; border-radius: 10px; text-decoration: none; box-shadow: 0 8px 24px rgba(37,211,102,0.3); transition: transform 0.15s, filter 0.15s; }
+    .vcf-cta:hover { transform: translateY(-2px); filter: brightness(1.06); }
+    .vcf-note { font-family: 'Inter', sans-serif; font-size: 12.5px; color: rgba(255,255,255,0.55); margin: 14px 0 0; }
+    .vcf-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .vcf-stat { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.09); border-radius: 12px; padding: 18px; }
+    .vcf-stat strong { display: block; font-family: 'Bebas Neue', sans-serif; font-size: 40px; line-height: 1; color: var(--gold); letter-spacing: 1px; }
+    .vcf-stat span { display: block; margin-top: 6px; font-family: 'Inter', sans-serif; font-size: 12.5px; line-height: 1.4; color: rgba(255,255,255,0.7); }
+    .vcf-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 36px; margin-top: 36px; padding-top: 30px; border-top: 1px solid rgba(255,255,255,0.1); position: relative; }
+    .vcf-label { font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--green); margin: 0 0 12px; }
+    .vcf-text { font-family: 'Inter', sans-serif; font-size: 14px; line-height: 1.65; color: rgba(255,255,255,0.75); margin: 0 0 12px; }
+    .vcf-text strong { color: #fff; }
+    .vcf-text a { color: var(--green); }
+    .vcf-list { margin: 0 0 12px; padding-left: 18px; font-family: 'Inter', sans-serif; font-size: 14px; line-height: 1.6; color: rgba(255,255,255,0.75); }
+    .vcf-list li { margin-bottom: 6px; }
+    .nav-vc { background: var(--green); color: #06210f !important; font-weight: 700; padding: 8px 14px; border-radius: 6px; }
+    .nav-vc:hover { filter: brightness(1.08); color: #06210f !important; }
+    @media (max-width: 1300px) { .nav-links { gap: 14px; } }
+    @media (max-width: 1000px) { .nav-links { display: none; } .hamburger { display: flex; } }
+    @media (max-width: 1200px) { .nav-links { gap: 10px; } .nav-links a { font-size: 11.5px; } .nav-join { padding: 7px 12px; } .nav-vc { padding: 7px 10px; } }
+    @media (max-width: 860px) {
+      .vcf { padding: 26px 20px; }
+      .vcf-top, .vcf-grid { grid-template-columns: 1fr; gap: 24px; }
+      .vcf-cta { width: 100%; justify-content: center; }
+    }
+</style>
 </head>
 <body>
 
@@ -2516,6 +2551,7 @@
     <li><a href="#advocates">Advocates</a></li>
     <li><a href="#legal-roadmap">Legal Roadmap</a></li>
     <li><a href="#ecourts-tools">eCourts Tools</a></li>
+    <li><a href="court-vc-links.html" class="nav-vc" title="Find your court’s video-conferencing link">&#128249; VC Links</a></li>
     <li><a href="#join" class="nav-join">Join Network</a></li>
   </ul>
   <button class="hamburger" id="hamburger-btn" aria-label="Open menu">
@@ -2536,6 +2572,7 @@
   <a href="#legal-roadmap" class="mob-link">Legal Roadmap</a>
   <a href="#police-alert-h" class="mob-link mob-link-sub" onclick="setTimeout(function(){var t=document.querySelector('.lr-tab[data-path=\'h\']');if(t)t.click();},100)">🚨 Know Your Rights</a>
   <a href="#ecourts-tools" class="mob-link">eCourts Tools</a>
+  <a href="court-vc-links.html" class="mob-link" style="color:var(--green)">&#128249; Court VC Links</a>
   <a href="#action" class="mob-link">Action Center</a>
   <a href="#join" class="mob-link" style="color:var(--gold)">Join Network</a>
 </div>
@@ -9210,6 +9247,53 @@ Important: Flag any case citations you include so I can verify them on Indian Ka
     <h2 class="lr-headline reveal reveal-delay-1">India&rsquo;s Courts Are Online.<br>Here&rsquo;s How To Use Them.</h2>
     <p class="lr-body reveal reveal-delay-2">Filing, hearings, case tracking, and judge rosters have all moved onto the eCourts Mission Mode Project. Here is what each official portal does, how e-filing actually works, and which tools are worth using on top of them.</p>
 
+    <!-- ── Virtual Hearings + VC Link Finder (feature) ── -->
+    <div class="vcf reveal" id="vc-finder">
+      <div class="vcf-top">
+        <div class="vcf-intro">
+          <span class="vcf-badge">&#128249; Free tool &middot; Virtual hearings</span>
+          <h3 class="vcf-title">Attend Your Hearing Online &mdash;<br>Find Your Court&rsquo;s VC Link</h3>
+          <p class="vcf-lead">Every district court in India publishes its own video-conferencing links, scattered across hundreds of websites. FLRN&rsquo;s VC Link Finder puts them on one page &mdash; straight from each court&rsquo;s official site.</p>
+          <ol class="vcf-steps">
+            <li><span>1</span>Choose your state or UT</li>
+            <li><span>2</span>Choose your district or court</li>
+            <li><span>3</span>Choose the judge &mdash; or just type their name</li>
+          </ol>
+          <a href="court-vc-links.html" class="vcf-cta">Open the VC Link Finder &rarr;</a>
+          <p class="vcf-note">Courts reissue links often &mdash; always confirm your actual hearing link with the court or your advocate.</p>
+        </div>
+        <div class="vcf-stats">
+          <div class="vcf-stat"><strong>540+</strong><span>district courts</span></div>
+          <div class="vcf-stat"><strong>36</strong><span>states &amp; UTs</span></div>
+          <div class="vcf-stat"><strong>650+</strong><span>Delhi judges with a direct link, refreshed weekly</span></div>
+          <div class="vcf-stat"><strong>1</strong><span>page &mdash; no need to know which court complex first</span></div>
+        </div>
+      </div>
+      <div class="vcf-grid">
+        <div>
+          <p class="vcf-label">What this means for your case</p>
+          <p class="vcf-text">Indian courts have used video conferencing (VC) for hearings since well before COVID-19, but it became standard practice after 2020, when the e-Committee of the Supreme Court issued the Model Rules for Video Conferencing for Courts &mdash; since adopted by every High Court &mdash; allowing parties, advocates, and witnesses to appear from anywhere.</p>
+          <ul class="vcf-list">
+            <li>Many mentions and short hearings can be attended over VC &mdash; you don&rsquo;t always need to travel</li>
+            <li>NRI parties in custody, divorce, or maintenance cases can participate without flying to India for every date</li>
+            <li>Courts have ordered VC as a formal mode of child access &mdash; e.g. Manoj Dhankar v. Neeharika (2025 INSC 1068) directed fortnightly video calls between a father and child living abroad</li>
+            <li>Evidence and witness examination can be conducted over VC where the court permits it</li>
+          </ul>
+          <p class="vcf-text">Availability depends on the judge, case stage, and your specific court&rsquo;s local rules &mdash; always confirm with the filing counter or your advocate before a hearing date.</p>
+        </div>
+        <div>
+          <p class="vcf-label">Official VC portals</p>
+          <p class="vcf-text"><strong>e-Committee, Supreme Court of India</strong><br>
+          <a href="https://ecommitteesci.gov.in/project/video-conferencing-facility/" target="_blank" rel="noopener noreferrer">ecommitteesci.gov.in</a> &mdash; the nodal body for VC rules and eCourts technology nationwide</p>
+          <p class="vcf-text"><strong>National eCourts Portal</strong><br>
+          <a href="https://ecourts.gov.in/ecourts_home/" target="_blank" rel="noopener noreferrer">ecourts.gov.in</a> &mdash; case status, cause lists, and Virtual Court access for courts across India</p>
+          <p class="vcf-text"><strong>District Courts Portal</strong><br>
+          <a href="https://ecommitteesci.gov.in/service/district-courts-portal/" target="_blank" rel="noopener noreferrer">ecommitteesci.gov.in/district-courts</a> &mdash; gateway to all 688 district court websites (usually <em>yourdistrict</em>.dcourts.gov.in), where VC links are posted under Documents</p>
+          <p class="vcf-text"><strong>Get your actual hearing link from the court or your advocate</strong> &mdash; never from a third party or unofficial source.</p>
+        </div>
+      </div>
+    </div>
+
     <!-- ── e-Filing Process Box ── -->
     <div class="lr-dlsa-box reveal" style="margin-top:40px;">
       <p class="lr-dlsa-title">&#128228; e-Filing &mdash; File Your Case Online</p>
@@ -9232,35 +9316,6 @@ Important: Flag any case citations you include so I can verify them on Indian Ka
           <strong>What you need:</strong> A scanned or digital copy of your petition, ID proof, and a way to pay court fees online.<br><br>
           <strong>Not every filing is fully paperless yet</strong> &mdash; some courts still require a physical copy alongside the e-filed one. Confirm your specific court&rsquo;s requirement at the filing counter or with your advocate before relying on e-filing alone against a deadline.<br><br>
           If you get stuck, your nearest DLSA (see above) can help with the process for free.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- ── Video Conferencing Box ── -->
-    <div class="lr-dlsa-box reveal">
-      <p class="lr-dlsa-title">&#128187; Virtual Hearings &mdash; Video Conferencing in Indian Courts</p>
-      <div class="lr-dlsa-grid">
-        <div>
-          <p class="lr-dlsa-col-label">What This Means For Your Case</p>
-          <p class="lr-dlsa-text">Indian courts have used video conferencing (VC) for hearings since well before COVID-19, but it became standard practice after 2020, when the e-Committee of the Supreme Court issued the Model Rules for Video Conferencing for Courts &mdash; since adopted by every High Court &mdash; allowing parties, advocates, and witnesses to appear from anywhere.<br><br>
-          <strong>Why it matters in family law cases:</strong><br>
-          &bull; Many mentions and short hearings can be attended over VC &mdash; you don&rsquo;t always need to travel<br>
-          &bull; NRI parties in custody, divorce, or maintenance cases can participate without flying to India for every date<br>
-          &bull; Courts have ordered VC as a formal mode of child access &mdash; e.g. Manoj Dhankar v. Neeharika (2025 INSC 1068) directed fortnightly video calls between a father and child living abroad<br>
-          &bull; Evidence and witness examination can be conducted over VC where the court permits it<br><br>
-          Availability depends on the judge, case stage, and your specific court&rsquo;s local rules &mdash; always confirm with the filing counter or your advocate before a hearing date.</p>
-        </div>
-        <div>
-          <p class="lr-dlsa-col-label">Official VC Portals</p>
-          <p class="lr-dlsa-text"><strong>e-Committee, Supreme Court of India</strong><br>
-          <a href="https://ecommitteesci.gov.in/project/video-conferencing-facility/" target="_blank" rel="noopener noreferrer" style="color:#10B981">ecommitteesci.gov.in</a> &mdash; the nodal body for VC rules and eCourts technology nationwide<br><br>
-          <strong>National eCourts Portal</strong><br>
-          <a href="https://ecourts.gov.in/ecourts_home/" target="_blank" rel="noopener noreferrer" style="color:#10B981">ecourts.gov.in</a> &mdash; case status, cause lists, and Virtual Court access for courts across India<br><br>
-          <strong>District Court VC Links</strong><br>
-          <a href="https://ecommitteesci.gov.in/service/district-courts-portal/" target="_blank" rel="noopener noreferrer" style="color:#10B981">District Courts Portal</a> &mdash; gateway to all 688 district court websites. Open your district&rsquo;s site (usually <em>yourdistrict</em>.dcourts.gov.in) and look under Documents &rarr; &lsquo;VC Links&rsquo; for your court&rsquo;s current link &mdash; these PDFs are reissued often, so check before every hearing<br><br>
-          <strong>Delhi District Courts &mdash; Judge Finder (FLRN)</strong><br>
-          <a href="court-vc-links.html" style="color:#10B981">Search by judge name</a> &mdash; an unofficial, auto-refreshed directory covering all 12 Delhi district complexes, built from their own published PDFs. Every entry links back to the official source to verify.<br><br>
-          <strong>Get your actual hearing link from the court or your advocate</strong> &mdash; never from a third party or unofficial source.</p>
         </div>
       </div>
     </div>

@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Delhi District Courts — Judge &amp; VC Link Finder | FLRN</title>
-<meta name="description" content="Look up the Cisco Webex video-conferencing link for any Delhi District Court judge by name — no need to know which district or complex first.">
+<title>Court VC Link Finder — India | FLRN</title>
+<meta name="description" content="Find the official video-conferencing (VC) link for any district court in India — choose state, district or court, and (where available) the judge.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -16,8 +16,6 @@
     --gold: #F59E0B;
     --gold-light: #FCD34D;
     --white: #FFFFFF;
-    --slate: #1e293b;
-    --slate-light: #334155;
     --muted: #64748b;
     --border: rgba(255,255,255,0.09);
     --green: #25D366;
@@ -33,7 +31,7 @@
 
   .section-label { font-size: 12px; color: var(--gold); letter-spacing: 3px; text-transform: uppercase; display: block; margin-bottom: 14px; }
   h1 { font-size: clamp(28px, 4vw, 40px); font-weight: 800; line-height: 1.15; margin-bottom: 16px; }
-  .lead { color: rgba(255,255,255,0.72); font-size: 16px; line-height: 1.65; max-width: 720px; margin-bottom: 8px; }
+  .lead { color: rgba(255,255,255,0.72); font-size: 16px; line-height: 1.65; max-width: 760px; margin-bottom: 8px; }
 
   .disclaimer {
     margin-top: 28px; padding: 18px 20px; border-radius: 12px;
@@ -44,22 +42,32 @@
   .disclaimer p { font-size: 13.5px; line-height: 1.65; color: rgba(255,255,255,0.78); }
   .disclaimer strong { color: var(--gold-light); }
 
-  .controls { margin-top: 36px; display: flex; gap: 12px; flex-wrap: wrap; }
-  .controls input, .controls select {
-    background: var(--dark-3); border: 1px solid var(--border); color: var(--white);
-    border-radius: 10px; padding: 12px 16px; font-size: 15px; font-family: inherit;
+  .steps { margin-top: 36px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .step label { display: block; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--gold); margin-bottom: 8px; font-weight: 600; }
+  .step select, .judge-search input {
+    width: 100%; background: var(--dark-3); border: 1px solid var(--border); color: var(--white);
+    border-radius: 10px; padding: 12px 14px; font-size: 15px; font-family: inherit;
   }
-  .controls input { flex: 1 1 320px; min-width: 0; }
-  .controls input::placeholder { color: var(--muted); }
-  .controls input:focus, .controls select:focus { outline: none; border-color: var(--gold); }
-  .controls select { flex: 0 0 auto; cursor: pointer; }
+  .step select { cursor: pointer; }
+  .step select:disabled { opacity: 0.45; cursor: not-allowed; }
+  .step select:focus, .judge-search input:focus { outline: none; border-color: var(--gold); }
+  .step .hint { display: block; margin-top: 6px; font-size: 12px; color: var(--muted); min-height: 16px; }
 
-  .meta-row { margin-top: 14px; font-size: 13px; color: var(--muted); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
-  .meta-row a { color: var(--gold-light); text-decoration: none; }
-  .meta-row a:hover { text-decoration: underline; }
+  .judge-search { margin-top: 14px; display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+  .judge-search input { flex: 1 1 320px; }
+  .judge-search input::placeholder { color: var(--muted); }
+  .reset-btn { background: transparent; border: 1px solid var(--border); color: rgba(255,255,255,0.7); border-radius: 10px; padding: 12px 16px; font-size: 14px; font-family: inherit; cursor: pointer; }
+  .reset-btn:hover { border-color: var(--gold); color: var(--gold-light); }
 
-  .table-wrap { margin-top: 20px; border: 1px solid var(--border); border-radius: 14px; overflow: hidden; overflow-x: auto; background: var(--dark-2); }
-  table { width: 100%; border-collapse: collapse; min-width: 720px; }
+  .meta-row { margin-top: 18px; font-size: 13px; color: var(--muted); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+
+  .court-panel { margin-top: 18px; padding: 20px 22px; border-radius: 14px; background: var(--dark-2); border: 1px solid var(--border); }
+  .court-panel h2 { font-size: 20px; font-weight: 700; margin-bottom: 4px; }
+  .court-panel .state { color: rgba(255,255,255,0.6); font-size: 13px; margin-bottom: 14px; }
+  .court-panel .actions { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; }
+
+  .table-wrap { margin-top: 18px; border: 1px solid var(--border); border-radius: 14px; overflow: hidden; overflow-x: auto; background: var(--dark-2); }
+  table { width: 100%; border-collapse: collapse; min-width: 680px; }
   thead th {
     text-align: left; font-size: 11px; letter-spacing: 1px; text-transform: uppercase;
     color: var(--gold); padding: 14px 16px; background: rgba(255,255,255,0.03);
@@ -68,23 +76,29 @@
   tbody td { padding: 13px 16px; font-size: 14px; border-bottom: 1px solid var(--border); vertical-align: top; }
   tbody tr:last-child td { border-bottom: none; }
   tbody tr:hover { background: rgba(255,255,255,0.02); }
-  .judge-name { font-weight: 600; color: var(--white); }
-  .designation { color: rgba(255,255,255,0.6); font-size: 13px; }
-  .district { color: rgba(255,255,255,0.75); font-size: 13px; white-space: nowrap; }
+  .name { font-weight: 600; color: var(--white); }
+  .sub { color: rgba(255,255,255,0.6); font-size: 13px; margin-top: 2px; }
   .vc-btn {
     display: inline-flex; align-items: center; gap: 6px; background: var(--green); color: #06210f;
     font-weight: 700; font-size: 12.5px; padding: 7px 12px; border-radius: 8px; text-decoration: none;
-    white-space: nowrap;
+    white-space: nowrap; border: 0; cursor: pointer; font-family: inherit;
   }
   .vc-btn:hover { filter: brightness(1.08); }
-  .source-link { display: block; margin-top: 6px; font-size: 11.5px; color: var(--muted); text-decoration: none; }
-  .source-link:hover { color: var(--gold-light); }
+  .vc-btn.secondary { background: transparent; color: var(--gold-light); border: 1px solid rgba(245,158,11,0.4); }
+  .file-meta { display: block; margin-top: 6px; font-size: 11.5px; color: var(--muted); }
+  .file-meta.old { color: #f59e0b; }
+  .small-link { display: block; margin-top: 6px; font-size: 12px; color: var(--muted); text-decoration: none; }
+  .small-link:hover { color: var(--gold-light); }
+  .court-panel .small-link, .court-panel .file-meta { display: inline; margin: 0; }
+  .judges-btn { background: none; border: 0; padding: 0; font-family: inherit; color: var(--green); font-weight: 600; font-size: 13px; cursor: pointer; }
+  .judges-btn:hover { text-decoration: underline; }
+  .judge-soon { color: var(--muted); font-size: 12.5px; }
 
   .empty-state { padding: 60px 20px; text-align: center; color: var(--muted); font-size: 15px; }
 
-  @media (max-width: 640px) {
+  @media (max-width: 760px) {
     .wrap { padding: 32px 16px 72px; }
-    .controls select { flex: 1 1 100%; }
+    .steps { grid-template-columns: 1fr; }
   }
 </style>
 </head>
@@ -93,40 +107,44 @@
 
   <a href="index.html#ecourts-tools" class="back-link">&larr; Back to FLRN</a>
 
-  <span class="section-label">Delhi District Courts</span>
-  <h1>Find a Judge&rsquo;s Video-Conferencing Link</h1>
-  <p class="lead">Search by judge name, court, or designation &mdash; you don&rsquo;t need to already know which of Delhi&rsquo;s 12 district complexes a judge sits in.</p>
+  <span class="section-label">District Courts of India</span>
+  <h1>Find a Court&rsquo;s Video-Conferencing Link</h1>
+  <p class="lead">Choose a state or UT, then the district or court. Where the court publishes a judge-wise list, you can pick the judge too &mdash; or just type a judge&rsquo;s name below.</p>
 
   <div class="disclaimer">
     <span class="icon">&#9888;&#65039;</span>
-    <p><strong>This is an unofficial, community-maintained mirror</strong>, compiled from the 12 Delhi District Courts&rsquo; own published PDFs and refreshed automatically on a weekly check for updates. Court VC links and bench assignments change &mdash; every row links to that court&rsquo;s <strong>official source page</strong> so you can verify or find a newer link directly. Always confirm your actual hearing link with the court or your advocate before relying on it, same as any other VC portal.</p>
+    <p><strong>This is an unofficial, community-maintained directory</strong> built only from official district court websites (<em>*.dcourts.gov.in</em>) and the VC-link files they publish &mdash; nothing is altered. Courts reissue VC links often and not every court publishes them online, so check the date shown, use &lsquo;Search this court&rsquo;s site&rsquo; for anything newer, and always confirm your actual hearing link with the court or your advocate.</p>
   </div>
 
-  <div class="controls">
-    <input type="text" id="search" placeholder="Search judge name, designation, or court&hellip;" autocomplete="off">
-    <select id="districtFilter">
-      <option value="">All districts</option>
-    </select>
+  <div class="steps">
+    <div class="step">
+      <label for="stateSel">1 &middot; State / UT</label>
+      <select id="stateSel"><option value="">All states &amp; UTs</option></select>
+      <span class="hint" id="stateHint"></span>
+    </div>
+    <div class="step">
+      <label for="courtSel">2 &middot; District / Court</label>
+      <select id="courtSel" disabled><option value="">Select a state first</option></select>
+      <span class="hint" id="courtHint"></span>
+    </div>
+    <div class="step">
+      <label for="judgeSel">3 &middot; Judge</label>
+      <select id="judgeSel" disabled><option value="">Select a court first</option></select>
+      <span class="hint" id="judgeHint"></span>
+    </div>
+  </div>
+
+  <div class="judge-search">
+    <input type="text" id="judgeSearch" placeholder="Or type a judge&rsquo;s name or designation&hellip;" autocomplete="off" aria-label="Search judges by name">
+    <button class="reset-btn" id="resetBtn" type="button">Reset</button>
   </div>
 
   <div class="meta-row">
     <span id="resultCount">Loading&hellip;</span>
-    <span id="lastUpdated"></span>
+    <span id="checkedOn"></span>
   </div>
 
-  <div class="table-wrap">
-    <table id="resultsTable">
-      <thead>
-        <tr>
-          <th>Judge</th>
-          <th>District / Complex</th>
-          <th>VC Link</th>
-        </tr>
-      </thead>
-      <tbody id="resultsBody"></tbody>
-    </table>
-    <div class="empty-state" id="emptyState" style="display:none;">No matches. Try a different name, court, or designation.</div>
-  </div>
+  <div id="results"></div>
 
 </div>
 
@@ -152,82 +170,250 @@
     if (field.length || row.length) { row.push(field); rows.push(row); }
     return rows.filter(r => r.length > 1 || r[0] !== '');
   }
-
-  function escapeHtml(s) {
+  function esc(s) {
     return (s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   }
-
-  const els = {
-    search: document.getElementById('search'),
-    districtFilter: document.getElementById('districtFilter'),
-    resultCount: document.getElementById('resultCount'),
-    lastUpdated: document.getElementById('lastUpdated'),
-    body: document.getElementById('resultsBody'),
-    empty: document.getElementById('emptyState'),
-  };
-
-  let data = [];
-
-  function render() {
-    const q = els.search.value.trim().toLowerCase();
-    const district = els.districtFilter.value;
-    const filtered = data.filter(r => {
-      if (district && r['District/Complex'] !== district) return false;
-      if (!q) return true;
-      return (r['Judge Name'] + ' ' + r['Designation'] + ' ' + r['District/Complex'])
-        .toLowerCase().includes(q);
-    });
-
-    els.resultCount.textContent = filtered.length + ' of ' + data.length + ' judges';
-    els.body.innerHTML = filtered.slice(0, 400).map(r => `
-      <tr>
-        <td>
-          <div class="judge-name">${escapeHtml(r['Judge Name'])}</div>
-          <div class="designation">${escapeHtml(r['Designation'])}</div>
-        </td>
-        <td>
-          <div class="district">${escapeHtml(r['District/Complex'])}</div>
-          <a class="source-link" href="${escapeHtml(r['Source Page (official)'])}" target="_blank" rel="noopener noreferrer">Verify at official source &rarr;</a>
-        </td>
-        <td>
-          <a class="vc-btn" href="${escapeHtml(r['VC Link'])}" target="_blank" rel="noopener noreferrer">Join / Copy Link &rarr;</a>
-        </td>
-      </tr>
-    `).join('');
-
-    els.empty.style.display = filtered.length ? 'none' : 'block';
+  function fmtDate(iso) {
+    if (!iso) return '';
+    const [y, m, d] = iso.split('-');
+    return `${+d} ${['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][+m - 1]} ${y}`;
   }
 
-  fetch('data/delhi-court-vc-links.csv')
-    .then(res => res.text())
-    .then(text => {
-      const rows = parseCSV(text);
-      const header = rows[0];
-      data = rows.slice(1).map(r => {
-        const obj = {};
-        header.forEach((h, i) => obj[h] = r[i] || '');
-        return obj;
-      }).filter(r => r['Judge Name'] && !r['Judge Name'].startsWith('('));
+  const $ = id => document.getElementById(id);
+  const els = {
+    state: $('stateSel'), court: $('courtSel'), judge: $('judgeSel'),
+    stateHint: $('stateHint'), courtHint: $('courtHint'), judgeHint: $('judgeHint'),
+    search: $('judgeSearch'), reset: $('resetBtn'),
+    count: $('resultCount'), checked: $('checkedOn'), results: $('results'),
+  };
 
-      const districts = [...new Set(data.map(r => r['District/Complex']))].sort();
-      els.districtFilter.innerHTML = '<option value="">All districts</option>' +
-        districts.map(d => `<option value="${escapeHtml(d)}">${escapeHtml(d)}</option>`).join('');
+  let courts = [];        // {id, court, state, site, vc_page, vc_file, vc_file_date, search, judges: []}
+  let judges = [];        // flattened judge rows with .courtId
+  let staleBefore = '';
 
-      const dates = data.map(r => r['PDF Last Updated']).filter(Boolean).sort();
-      if (dates.length) {
-        els.lastUpdated.textContent = 'Most recently confirmed: ' + dates[dates.length - 1];
+  // ---------- rendering helpers ----------
+  function vcActions(c) {
+    const parts = [];
+    if (c.vc_file) {
+      const old = c.vc_file_date < staleBefore;
+      parts.push(`<a class="vc-btn" href="${esc(c.vc_file)}" target="_blank" rel="noopener noreferrer">Latest VC links &rarr;</a>`);
+      parts.push(`<span class="file-meta${old ? ' old' : ''}">Published ${fmtDate(c.vc_file_date)}${old ? ' &mdash; may be outdated' : ''}</span>`);
+    } else if (c.vc_page) {
+      parts.push(`<a class="vc-btn secondary" href="${esc(c.vc_page)}" target="_blank" rel="noopener noreferrer">VC links page &rarr;</a>`);
+    } else {
+      parts.push(`<a class="vc-btn secondary" href="${esc(c.search)}" target="_blank" rel="noopener noreferrer">Search this court&rsquo;s site &rarr;</a>`);
+      parts.push(`<span class="file-meta">No VC-links file found on the site</span>`);
+    }
+    if (c.vc_file && c.vc_page) parts.push(`<a class="small-link" href="${esc(c.vc_page)}" target="_blank" rel="noopener noreferrer">All VC documents &rarr;</a>`);
+    if (c.vc_file || c.vc_page) parts.push(`<a class="small-link" href="${esc(c.search)}" target="_blank" rel="noopener noreferrer">Search this court&rsquo;s site &rarr;</a>`);
+    return parts.join('\n');
+  }
+
+  function judgeTable(rows, showCourt) {
+    if (!rows.length) return `<div class="table-wrap"><div class="empty-state">No matching judges.</div></div>`;
+    return `<div class="table-wrap"><table>
+      <thead><tr><th>Judge</th>${showCourt ? '<th>Court</th>' : ''}<th>VC Link</th></tr></thead>
+      <tbody>${rows.slice(0, 400).map(j => {
+        const c = courtById[j.courtId];
+        return `<tr>
+          <td><div class="name">${esc(j.name)}</div><div class="sub">${esc(j.designation)}</div></td>
+          ${showCourt ? `<td><div class="name" style="font-weight:500">${esc(c.court)}</div><div class="sub">${esc(c.state)}</div>
+            <a class="small-link" href="${esc(c.vc_page || c.site)}" target="_blank" rel="noopener noreferrer">Verify at official source &rarr;</a></td>` : ''}
+          <td><a class="vc-btn" href="${esc(j.link)}" target="_blank" rel="noopener noreferrer">Join / Copy Link &rarr;</a>
+            ${j.email ? `<span class="file-meta">${esc(j.email)}</span>` : ''}</td>
+        </tr>`; }).join('')}</tbody></table></div>`;
+  }
+
+  function courtTable(list) {
+    if (!list.length) return `<div class="table-wrap"><div class="empty-state">No courts found.</div></div>`;
+    return `<div class="table-wrap"><table>
+      <thead><tr><th>Court</th><th>VC Links (official)</th><th>Court Website</th><th>Judges</th></tr></thead>
+      <tbody>${list.map(c => `<tr>
+        <td><div class="name">${esc(c.court)}</div><div class="sub">${esc(c.state)}</div></td>
+        <td>${vcActions(c)}</td>
+        <td><a class="small-link" style="margin-top:0" href="${esc(c.site)}" target="_blank" rel="noopener noreferrer">${esc(c.site.replace('https://', '').replace(/\/$/, ''))} &rarr;</a></td>
+        <td>${c.judges.length
+          ? `<button class="judges-btn" data-court="${esc(c.id)}">${c.judges.length} judges &rarr;</button>`
+          : '<span class="judge-soon">Not published</span>'}</td>
+      </tr>`).join('')}</tbody></table></div>`;
+  }
+
+  // ---------- state ----------
+  let courtById = {};
+
+  function fillCourts() {
+    const st = els.state.value;
+    if (!st) {
+      els.court.innerHTML = '<option value="">Select a state first</option>';
+      els.court.disabled = true;
+      els.courtHint.textContent = '';
+      return;
+    }
+    const list = courts.filter(c => c.state === st);
+    els.court.innerHTML = `<option value="">All ${list.length} courts in ${esc(st)}</option>` +
+      list.map(c => `<option value="${esc(c.id)}">${esc(c.court)}</option>`).join('');
+    els.court.disabled = false;
+    const withJudges = list.filter(c => c.judges.length).length;
+    els.courtHint.textContent = withJudges ? `${withJudges} with judge-wise lists` : '';
+  }
+
+  function fillJudges() {
+    const c = courtById[els.court.value];
+    if (!c) {
+      els.judge.innerHTML = '<option value="">Select a court first</option>';
+      els.judge.disabled = true;
+      els.judgeHint.textContent = '';
+      return;
+    }
+    if (!c.judges.length) {
+      els.judge.innerHTML = '<option value="">No judge-wise list published</option>';
+      els.judge.disabled = true;
+      els.judgeHint.textContent = 'Use the court’s VC file below';
+      return;
+    }
+    const sorted = [...c.judges].sort((a, b) => a.sortName.localeCompare(b.sortName));
+    els.judge.innerHTML = `<option value="">All ${sorted.length} judges</option>` +
+      sorted.map(j => `<option value="${esc(j.key)}">${esc(j.name)} — ${esc(j.designation)}</option>`).join('');
+    els.judge.disabled = false;
+    els.judgeHint.textContent = '';
+  }
+
+  function syncUrl() {
+    const p = new URLSearchParams();
+    if (els.state.value) p.set('state', els.state.value);
+    if (els.court.value) p.set('court', els.court.value);
+    if (els.judge.value) p.set('judge', els.judge.value);
+    if (els.search.value.trim()) p.set('q', els.search.value.trim());
+    const qs = p.toString();
+    history.replaceState(null, '', qs ? '?' + qs : location.pathname);
+  }
+
+  function render() {
+    syncUrl();
+    const st = els.state.value, c = courtById[els.court.value], jk = els.judge.value;
+    const q = els.search.value.trim().toLowerCase();
+
+    // Free-text judge search wins: search judges within the current state / court scope.
+    if (q) {
+      const pool = judges.filter(j => (!st || courtById[j.courtId].state === st) && (!c || j.courtId === c.id));
+      const hits = pool.filter(j => (j.name + ' ' + j.designation + ' ' + courtById[j.courtId].court).toLowerCase().includes(q));
+      els.count.textContent = `${hits.length} judge${hits.length === 1 ? '' : 's'} match “${els.search.value.trim()}”` +
+        (pool.length ? '' : ' — judge-wise lists are not available for this selection yet');
+      els.results.innerHTML = judgeTable(hits, !c);
+      return;
+    }
+
+    if (c) {
+      const shown = jk ? c.judges.filter(j => j.key === jk) : c.judges;
+      els.count.textContent = c.judges.length ? `${shown.length} of ${c.judges.length} judges` : '1 court';
+      els.results.innerHTML = `
+        <div class="court-panel">
+          <h2>${esc(c.court)}</h2>
+          <div class="state">${esc(c.state)} &middot; <a class="small-link" href="${esc(c.site)}" target="_blank" rel="noopener noreferrer">${esc(c.site.replace('https://', '').replace(/\/$/, ''))} &rarr;</a></div>
+          <div class="actions">${vcActions(c)}</div>
+        </div>
+        ${c.judges.length ? judgeTable(shown, false) : ''}`;
+      return;
+    }
+
+    const list = st ? courts.filter(x => x.state === st) : courts;
+    els.count.textContent = `${list.length} court${list.length === 1 ? '' : 's'}` + (st ? ` in ${st}` : ` across ${new Set(courts.map(x => x.state)).size} states & UTs`);
+    els.results.innerHTML = courtTable(list);
+  }
+
+  // ---------- events ----------
+  els.state.addEventListener('change', () => { fillCourts(); fillJudges(); render(); });
+  els.court.addEventListener('change', () => { fillJudges(); render(); });
+  els.judge.addEventListener('change', render);
+  els.search.addEventListener('input', render);
+  els.reset.addEventListener('click', () => {
+    els.state.value = ''; els.search.value = '';
+    fillCourts(); fillJudges(); render();
+  });
+  els.results.addEventListener('click', e => {
+    const b = e.target.closest('.judges-btn');
+    if (!b) return;
+    const c = courtById[b.dataset.court];
+    els.state.value = c.state; fillCourts();
+    els.court.value = c.id; fillJudges();
+    els.search.value = '';
+    render();
+    els.results.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+
+  // ---------- load ----------
+  Promise.all([
+    fetch('data/india-district-courts.json').then(r => r.json()),
+    fetch('data/delhi-court-vc-links.csv').then(r => r.text()),
+    fetch('data/vc-links-manifest.json').then(r => r.json()),
+  ]).then(([india, delhiCsv, delhiManifest]) => {
+    const checked = new Date(india.checked);
+    checked.setFullYear(checked.getFullYear() - 1);
+    staleBefore = checked.toISOString().slice(0, 10);
+
+    // Delhi: one entry per court complex, with the judge-wise rows from the courts' own PDFs.
+    const rows = parseCSV(delhiCsv);
+    const header = rows[0];
+    const delhiRows = rows.slice(1).map(r => Object.fromEntries(header.map((h, i) => [h, r[i] || ''])))
+      .filter(r => r['Judge Name'] && !r['Judge Name'].startsWith('('));
+    const complexes = {};
+    delhiRows.forEach(r => {
+      const d = r['District/Complex'];
+      if (!complexes[d]) {
+        const src = r['Source Page (official)'];
+        const m = delhiManifest[d] || {};
+        complexes[d] = {
+          id: 'dl-' + d.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
+          court: d.includes(' - ') ? `${d.split(' - ')[1]} (${d.split(' - ')[0]} District)` : `${d} District`,
+          state: 'Delhi',
+          site: new URL(src).origin + '/',
+          vc_page: src,
+          vc_file: m.pdf_url || null,
+          vc_file_date: m.pdf_date || null,
+          search: new URL(src).origin + '/?s=video+conferencing',
+          judges: [],
+        };
       }
-
-      render();
-    })
-    .catch(() => {
-      els.resultCount.textContent = 'Could not load the directory right now.';
-      els.empty.textContent = 'Could not load data/delhi-court-vc-links.csv.';
-      els.empty.style.display = 'block';
+      complexes[d].judges.push({
+        key: (r['Email'] || r['Judge Name']).toLowerCase(),
+        name: r['Judge Name'],
+        sortName: r['Judge Name'].replace(/^(sh|shri|ms|mr|dr|smt|mrs)\.?\s+/i, '').toLowerCase(),
+        designation: r['Designation'],
+        email: r['Email'],
+        link: r['VC Link'],
+        courtId: complexes[d].id,
+      });
     });
 
-  els.search.addEventListener('input', render);
-  els.districtFilter.addEventListener('change', render);
+    const others = india.courts.filter(c => c.state !== 'Delhi').map(c => ({
+      ...c,
+      id: c.site.replace('https://', '').split('.')[0],
+      judges: [],
+    }));
+    courts = [...others, ...Object.values(complexes)]
+      .sort((a, b) => a.state.localeCompare(b.state) || a.court.localeCompare(b.court));
+    courtById = Object.fromEntries(courts.map(c => [c.id, c]));
+    judges = courts.flatMap(c => c.judges);
+
+    const states = [...new Set(courts.map(c => c.state))].sort();
+    els.state.innerHTML = '<option value="">All states &amp; UTs</option>' +
+      states.map(s => `<option value="${esc(s)}">${esc(s)}</option>`).join('');
+    els.stateHint.textContent = `${courts.length} courts · ${judges.length} judges with direct links`;
+    els.checked.textContent = 'Directory last checked: ' + fmtDate(india.checked);
+
+    // Restore a shared/bookmarked selection from the URL.
+    const p = new URLSearchParams(location.search);
+    if (p.get('state') && states.includes(p.get('state'))) { els.state.value = p.get('state'); }
+    fillCourts();
+    if (p.get('court') && courtById[p.get('court')] && courtById[p.get('court')].state === els.state.value) { els.court.value = p.get('court'); }
+    fillJudges();
+    if (p.get('judge') && !els.judge.disabled) { els.judge.value = p.get('judge'); }
+    if (p.get('q')) els.search.value = p.get('q');
+    render();
+  }).catch(() => {
+    els.count.textContent = 'Could not load the directory right now.';
+    els.results.innerHTML = '<div class="table-wrap"><div class="empty-state">Could not load the court data files.</div></div>';
+  });
 })();
 </script>
 </body>

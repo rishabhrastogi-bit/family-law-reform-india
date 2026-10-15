@@ -1,0 +1,5436 @@
+{
+ "checked": "2026-10-15",
+ "source": "Official district court websites (*.dcourts.gov.in), discovered via certificate-transparency logs and each site's own Documents page and search",
+ "courts": [
+  {
+   "court": "District and Sessions Court, Andaman and Nicobar Islands",
+   "state": "Andaman and Nicobar",
+   "site": "https://southandaman.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://southandaman.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Ananthapuramu District Court",
+   "state": "Andhra Pradesh",
+   "site": "https://anantapur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://anantapur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Chittoor District Court",
+   "state": "Andhra Pradesh",
+   "site": "https://chittoor.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://chittoor.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "East Godavari District Court",
+   "state": "Andhra Pradesh",
+   "site": "https://eastgodavari.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://eastgodavari.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Guntur District Court",
+   "state": "Andhra Pradesh",
+   "site": "https://guntur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://guntur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Kadapa District Court",
+   "state": "Andhra Pradesh",
+   "site": "https://kadapa.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kadapa.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Krishna District Court",
+   "state": "Andhra Pradesh",
+   "site": "https://krishna.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://krishna.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Kurnool District Court",
+   "state": "Andhra Pradesh",
+   "site": "https://kurnool.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kurnool.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Prakasam District Court",
+   "state": "Andhra Pradesh",
+   "site": "https://prakasam.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0151be2fed6c55f5aa0c16ff14c140/uploads/2022/03/2022030352.pdf",
+   "vc_file_date": "2022-03-03",
+   "vc_file_title": "BlueJeans Video Conferencing Application Meeting ID & Passcode details of Courts in the Unit of Prakasam, for web hearing of cases",
+   "search": "https://prakasam.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "SPSR Nellore District Court",
+   "state": "Andhra Pradesh",
+   "site": "https://spsrnellore.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://spsrnellore.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Srikakulam District Court",
+   "state": "Andhra Pradesh",
+   "site": "https://srikakulam.dcourts.gov.in/",
+   "vc_page": "https://srikakulam.dcourts.gov.in/document-category/vc-meeting-links/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec030987b8b338d6c90bbedd8631bc49/uploads/2024/07/2024070568.pdf",
+   "vc_file_date": "2024-07-05",
+   "vc_file_title": "Video Conferencing Links of Court Establishments relating to SrikakulamDistrict – Regarding",
+   "search": "https://srikakulam.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Visakhapatnam District Court",
+   "state": "Andhra Pradesh",
+   "site": "https://visakhapatnam.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec01a081cab429ff7a3b96e0a07319f1/uploads/2023/03/2023032823.pdf",
+   "vc_file_date": "2023-03-28",
+   "vc_file_title": "BlueJeans Video Conferencing Application Meeting ID & Passcode details of Courts in the Unit of Visakhapatnam, for web hearing of cases",
+   "search": "https://visakhapatnam.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Vizianagaram District Court",
+   "state": "Andhra Pradesh",
+   "site": "https://vizianagaram.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://vizianagaram.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "West Godavari District Court",
+   "state": "Andhra Pradesh",
+   "site": "https://westgodavari.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://westgodavari.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Judiciary, West Siang",
+   "state": "Arunachal Pradesh",
+   "site": "https://aalo.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://aalo.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Judicial Magistrate First Class-cum-Civil Court, Dibang Valley District",
+   "state": "Arunachal Pradesh",
+   "site": "https://anini.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://anini.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Judiciary, LepaRada",
+   "state": "Arunachal Pradesh",
+   "site": "https://basar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://basar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Judiciary, West Kameng",
+   "state": "Arunachal Pradesh",
+   "site": "https://bomdila.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://bomdila.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Changlang",
+   "state": "Arunachal Pradesh",
+   "site": "https://changlang.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://changlang.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Judicial Magistrate First Class-cum-Civil Court, Anjaw District",
+   "state": "Arunachal Pradesh",
+   "site": "https://hawai.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://hawai.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Judiciary, Tirap",
+   "state": "Arunachal Pradesh",
+   "site": "https://khonsa.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://khonsa.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "The Court of Chief Judicial Magistrate-cum-Civil Judge (Senior Division), Kurung Kumey District",
+   "state": "Arunachal Pradesh",
+   "site": "https://koloriang.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://koloriang.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Judicial Magistrate First Class cum Civil Judge Court, Longding District",
+   "state": "Arunachal Pradesh",
+   "site": "https://longding.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://longding.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Judicial Magistrate First Class-cum-Civil Court, Namsai District",
+   "state": "Arunachal Pradesh",
+   "site": "https://namsai.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://namsai.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Judicial Magistrate First Class, Kra Daadi District",
+   "state": "Arunachal Pradesh",
+   "site": "https://palin.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://palin.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court, Pasighat",
+   "state": "Arunachal Pradesh",
+   "site": "https://pasighat.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://pasighat.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Chief Judicial Magistrate-cum-Civil Court, Lower Dibang Valley District",
+   "state": "Arunachal Pradesh",
+   "site": "https://roing.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://roing.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "East Kameng District Judiciary",
+   "state": "Arunachal Pradesh",
+   "site": "https://seppa.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://seppa.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Chief Judicial Magistrate-cum-Civil Judge (Senior Division), Tawang District",
+   "state": "Arunachal Pradesh",
+   "site": "https://tawang.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://tawang.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Judiciary, Lohit District",
+   "state": "Arunachal Pradesh",
+   "site": "https://tezu.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://tezu.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "JMFC cum Civil Judge (Jr. Div.) Yingkiong",
+   "state": "Arunachal Pradesh",
+   "site": "https://yingkiong.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://yingkiong.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court, Yupia, Papum Pare District",
+   "state": "Arunachal Pradesh",
+   "site": "https://yupia.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://yupia.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court,Ziro",
+   "state": "Arunachal Pradesh",
+   "site": "https://ziro.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://ziro.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Bajali District Judiciary",
+   "state": "Assam",
+   "site": "https://bajali.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://bajali.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Baksa District Judiciary",
+   "state": "Assam",
+   "site": "https://baksa.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://baksa.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Goalpara District Judiciary",
+   "state": "Assam",
+   "site": "https://goalpara.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://goalpara.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Golaghat District Judiciary",
+   "state": "Assam",
+   "site": "https://golaghat.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://golaghat.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Kamrup Metro District Judiciary",
+   "state": "Assam",
+   "site": "https://kamrupmetro.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kamrupmetro.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Sribhumi District Judiciary",
+   "state": "Assam",
+   "site": "https://karimganj.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://karimganj.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Kokrajhar District Judiciary",
+   "state": "Assam",
+   "site": "https://kokrajhar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kokrajhar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Nagaon District Judiciary",
+   "state": "Assam",
+   "site": "https://nagaon.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://nagaon.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Nalbari District Judiciary",
+   "state": "Assam",
+   "site": "https://nalbari.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://nalbari.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Tinsukia District Judiciary",
+   "state": "Assam",
+   "site": "https://tinsukia.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://tinsukia.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Araria",
+   "state": "Bihar",
+   "site": "https://araria.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://araria.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Begusarai",
+   "state": "Bihar",
+   "site": "https://begusarai.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://begusarai.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "West Champaran",
+   "state": "Bihar",
+   "site": "https://bettiah.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02b22b257ad0519d4500539da3c8bc/uploads/2026/03/2026030227.pdf",
+   "vc_file_date": "2026-03-02",
+   "vc_file_title": "VC Link for Virtual Hearing",
+   "search": "https://bettiah.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Civil Court, Kaimur(Bhabhua)",
+   "state": "Bihar",
+   "site": "https://bhabua.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://bhabua.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Bhagalpur",
+   "state": "Bihar",
+   "site": "https://bhagalpur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://bhagalpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Bhojpur",
+   "state": "Bihar",
+   "site": "https://bhojpur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://bhojpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Buxar",
+   "state": "Bihar",
+   "site": "https://buxar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://buxar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Darbhanga",
+   "state": "Bihar",
+   "site": "https://darbhanga.dcourts.gov.in/",
+   "vc_page": "https://darbhanga.dcourts.gov.in/document-category/virtual-courts-link/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec045abdf8b8520b71f3a528c7547ee9/uploads/2025/07/2025071946.pdf",
+   "vc_file_date": "2025-07-19",
+   "vc_file_title": null,
+   "search": "https://darbhanga.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Jamui",
+   "state": "Bihar",
+   "site": "https://jamui.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec04de7f47e09c8e05e6021ababdf6bc/uploads/2026/02/2026022659.pdf",
+   "vc_file_date": "2026-02-26",
+   "vc_file_title": "VC Link for Virtual Court Facility",
+   "search": "https://jamui.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Khagaria District Court",
+   "state": "Bihar",
+   "site": "https://khagaria.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://khagaria.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Madhepura",
+   "state": "Bihar",
+   "site": "https://madhepura.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec022227d753dc18505031869d446737/uploads/2023/12/2023122291.pdf",
+   "vc_file_date": "2023-12-22",
+   "vc_file_title": "Email IDs of Court and VC Links of Courts",
+   "search": "https://madhepura.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Motihari",
+   "state": "Bihar",
+   "site": "https://motihari.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://motihari.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Muzaffarpur (Sesquicentennial Year)",
+   "state": "Bihar",
+   "site": "https://muzaffarpur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://muzaffarpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Nalanda",
+   "state": "Bihar",
+   "site": "https://nalanda.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://nalanda.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court,Nawada",
+   "state": "Bihar",
+   "site": "https://nawada.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://nawada.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Purnea District Court",
+   "state": "Bihar",
+   "site": "https://purnea.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://purnea.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Civil Court Rohtas (Sasaram)",
+   "state": "Bihar",
+   "site": "https://rohtas.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://rohtas.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Saharsa",
+   "state": "Bihar",
+   "site": "https://saharsa.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://saharsa.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Samastipur",
+   "state": "Bihar",
+   "site": "https://samastipur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://samastipur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Sheikhpura",
+   "state": "Bihar",
+   "site": "https://sheikhpura.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec045421e013565f7f1afa0cfe8ad87a/uploads/2026/04/2026041096.pdf",
+   "vc_file_date": "2026-04-10",
+   "vc_file_title": "VC Link for Virtual Court Facility",
+   "search": "https://sheikhpura.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Sheohar District Court",
+   "state": "Bihar",
+   "site": "https://sheohar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0407211688a0869d995947a8fb11b2/uploads/2026/08/2026081282.pdf",
+   "vc_file_date": "2026-08-12",
+   "vc_file_title": "Court wise VC meeting link",
+   "search": "https://sheohar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Sitamarhi",
+   "state": "Bihar",
+   "site": "https://sitamarhi.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://sitamarhi.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Vaishali",
+   "state": "Bihar",
+   "site": "https://vaishali.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://vaishali.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Chandigarh",
+   "state": "Chandigarh",
+   "site": "https://chandigarh.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://chandigarh.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Principal District and Sessions Court, Balod",
+   "state": "Chhattisgarh",
+   "site": "https://balod.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://balod.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court Balodabazar",
+   "state": "Chhattisgarh",
+   "site": "https://balodabazar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03664dd858db942cad06f24ff25df5/uploads/2025/07/2025071764.pdf",
+   "vc_file_date": "2025-07-17",
+   "vc_file_title": "Video Conferencing Link",
+   "search": "https://balodabazar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Principal District and Sessions Court, Balrampur-Ramanujganj",
+   "state": "Chhattisgarh",
+   "site": "https://balrampur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://balrampur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court Bastar",
+   "state": "Chhattisgarh",
+   "site": "https://bastar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec01d3157f2f0212a80a5d042c127522/uploads/2026/07/2026072564.pdf",
+   "vc_file_date": "2026-07-25",
+   "vc_file_title": "VC links",
+   "search": "https://bastar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court Bemetara",
+   "state": "Chhattisgarh",
+   "site": "https://bemetara.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec030084ae4bc24c0795d1e6a4f58444/uploads/2026/09/2026090760.pdf",
+   "vc_file_date": "2026-09-07",
+   "vc_file_title": "Video Conferencing Link For Courts",
+   "search": "https://bemetara.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Principal District & Sessions Court Bilaspur",
+   "state": "Chhattisgarh",
+   "site": "https://bilaspur.dcourts.gov.in/",
+   "vc_page": "https://bilaspur.dcourts.gov.in/document-category/video-conferencing-link/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec011706f191d760c78dfcec5012e43b/uploads/2024/12/2024121237.pdf",
+   "vc_file_date": "2024-12-12",
+   "vc_file_title": null,
+   "search": "https://bilaspur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Principal District and Sessions Court, South Bastar Dantewada",
+   "state": "Chhattisgarh",
+   "site": "https://dantewada.dcourts.gov.in/",
+   "vc_page": "https://dantewada.dcourts.gov.in/document-category/video-conferencing-link/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0339cd7b469beae7c617c73e0d0081/uploads/2026/09/2026090717.pdf",
+   "vc_file_date": "2026-09-07",
+   "vc_file_title": null,
+   "search": "https://dantewada.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court Dhamtari",
+   "state": "Chhattisgarh",
+   "site": "https://dhamtari.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03285da2198b2b496c9d447cc4ac6b/uploads/2025/07/2025070286.pdf",
+   "vc_file_date": "2025-07-02",
+   "vc_file_title": "Video Conferencing link for Courts",
+   "search": "https://dhamtari.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Principal District and Sessions Court, Durg",
+   "state": "Chhattisgarh",
+   "site": "https://durg.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://durg.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Session's Court Janjgir-Champa",
+   "state": "Chhattisgarh",
+   "site": "https://janjgir.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03b445e314138101eecc58503e98aa/uploads/2026/10/2026100920.pdf",
+   "vc_file_date": "2026-10-09",
+   "vc_file_title": "New VC Link date 09-10-2026",
+   "search": "https://janjgir.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Principal District and Sessions Court, Jashpur",
+   "state": "Chhattisgarh",
+   "site": "https://jashpur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec039b9b05072dd20d1cc3e54607b84c/uploads/2025/09/2025091983.pdf",
+   "vc_file_date": "2025-09-19",
+   "vc_file_title": "vc link",
+   "search": "https://jashpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "PRINCIPAL DISTRICT AND SESSION COURT KABIRDHAM (KAWARDHA)",
+   "state": "Chhattisgarh",
+   "site": "https://kabirdham.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kabirdham.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Principal District And Sessions Court,Kanker",
+   "state": "Chhattisgarh",
+   "site": "https://kanker.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0314e422f05b68cc0139988e128ee8/uploads/2026/08/2026083186.pdf",
+   "vc_file_date": "2026-08-31",
+   "vc_file_title": "Video Conferencing Links for Courts",
+   "search": "https://kanker.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Principal District and Sessions Court Kondagaon",
+   "state": "Chhattisgarh",
+   "site": "https://kondagaon.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kondagaon.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court Korba",
+   "state": "Chhattisgarh",
+   "site": "https://korba.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://korba.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Principal District and Sessions Court, Korea",
+   "state": "Chhattisgarh",
+   "site": "https://korea.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://korea.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court Mahasamund",
+   "state": "Chhattisgarh",
+   "site": "https://mahasamund.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03900c563bfd2c48c16701acca83ad/uploads/2026/04/2026041729.pdf",
+   "vc_file_date": "2026-04-17",
+   "vc_file_title": "Videoconferencing Link",
+   "search": "https://mahasamund.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Principal District and Sessions Court, Mungeli",
+   "state": "Chhattisgarh",
+   "site": "https://mungeli.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://mungeli.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court Raigarh",
+   "state": "Chhattisgarh",
+   "site": "https://raigarh.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03dda99de58ff020cfb57fec1404c9/uploads/2026/10/2026101320.pdf",
+   "vc_file_date": "2026-10-13",
+   "vc_file_title": "Video Conferencing Link 2026",
+   "search": "https://raigarh.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Principal District and Sessions Court Raipur",
+   "state": "Chhattisgarh",
+   "site": "https://raipur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://raipur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Principal District and Sessions Court, Rajnandgaon",
+   "state": "Chhattisgarh",
+   "site": "https://rajnandgaon.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://rajnandgaon.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court Surajpur(Chhattisgarh)",
+   "state": "Chhattisgarh",
+   "site": "https://surajpur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://surajpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court Surguja",
+   "state": "Chhattisgarh",
+   "site": "https://surguja.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec01f44ee263952e65b3610b8ba51229/uploads/2026/06/2026062643.pdf",
+   "vc_file_date": "2026-06-26",
+   "vc_file_title": "VC Link June 2026",
+   "search": "https://surguja.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Daman",
+   "state": "Dadra and Nagar Haveli and Daman and Diu",
+   "site": "https://daman.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://daman.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court Diu",
+   "state": "Dadra and Nagar Haveli and Daman and Diu",
+   "site": "https://diu.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://diu.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court, Dadra and Nagar Haveli at Silvassa",
+   "state": "Dadra and Nagar Haveli and Daman and Diu",
+   "site": "https://silvassa.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://silvassa.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Central District Court, Delhi",
+   "state": "Delhi",
+   "site": "https://centraldelhi.dcourts.gov.in/",
+   "vc_page": "https://centraldelhi.dcourts.gov.in/document-category/central-district-vc-links/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec014110a1994471c595f7583ef1b74b/uploads/2026/10/2026101351.pdf",
+   "vc_file_date": "2026-10-13",
+   "vc_file_title": null,
+   "search": "https://centraldelhi.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "East District Court, Delhi",
+   "state": "Delhi",
+   "site": "https://eastdelhi.dcourts.gov.in/",
+   "vc_page": "https://eastdelhi.dcourts.gov.in/document-category/vc-links/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec020afa92fc0f8a9cf051bf2961b06a/uploads/2026/09/2026091970.pdf",
+   "vc_file_date": "2026-09-19",
+   "vc_file_title": null,
+   "search": "https://eastdelhi.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "New Delhi District Court, Delhi",
+   "state": "Delhi",
+   "site": "https://newdelhi.dcourts.gov.in/",
+   "vc_page": "https://newdelhi.dcourts.gov.in/document-category/vc-links/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0238ed162a0dbef7b3fe0f628aa08b/uploads/2026/09/2026092293.pdf",
+   "vc_file_date": "2026-09-22",
+   "vc_file_title": null,
+   "search": "https://newdelhi.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court North Delhi",
+   "state": "Delhi",
+   "site": "https://northdelhi.dcourts.gov.in/",
+   "vc_page": "https://northdelhi.dcourts.gov.in/document-category/vc-links/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0232b3ee0272954b956a7d1f86f76a/uploads/2026/10/2026101267.pdf",
+   "vc_file_date": "2026-10-12",
+   "vc_file_title": null,
+   "search": "https://northdelhi.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "North East District Court, Delhi",
+   "state": "Delhi",
+   "site": "https://northeast.dcourts.gov.in/",
+   "vc_page": "https://northeast.dcourts.gov.in/document-category/vc-links/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec021160453108d3e537255e9f7b931f/uploads/2026/10/2026100612.pdf",
+   "vc_file_date": "2026-10-06",
+   "vc_file_title": null,
+   "search": "https://northeast.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court North West Delhi",
+   "state": "Delhi",
+   "site": "https://rohini.dcourts.gov.in/",
+   "vc_page": "https://rohini.dcourts.gov.in/document-category/vc-links/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0277ee3bc58ce560b86c2b59363281/uploads/2026/10/2026101290.pdf",
+   "vc_file_date": "2026-10-12",
+   "vc_file_title": null,
+   "search": "https://rohini.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Shahdara District Court, Delhi",
+   "state": "Delhi",
+   "site": "https://shahdara.dcourts.gov.in/",
+   "vc_page": "https://shahdara.dcourts.gov.in/document-category/vc-links/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02a41b3bb3e6b050b6c9067c67f663/uploads/2026/10/2026100676.pdf",
+   "vc_file_date": "2026-10-06",
+   "vc_file_title": null,
+   "search": "https://shahdara.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "South District Court, New Delhi",
+   "state": "Delhi",
+   "site": "https://southdelhi.dcourts.gov.in/",
+   "vc_page": "https://southdelhi.dcourts.gov.in/document-category/vc-links/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02bd85282513da4089c441926e1975/uploads/2026/09/2026092116.pdf",
+   "vc_file_date": "2026-09-21",
+   "vc_file_title": null,
+   "search": "https://southdelhi.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "South-East District Court, New Delhi",
+   "state": "Delhi",
+   "site": "https://southeastdelhi.dcourts.gov.in/",
+   "vc_page": "https://southeastdelhi.dcourts.gov.in/document-category/vc-links/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0292a08bf918f44ccd961477be3002/uploads/2026/10/2026100998.pdf",
+   "vc_file_date": "2026-10-09",
+   "vc_file_title": null,
+   "search": "https://southeastdelhi.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Dwarka Court South West Delhi",
+   "state": "Delhi",
+   "site": "https://southwestdelhi.dcourts.gov.in/",
+   "vc_page": "https://southwestdelhi.dcourts.gov.in/document-category/vc-links/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0298c39996bf1543e974747a2549b3/uploads/2026/10/2026100878.pdf",
+   "vc_file_date": "2026-10-08",
+   "vc_file_title": null,
+   "search": "https://southwestdelhi.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "West District Court, Delhi",
+   "state": "Delhi",
+   "site": "https://westdelhi.dcourts.gov.in/",
+   "vc_page": "https://westdelhi.dcourts.gov.in/document-category/vc-links/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec01a2186aa7c086b46ad4e8bf81e2a3/uploads/2026/10/2026101348.pdf",
+   "vc_file_date": "2026-10-13",
+   "vc_file_title": null,
+   "search": "https://westdelhi.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court, North Goa",
+   "state": "Goa",
+   "site": "https://dcngoa.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://dcngoa.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court South Goa",
+   "state": "Goa",
+   "site": "https://dcsgoa.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0207c4b1fdd1ef8da2d7e939307120/uploads/2026/08/2026081019.pdf",
+   "vc_file_date": "2026-08-10",
+   "vc_file_title": "VC Links for South Goa Courts",
+   "search": "https://dcsgoa.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "City Civil & Sessions Court Ahmedabad - Gujarat",
+   "state": "Gujarat",
+   "site": "https://ahmedabad-ccc.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://ahmedabad-ccc.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Chief Judicial Magistrate Court Ahmedabad - Gujarat",
+   "state": "Gujarat",
+   "site": "https://ahmedabad-mmc.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://ahmedabad-mmc.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Ahmedabad Rural - Gujarat",
+   "state": "Gujarat",
+   "site": "https://ahmedabad-rural.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://ahmedabad-rural.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Amreli - Gujarat",
+   "state": "Gujarat",
+   "site": "https://amreli.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://amreli.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Anand - Gujarat",
+   "state": "Gujarat",
+   "site": "https://anand.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://anand.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Aravalli - Gujarat",
+   "state": "Gujarat",
+   "site": "https://aravalli.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://aravalli.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Banaskantha - Gujarat",
+   "state": "Gujarat",
+   "site": "https://banaskantha.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://banaskantha.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Bharuch - Gujarat",
+   "state": "Gujarat",
+   "site": "https://bharuch.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://bharuch.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Bhavnagar - Gujarat",
+   "state": "Gujarat",
+   "site": "https://bhavnagar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://bhavnagar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Botad-Gujarat",
+   "state": "Gujarat",
+   "site": "https://botad.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://botad.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Chhotaudepur - Gujarat",
+   "state": "Gujarat",
+   "site": "https://chhotaudepur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://chhotaudepur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Dahod - Gujarat",
+   "state": "Gujarat",
+   "site": "https://dahod.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://dahod.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Devbhumi Dwarka - Gujarat",
+   "state": "Gujarat",
+   "site": "https://devbhumidwarka.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://devbhumidwarka.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Gandhinagar - Gujarat",
+   "state": "Gujarat",
+   "site": "https://gandhinagar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://gandhinagar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Gir Somnath - Gujarat",
+   "state": "Gujarat",
+   "site": "https://girsomnath.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://girsomnath.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Industrial and Labour Courts Ahmedabad - Gujarat",
+   "state": "Gujarat",
+   "site": "https://indcourtguj.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://indcourtguj.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Jamnagar - Gujarat",
+   "state": "Gujarat",
+   "site": "https://jamnagar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://jamnagar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Junagadh - Gujarat",
+   "state": "Gujarat",
+   "site": "https://junagadh.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://junagadh.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Bhuj Kachchh - Gujarat",
+   "state": "Gujarat",
+   "site": "https://kachchh.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kachchh.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Kheda - Gujarat",
+   "state": "Gujarat",
+   "site": "https://kheda.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kheda.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Mahesana - Gujarat",
+   "state": "Gujarat",
+   "site": "https://mahesana.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://mahesana.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Mahisagar At Lunawada-Gujarat",
+   "state": "Gujarat",
+   "site": "https://mahisagar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://mahisagar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Morbi - Gujarat",
+   "state": "Gujarat",
+   "site": "https://morbi.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://morbi.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Narmada-Gujarat",
+   "state": "Gujarat",
+   "site": "https://narmada.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://narmada.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Navsari - Gujarat",
+   "state": "Gujarat",
+   "site": "https://navsari.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://navsari.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Panchmahals Godhra - Gujarat",
+   "state": "Gujarat",
+   "site": "https://panchmahals.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://panchmahals.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Patan - Gujarat",
+   "state": "Gujarat",
+   "site": "https://patan.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://patan.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Porbandar -Gujarat",
+   "state": "Gujarat",
+   "site": "https://porbandar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://porbandar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Rajkot - Gujarat",
+   "state": "Gujarat",
+   "site": "https://rajkot.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://rajkot.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Sabarkantha - Gujarat",
+   "state": "Gujarat",
+   "site": "https://sabarkantha.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://sabarkantha.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Surat - Gujarat",
+   "state": "Gujarat",
+   "site": "https://surat.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://surat.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Surendranagar - Gujarat",
+   "state": "Gujarat",
+   "site": "https://surendranagar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://surendranagar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Tapi - Gujarat",
+   "state": "Gujarat",
+   "site": "https://tapi.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://tapi.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Vadodara - Gujarat",
+   "state": "Gujarat",
+   "site": "https://vadodara.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://vadodara.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Valsad - GUJARAT",
+   "state": "Gujarat",
+   "site": "https://valsad.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://valsad.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Ambala",
+   "state": "Haryana",
+   "site": "https://ambala.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://ambala.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Bhiwani",
+   "state": "Haryana",
+   "site": "https://bhiwani.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec021e3b21cb226c39b6aa4634f820b3/uploads/2026/06/2026061056.pdf",
+   "vc_file_date": "2026-06-10",
+   "vc_file_title": "Links for Video Conferencing in Courts",
+   "search": "https://bhiwani.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Faridabad",
+   "state": "Haryana",
+   "site": "https://faridabad.dcourts.gov.in/",
+   "vc_page": "https://faridabad.dcourts.gov.in/document-category/video-conferencing/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec018004d637b6236202217be3dfcdd8/uploads/2026/09/2026092486.pdf",
+   "vc_file_date": "2026-09-24",
+   "vc_file_title": null,
+   "search": "https://faridabad.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Fatehabad",
+   "state": "Haryana",
+   "site": "https://fatehabad.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03bfbb56bee68d99affaa64f189045/uploads/2026/08/2026080570.pdf",
+   "vc_file_date": "2026-08-05",
+   "vc_file_title": "Links for Video Conferencing in Courts",
+   "search": "https://fatehabad.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Gurugram",
+   "state": "Haryana",
+   "site": "https://gurugram.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02326fb04c3abf030fe3f4e341f39b/uploads/2026/08/2026083170.pdf",
+   "vc_file_date": "2026-08-31",
+   "vc_file_title": "Links for Video Conferencing in Courts",
+   "search": "https://gurugram.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Hisar",
+   "state": "Haryana",
+   "site": "https://hisar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02ac45088df2e8d3cd2d8fbafceb92/uploads/2026/07/2026073090.pdf",
+   "vc_file_date": "2026-07-30",
+   "vc_file_title": "Links for Video Conferencing in Courts",
+   "search": "https://hisar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Jhajjar",
+   "state": "Haryana",
+   "site": "https://jhajjar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03ca3ec598002d2e7662e2ef4bdd58/uploads/2026/05/2026051241.pdf",
+   "vc_file_date": "2026-05-12",
+   "vc_file_title": "Court Wise link of Video Conferencing of Jhajjar Sessions Division as on dated 12.05.2026",
+   "search": "https://jhajjar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Jind",
+   "state": "Haryana",
+   "site": "https://jind.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec038a50bae297807da9e97722a0b3fd/uploads/2026/09/2026091037.pdf",
+   "vc_file_date": "2026-09-10",
+   "vc_file_title": "Link for Video Conferencing (Court Wise)",
+   "search": "https://jind.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Kaithal",
+   "state": "Haryana",
+   "site": "https://kaithal.dcourts.gov.in/",
+   "vc_page": "https://kaithal.dcourts.gov.in/document-category/video-conferencing/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec01d4a897919a124958e699170b2b1d/uploads/2026/09/2026091595.pdf",
+   "vc_file_date": "2026-09-15",
+   "vc_file_title": null,
+   "search": "https://kaithal.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Karnal",
+   "state": "Haryana",
+   "site": "https://karnal.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03485843481a7edacbfce101ecb1e4/uploads/2026/10/2026101356.pdf",
+   "vc_file_date": "2026-10-13",
+   "vc_file_title": "Links for VC relating to Sessions Division, Karnal",
+   "search": "https://karnal.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Kurukshetra",
+   "state": "Haryana",
+   "site": "https://kurukshetra.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kurukshetra.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Narnaul",
+   "state": "Haryana",
+   "site": "https://narnaul.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03706608cfdbcc1886bb7eea5513f9/uploads/2026/08/2026080465.pdf",
+   "vc_file_date": "2026-08-04",
+   "vc_file_title": "Links for Video Conferencing in Courts",
+   "search": "https://narnaul.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Nuh",
+   "state": "Haryana",
+   "site": "https://nuh.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec033a30be93eb45566a90f4e95ee72a/uploads/2026/09/2026092950.pdf",
+   "vc_file_date": "2026-09-29",
+   "vc_file_title": "Link for Video Conferencing in Court",
+   "search": "https://nuh.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Palwal",
+   "state": "Haryana",
+   "site": "https://palwal.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02504c296f8eb5fd521e744da4e837/uploads/2026/07/2026072263.pdf",
+   "vc_file_date": "2026-07-22",
+   "vc_file_title": "Links for Video Conferencing in Courts",
+   "search": "https://palwal.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Panchkula",
+   "state": "Haryana",
+   "site": "https://panchkula.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0238811c5285e34e2e3319ab7d9f2c/uploads/2026/09/2026090155.pdf",
+   "vc_file_date": "2026-09-01",
+   "vc_file_title": "Links for Video Conferencing in Courts",
+   "search": "https://panchkula.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Panipat",
+   "state": "Haryana",
+   "site": "https://panipat.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec022067e2650cd701ae71c68080f9db/uploads/2026/05/2026051435.pdf",
+   "vc_file_date": "2026-05-14",
+   "vc_file_title": "Video Conferencing Link",
+   "search": "https://panipat.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Rewari",
+   "state": "Haryana",
+   "site": "https://rewari.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03980a875ff6ef9c2d75e74307cbf5/uploads/2026/06/2026062365.pdf",
+   "vc_file_date": "2026-06-23",
+   "vc_file_title": "Links for Video Conferencing in Courts",
+   "search": "https://rewari.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Rohtak",
+   "state": "Haryana",
+   "site": "https://rohtak.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec033f7bcd0b3ea822683bba8fc530f1/uploads/2026/09/2026091577.pdf",
+   "vc_file_date": "2026-09-15",
+   "vc_file_title": "Links for Video Conferencing in Courts",
+   "search": "https://rohtak.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Sirsa",
+   "state": "Haryana",
+   "site": "https://sirsa.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0175b9b6dc7fe44437c6e0a69fd863/uploads/2026/10/2026100858.pdf",
+   "vc_file_date": "2026-10-08",
+   "vc_file_title": "Links for Video Conferencing in Courts",
+   "search": "https://sirsa.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Sonepat",
+   "state": "Haryana",
+   "site": "https://sonepat.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03f0eaf559f89ca17022783964ebe9/uploads/2025/08/2025081883.pdf",
+   "vc_file_date": "2025-08-18",
+   "vc_file_title": "“Links for Video Conferencing in Courts”",
+   "search": "https://sonepat.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Yamuna Nagar",
+   "state": "Haryana",
+   "site": "https://yamunanagar.dcourts.gov.in/",
+   "vc_page": "https://yamunanagar.dcourts.gov.in/document-category/vc-links-2023/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03a4d92e2cd541fca87e4620aba658/uploads/2026/07/2026072440.pdf",
+   "vc_file_date": "2026-07-24",
+   "vc_file_title": null,
+   "search": "https://yamunanagar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Bilaspur, Himachal Pradesh",
+   "state": "Himachal Pradesh",
+   "site": "https://bilaspurhp.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://bilaspurhp.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Chamba - Himachal Pradesh",
+   "state": "Himachal Pradesh",
+   "site": "https://chamba.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://chamba.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Hamirpur - Himachal Pradesh",
+   "state": "Himachal Pradesh",
+   "site": "https://hamirpur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://hamirpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Kangra-Himachal Pradesh",
+   "state": "Himachal Pradesh",
+   "site": "https://kangra.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kangra.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Kinnaur - Himachal Pradesh",
+   "state": "Himachal Pradesh",
+   "site": "https://kinnaur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kinnaur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Kullu-Himachal Pradesh",
+   "state": "Himachal Pradesh",
+   "site": "https://kullu.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kullu.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Mandi",
+   "state": "Himachal Pradesh",
+   "site": "https://mandi.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://mandi.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Shimla-Himachal Pradesh",
+   "state": "Himachal Pradesh",
+   "site": "https://shimla.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://shimla.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Sirmaur, H.P.",
+   "state": "Himachal Pradesh",
+   "site": "https://sirmaur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://sirmaur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Solan - Himachal Pradesh",
+   "state": "Himachal Pradesh",
+   "site": "https://solan.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://solan.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Una - Himachal Pradesh",
+   "state": "Himachal Pradesh",
+   "site": "https://una.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://una.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Anantnag",
+   "state": "Jammu and Kashmir",
+   "site": "https://anantnag.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://anantnag.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Kathua, Jammu and kashmir",
+   "state": "Jammu and Kashmir",
+   "site": "https://kathua.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kathua.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court Reasi",
+   "state": "Jammu and Kashmir",
+   "site": "https://reasi.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://reasi.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Shopian",
+   "state": "Jammu and Kashmir",
+   "site": "https://shopian.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://shopian.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Srinagar",
+   "state": "Jammu and Kashmir",
+   "site": "https://srinagar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://srinagar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Udhampur",
+   "state": "Jammu and Kashmir",
+   "site": "https://udhampur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://udhampur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Civil Courts, Bokaro",
+   "state": "Jharkhand",
+   "site": "https://bokaro.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://bokaro.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Civil Court, Chaibasa",
+   "state": "Jharkhand",
+   "site": "https://chaibasa.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://chaibasa.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "CIVIL COURT, GARHWA",
+   "state": "Jharkhand",
+   "site": "https://garhwa.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec023f4366aeb9c157cf9a30c90693ea/uploads/2026/06/2026062964.pdf",
+   "vc_file_date": "2026-06-29",
+   "vc_file_title": "Google Meet Link and timing for video conferencing of Principal District & Sessions Judge, Garhwa",
+   "search": "https://garhwa.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Civil Court, Giridih",
+   "state": "Jharkhand",
+   "site": "https://giridih.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://giridih.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "CIVIL COURT, GODDA",
+   "state": "Jharkhand",
+   "site": "https://godda.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec05f35fd567065af297ae65b621e0a2/uploads/2026/05/2026052239.pdf",
+   "vc_file_date": "2026-05-22",
+   "vc_file_title": "Video Conferencing Links of all Courts of Godda Judgeship for Virtual Hearing of Cases.",
+   "search": "https://godda.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Civil Court, Jamshedpur",
+   "state": "Jharkhand",
+   "site": "https://jamshedpur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://jamshedpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "CIVIL COURT KHUNTI",
+   "state": "Jharkhand",
+   "site": "https://khunti.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://khunti.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "CIVIL COURTS PALAMAU AT DALTONGANJ",
+   "state": "Jharkhand",
+   "site": "https://palamu.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://palamu.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "CIVIL COURTS, RAMGARH",
+   "state": "Jharkhand",
+   "site": "https://ramgarh.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://ramgarh.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "CIVIL COURT RANCHI",
+   "state": "Jharkhand",
+   "site": "https://ranchi.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://ranchi.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Prl. District and Sessions Court Bagalkot",
+   "state": "Karnataka",
+   "site": "https://bagalkot.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://bagalkot.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Ballari",
+   "state": "Karnataka",
+   "site": "https://ballari.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://ballari.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Belagavi",
+   "state": "Karnataka",
+   "site": "https://belagavi.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://belagavi.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "BENGALURU URBAN COURTS",
+   "state": "Karnataka",
+   "site": "https://bengaluru.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://bengaluru.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "DISTRICT COURT BENGALURU RURAL",
+   "state": "Karnataka",
+   "site": "https://bengalururural.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0224ec8468b67314c2013d215b7703/uploads/2025/06/2025062761.pdf",
+   "vc_file_date": "2025-06-27",
+   "vc_file_title": "Video Conferencing Links of Bengaluru Rural Unit",
+   "search": "https://bengalururural.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Bidar",
+   "state": "Karnataka",
+   "site": "https://bidar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://bidar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "DISTRICT COURT CHAMARAJANAGARA",
+   "state": "Karnataka",
+   "site": "https://chamarajanagara.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://chamarajanagara.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Chikkaballapura",
+   "state": "Karnataka",
+   "site": "https://chikkaballapur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://chikkaballapur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Chikkamagaluru",
+   "state": "Karnataka",
+   "site": "https://chikkamagaluru.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://chikkamagaluru.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Chitradurga",
+   "state": "Karnataka",
+   "site": "https://chitradurga.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://chitradurga.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Davanagere",
+   "state": "Karnataka",
+   "site": "https://davanagere.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://davanagere.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Dharwad",
+   "state": "Karnataka",
+   "site": "https://dharwad.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://dharwad.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Dakshina Kannada Mangaluru",
+   "state": "Karnataka",
+   "site": "https://dk.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://dk.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Gadag",
+   "state": "Karnataka",
+   "site": "https://gadag.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://gadag.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Hassan",
+   "state": "Karnataka",
+   "site": "https://hassan.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://hassan.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Haveri",
+   "state": "Karnataka",
+   "site": "https://haveri.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03d2cd33e9c0236a8c2d8bd3fa91ad/uploads/2024/08/2024081941.pdf",
+   "vc_file_date": "2024-08-19",
+   "vc_file_title": "VC Links of Haveri Unit",
+   "search": "https://haveri.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Kalaburgi",
+   "state": "Karnataka",
+   "site": "https://kalaburagi.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kalaburagi.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "DISTRICT COURT, KODAGU",
+   "state": "Karnataka",
+   "site": "https://kodagu.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kodagu.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Kolar",
+   "state": "Karnataka",
+   "site": "https://kolar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kolar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Koppal",
+   "state": "Karnataka",
+   "site": "https://koppal.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://koppal.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Mandya",
+   "state": "Karnataka",
+   "site": "https://mandya.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://mandya.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Mysuru",
+   "state": "Karnataka",
+   "site": "https://mysuru.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://mysuru.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Raichur",
+   "state": "Karnataka",
+   "site": "https://raichur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://raichur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Bengaluru South",
+   "state": "Karnataka",
+   "site": "https://ramanagara.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://ramanagara.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Shivamogga",
+   "state": "Karnataka",
+   "site": "https://shivamogga.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://shivamogga.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Tumakuru",
+   "state": "Karnataka",
+   "site": "https://tumakuru.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://tumakuru.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Udupi",
+   "state": "Karnataka",
+   "site": "https://udupi.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec030cd6a652ed1f7811192db1f700c8/uploads/2026/08/2026080584.pdf",
+   "vc_file_date": "2026-08-05",
+   "vc_file_title": "VC Links Udupi",
+   "search": "https://udupi.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Uttarakannada",
+   "state": "Karnataka",
+   "site": "https://uttarakannada.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec01e5522f7ac7cd76f19b396595c9c2/uploads/2023/08/2023083029.pdf",
+   "vc_file_date": "2023-08-30",
+   "vc_file_title": "VC links and Contact Information of Uttarakannada Unit",
+   "search": "https://uttarakannada.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Vijayapura",
+   "state": "Karnataka",
+   "site": "https://vijayapura.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://vijayapura.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Yadgir",
+   "state": "Karnataka",
+   "site": "https://yadgir.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://yadgir.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Alappuzha",
+   "state": "Kerala",
+   "site": "https://alappuzha.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://alappuzha.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Ernakulam",
+   "state": "Kerala",
+   "site": "https://ernakulam.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://ernakulam.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Thodupuzha",
+   "state": "Kerala",
+   "site": "https://idukki.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://idukki.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Thalassery",
+   "state": "Kerala",
+   "site": "https://kannur.dcourts.gov.in/",
+   "vc_page": "https://kannur.dcourts.gov.in/document-category/online-meeting-link-for-vc/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0379514e888b8f2acacc68738d0cbb/uploads/2024/09/2024090486.pdf",
+   "vc_file_date": "2024-09-04",
+   "vc_file_title": null,
+   "search": "https://kannur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "DISTRICT COURT KASARAGOD",
+   "state": "Kerala",
+   "site": "https://kasaragod.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kasaragod.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Kollam",
+   "state": "Kerala",
+   "site": "https://kollam.dcourts.gov.in/",
+   "vc_page": "https://kollam.dcourts.gov.in/document-category/video-conferencing/",
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kollam.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Kottayam",
+   "state": "Kerala",
+   "site": "https://kottayam.dcourts.gov.in/",
+   "vc_page": "https://kottayam.dcourts.gov.in/document-category/kottayam-virtual-hearing/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec038217bb4e7fa0541e0f5e04fea764/uploads/2023/10/2023100847.pdf",
+   "vc_file_date": "2023-10-08",
+   "vc_file_title": null,
+   "search": "https://kottayam.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Kozhikode",
+   "state": "Kerala",
+   "site": "https://kozhikode.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kozhikode.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Manjeri",
+   "state": "Kerala",
+   "site": "https://malappuram.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://malappuram.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Palakkad",
+   "state": "Kerala",
+   "site": "https://palakkad.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://palakkad.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "DISTRICT & SESSIONS COURT , PATHANAMTHITTA",
+   "state": "Kerala",
+   "site": "https://pathanamthitta.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://pathanamthitta.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "DISTRICT COURT THIRUVANANTHAPURAM",
+   "state": "Kerala",
+   "site": "https://thiruvananthapuram.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://thiruvananthapuram.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Thrissur",
+   "state": "Kerala",
+   "site": "https://thrissur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://thrissur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court Wayanad",
+   "state": "Kerala",
+   "site": "https://wayanad.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://wayanad.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Kargil",
+   "state": "Ladakh",
+   "site": "https://kargil.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kargil.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Leh",
+   "state": "Ladakh",
+   "site": "https://leh.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://leh.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Kavaratti, UT of Lakshadweep",
+   "state": "Lakshadweep",
+   "site": "https://kavaratti.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kavaratti.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court Alirajpur (M.P.)",
+   "state": "Madhya Pradesh",
+   "site": "https://alirajpur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://alirajpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Session Court Bhind",
+   "state": "Madhya Pradesh",
+   "site": "https://bhind.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://bhind.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court, Bhopal",
+   "state": "Madhya Pradesh",
+   "site": "https://bhopal.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://bhopal.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Session Court, Burhanpur",
+   "state": "Madhya Pradesh",
+   "site": "https://burhanpur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://burhanpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Session Court, Chhatarpur",
+   "state": "Madhya Pradesh",
+   "site": "https://chhatarpur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://chhatarpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court Dewas",
+   "state": "Madhya Pradesh",
+   "site": "https://dewas.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://dewas.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Dhar",
+   "state": "Madhya Pradesh",
+   "site": "https://dhar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://dhar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court Gwalior",
+   "state": "Madhya Pradesh",
+   "site": "https://gwalior.dcourts.gov.in/",
+   "vc_page": "https://gwalior.dcourts.gov.in/document-category/vc-meeting-room-links/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec029808ae38758804501ca3fc069705/uploads/2026/06/2026062389.pdf",
+   "vc_file_date": "2026-06-23",
+   "vc_file_title": null,
+   "search": "https://gwalior.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Session Court Harda",
+   "state": "Madhya Pradesh",
+   "site": "https://harda.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://harda.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Session's Court Indore",
+   "state": "Madhya Pradesh",
+   "site": "https://indore.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://indore.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Session Court Jabalpur (M.P)",
+   "state": "Madhya Pradesh",
+   "site": "https://jabalpur.dcourts.gov.in/",
+   "vc_page": "https://jabalpur.dcourts.gov.in/document-category/vc-meeting-room-links/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0255d99a37b2e1badba7c8df4ccd50/uploads/2026/05/2026053026.pdf",
+   "vc_file_date": "2026-05-30",
+   "vc_file_title": null,
+   "search": "https://jabalpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court, Morena",
+   "state": "Madhya Pradesh",
+   "site": "https://morena.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://morena.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court Neemuch",
+   "state": "Madhya Pradesh",
+   "site": "https://neemuch.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://neemuch.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Session Court , Rewa",
+   "state": "Madhya Pradesh",
+   "site": "https://rewa.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://rewa.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court Sagar (M.P.)",
+   "state": "Madhya Pradesh",
+   "site": "https://sagar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://sagar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District And Sessions Court Satna (M.P)",
+   "state": "Madhya Pradesh",
+   "site": "https://satna.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://satna.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court Sehore",
+   "state": "Madhya Pradesh",
+   "site": "https://sehore.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://sehore.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Principal District and Sessions Court Seoni",
+   "state": "Madhya Pradesh",
+   "site": "https://seoni.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://seoni.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Session Court Shivpuri",
+   "state": "Madhya Pradesh",
+   "site": "https://shivpuri.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://shivpuri.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District And Sessions Court Singrauli",
+   "state": "Madhya Pradesh",
+   "site": "https://singrauli.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://singrauli.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Ujjain",
+   "state": "Madhya Pradesh",
+   "site": "https://ujjain.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0229539ed932d32f1c56324cded92c/uploads/2026/08/2026080438.pdf",
+   "vc_file_date": "2026-08-04",
+   "vc_file_title": "WebeX Meeting Link",
+   "search": "https://ujjain.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District And Sessions Court Vidisha",
+   "state": "Madhya Pradesh",
+   "site": "https://vidisha.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://vidisha.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court, Ahmednagar",
+   "state": "Maharashtra",
+   "site": "https://ahmednagar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://ahmednagar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court, Akola",
+   "state": "Maharashtra",
+   "site": "https://akola.dcourts.gov.in/",
+   "vc_page": "https://akola.dcourts.gov.in/document-category/video-conference-link/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0431ca0ca71184bbdb3de7b20a51e8/uploads/2024/11/2024112938.pdf",
+   "vc_file_date": "2024-11-29",
+   "vc_file_title": null,
+   "search": "https://akola.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Amravati",
+   "state": "Maharashtra",
+   "site": "https://amravati.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://amravati.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court Aurangabad Maharashtra",
+   "state": "Maharashtra",
+   "site": "https://aurangabad.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://aurangabad.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "DISTRICT COURT BEED",
+   "state": "Maharashtra",
+   "site": "https://beed.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://beed.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Bhandara",
+   "state": "Maharashtra",
+   "site": "https://bhandara.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://bhandara.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court, Buldhana",
+   "state": "Maharashtra",
+   "site": "https://buldana.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://buldana.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "City Civil & Sessions Court, Mumbai",
+   "state": "Maharashtra",
+   "site": "https://cccmumbai.dcourts.gov.in/",
+   "vc_page": "https://cccmumbai.dcourts.gov.in/document-category/vc-links/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0457f04bb2975420e3b4c73920c687/uploads/2026/07/2026070181.pdf",
+   "vc_file_date": "2026-07-01",
+   "vc_file_title": null,
+   "search": "https://cccmumbai.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Chandrapur",
+   "state": "Maharashtra",
+   "site": "https://chandrapur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://chandrapur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Chief Judicial Magistrate Court's, Mumbai",
+   "state": "Maharashtra",
+   "site": "https://cmmmumbai.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://cmmmumbai.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court Dhule",
+   "state": "Maharashtra",
+   "site": "https://dhule.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0231c0c178a9fc26ffecffd8670e6d/uploads/2026/09/2026090255.pdf",
+   "vc_file_date": "2026-09-02",
+   "vc_file_title": "Establishment-wise Permanent Static links for Video Conferencing of District Court Dhule Head Quarter and Taluka Courts.",
+   "search": "https://dhule.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Gadchiroli",
+   "state": "Maharashtra",
+   "site": "https://gadchiroli.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://gadchiroli.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Gondia",
+   "state": "Maharashtra",
+   "site": "https://gondia.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://gondia.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court, Jalgaon",
+   "state": "Maharashtra",
+   "site": "https://jalgaon.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://jalgaon.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court, Jalna",
+   "state": "Maharashtra",
+   "site": "https://jalna.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec04e8a642ed6a9ad20fb159472950db/uploads/2026/07/2026070712.pdf",
+   "vc_file_date": "2026-07-07",
+   "vc_file_title": "VIDEO CONFERENCING LINKS ( ALL COURTS )",
+   "search": "https://jalna.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court Kolhapur",
+   "state": "Maharashtra",
+   "site": "https://kolhapur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kolhapur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "DISTRICT AND SESSIONS COURT LATUR",
+   "state": "Maharashtra",
+   "site": "https://latur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://latur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Nagpur",
+   "state": "Maharashtra",
+   "site": "https://nagpur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://nagpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court, Nanded (Maharashtra)",
+   "state": "Maharashtra",
+   "site": "https://nanded.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://nanded.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court Nandurbar",
+   "state": "Maharashtra",
+   "site": "https://nandurbar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://nandurbar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Nashik District Court",
+   "state": "Maharashtra",
+   "site": "https://nashik.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://nashik.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Osmanabad",
+   "state": "Maharashtra",
+   "site": "https://osmanabad.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://osmanabad.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Parbhani",
+   "state": "Maharashtra",
+   "site": "https://parbhani.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://parbhani.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Session Court Pune",
+   "state": "Maharashtra",
+   "site": "https://pune.dcourts.gov.in/",
+   "vc_page": "https://pune.dcourts.gov.in/document-category/video-conferencing/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec04c6b8c8d762da15fa8dbbdfb6baf9/uploads/2026/07/2026071576.pdf",
+   "vc_file_date": "2026-07-15",
+   "vc_file_title": null,
+   "search": "https://pune.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Raigad-Alibag",
+   "state": "Maharashtra",
+   "site": "https://raigad.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://raigad.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Ratnagiri",
+   "state": "Maharashtra",
+   "site": "https://ratnagiri.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://ratnagiri.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court, Sangli",
+   "state": "Maharashtra",
+   "site": "https://sangli.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://sangli.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court, Satara",
+   "state": "Maharashtra",
+   "site": "https://satara.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://satara.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Court of Small Causes, Mumbai",
+   "state": "Maharashtra",
+   "site": "https://sccmumbai.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://sccmumbai.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court Sindhudurg",
+   "state": "Maharashtra",
+   "site": "https://sindhudurg.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec04e945de21a1bb5714a0bc8a897ed3/uploads/2024/12/2024120561.pdf",
+   "vc_file_date": "2024-12-05",
+   "vc_file_title": "Permanent Static Link for Video Conferencing of District Court Sindhudurg",
+   "search": "https://sindhudurg.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Solapur",
+   "state": "Maharashtra",
+   "site": "https://solapur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://solapur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court Thane",
+   "state": "Maharashtra",
+   "site": "https://thane.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec028d30aa96e72440759f74bd2306c1/uploads/2024/08/2024082671.pdf",
+   "vc_file_date": "2024-08-26",
+   "vc_file_title": "Establishment-wise Permanent Static links for Video Conferencing of District Court Thane Head Quarter and Taluka Courts.",
+   "search": "https://thane.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Wardha",
+   "state": "Maharashtra",
+   "site": "https://wardha.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://wardha.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court, Washim",
+   "state": "Maharashtra",
+   "site": "https://washim.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://washim.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court, Yavatmal",
+   "state": "Maharashtra",
+   "site": "https://yavatmal.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://yavatmal.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court, Bishnupur",
+   "state": "Manipur",
+   "site": "https://bishnupur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://bishnupur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court, Churachandpur",
+   "state": "Manipur",
+   "site": "https://churachandpur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://churachandpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court, Imphal East",
+   "state": "Manipur",
+   "site": "https://imphaleast.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://imphaleast.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court, Imphal West",
+   "state": "Manipur",
+   "site": "https://imphalwest.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://imphalwest.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court, Senapati",
+   "state": "Manipur",
+   "site": "https://senapati.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://senapati.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court, Tamenglong",
+   "state": "Manipur",
+   "site": "https://tamenglong.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://tamenglong.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court,Thoubal",
+   "state": "Manipur",
+   "site": "https://thoubal.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://thoubal.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court, Ukhrul",
+   "state": "Manipur",
+   "site": "https://ukhrul.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://ukhrul.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court, Ampati",
+   "state": "Meghalaya",
+   "site": "https://ampati.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://ampati.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "South Garo Hills District Court",
+   "state": "Meghalaya",
+   "site": "https://baghmara.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://baghmara.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "DISTRICT AND SESSIONS COURT, WEST JAINTIA HILLS DISTRICT, KHLIEHTYRSHI.",
+   "state": "Meghalaya",
+   "site": "https://jowai.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://jowai.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court Khliehriat, East Jaintia Hills",
+   "state": "Meghalaya",
+   "site": "https://khliehriat.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://khliehriat.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "South West Khasi Hills District Court",
+   "state": "Meghalaya",
+   "site": "https://mawkyrwat.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://mawkyrwat.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court, Ri Bhoi District, Nongpoh",
+   "state": "Meghalaya",
+   "site": "https://nongpoh.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://nongpoh.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court, West Khasi Hills District, Nongstoiñ",
+   "state": "Meghalaya",
+   "site": "https://nongstoin.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://nongstoin.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court, North Garo Hills District, Mendipathar",
+   "state": "Meghalaya",
+   "site": "https://resubelpara.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://resubelpara.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "East Khasi Hills District Court",
+   "state": "Meghalaya",
+   "site": "https://shillong.dcourts.gov.in/",
+   "vc_page": "https://shillong.dcourts.gov.in/document-category/video-conference-link/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec01c02f9de3c2f3040751818aacc7f6/uploads/2026/09/2026090172.pdf",
+   "vc_file_date": "2026-09-01",
+   "vc_file_title": null,
+   "search": "https://shillong.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Tura",
+   "state": "Meghalaya",
+   "site": "https://tura.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://tura.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Williamnagar District Court",
+   "state": "Meghalaya",
+   "site": "https://williamnagar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://williamnagar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Aizawl",
+   "state": "Mizoram",
+   "site": "https://aizawl.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://aizawl.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Champhai",
+   "state": "Mizoram",
+   "site": "https://champhai.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://champhai.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Kolasib",
+   "state": "Mizoram",
+   "site": "https://kolasib.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kolasib.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Dimapur District Court",
+   "state": "Nagaland",
+   "site": "https://dimapur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://dimapur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Kiphire District Court",
+   "state": "Nagaland",
+   "site": "https://kiphire.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kiphire.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Kohima District Court",
+   "state": "Nagaland",
+   "site": "https://kohima.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kohima.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Longleng District Court",
+   "state": "Nagaland",
+   "site": "https://longleng.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://longleng.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Mokokchung District Court",
+   "state": "Nagaland",
+   "site": "https://mokokchung.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://mokokchung.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Mon District Court",
+   "state": "Nagaland",
+   "site": "https://mon.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://mon.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Peren District Court",
+   "state": "Nagaland",
+   "site": "https://peren.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://peren.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Phek District Court",
+   "state": "Nagaland",
+   "site": "https://phek.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://phek.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Tuensang District Court",
+   "state": "Nagaland",
+   "site": "https://tuensang.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://tuensang.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Wokha District Court",
+   "state": "Nagaland",
+   "site": "https://wokha.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://wokha.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Zunheboto District Court",
+   "state": "Nagaland",
+   "site": "https://zunheboto.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://zunheboto.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Angul",
+   "state": "Odisha",
+   "site": "https://angul.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://angul.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Balangir District Court",
+   "state": "Odisha",
+   "site": "https://balangir.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://balangir.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Civil & Sessions Court, Balasore",
+   "state": "Odisha",
+   "site": "https://balasore.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://balasore.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "DISTRICT COURT BARGARH",
+   "state": "Odisha",
+   "site": "https://bargarh.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://bargarh.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Judge Court, Bhadrak",
+   "state": "Odisha",
+   "site": "https://bhadrak.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://bhadrak.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Judge Court, Boudh",
+   "state": "Odisha",
+   "site": "https://boudh.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://boudh.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "DISTRICT COURT, CUTTACK",
+   "state": "Odisha",
+   "site": "https://cuttack.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://cuttack.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Judge Court, Deogarh",
+   "state": "Odisha",
+   "site": "https://deogarh.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://deogarh.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Dhenkanal District Court",
+   "state": "Odisha",
+   "site": "https://dhenkanal.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://dhenkanal.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Judge Court, Gajapati at Paralakhemundi",
+   "state": "Odisha",
+   "site": "https://gajapati.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://gajapati.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Judge Court, Ganjam at Berhampur",
+   "state": "Odisha",
+   "site": "https://ganjam.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03334467d41d5cf21e234465a1530b/uploads/2026/01/2026010645.pdf",
+   "vc_file_date": "2026-01-06",
+   "vc_file_title": "VC LINK FOR COURT",
+   "search": "https://ganjam.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "DISTRICT COURT, JAGATSINGHPUR",
+   "state": "Odisha",
+   "site": "https://jagatsinghpur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://jagatsinghpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Jajpur",
+   "state": "Odisha",
+   "site": "https://jajpur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://jajpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court, Jharsuguda",
+   "state": "Odisha",
+   "site": "https://jharsuguda.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://jharsuguda.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Kalahandi",
+   "state": "Odisha",
+   "site": "https://kalahandi.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kalahandi.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Kandhamal",
+   "state": "Odisha",
+   "site": "https://kandhamal.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kandhamal.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court ,Kendujhar",
+   "state": "Odisha",
+   "site": "https://keonjhar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://keonjhar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Khurda at Bhubaneswar",
+   "state": "Odisha",
+   "site": "https://khurda.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://khurda.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court,Koraput at Jeypore",
+   "state": "Odisha",
+   "site": "https://koraput.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://koraput.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court, Malkangiri",
+   "state": "Odisha",
+   "site": "https://malkangiri.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://malkangiri.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Mayurbhanj",
+   "state": "Odisha",
+   "site": "https://mayurbhanj.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02d87c68a56bc8eb803b44f25abb62/uploads/2025/09/2025090179.pdf",
+   "vc_file_date": "2025-09-01",
+   "vc_file_title": "Court Wise VC Link of Mayurbhanj Judgeship",
+   "search": "https://mayurbhanj.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Nabarangpur",
+   "state": "Odisha",
+   "site": "https://nabarangpur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://nabarangpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Nayagarh, Odisha",
+   "state": "Odisha",
+   "site": "https://nayagarh.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://nayagarh.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Nuapada",
+   "state": "Odisha",
+   "site": "https://nuapada.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec019a96a2c73c0d477ff2a6da3bf538/uploads/2023/07/2023071313.pdf",
+   "vc_file_date": "2023-07-13",
+   "vc_file_title": "Video Conferencing Link for Various Courts of the Judgeship of Nuapada",
+   "search": "https://nuapada.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Judge Court, Puri",
+   "state": "Odisha",
+   "site": "https://puri.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://puri.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Rayagada",
+   "state": "Odisha",
+   "site": "https://rayagada.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://rayagada.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Sambalpur",
+   "state": "Odisha",
+   "site": "https://sambalpur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://sambalpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Sonepur",
+   "state": "Odisha",
+   "site": "https://sonepur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://sonepur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Court of District & Sessions Judge, Sundargarh",
+   "state": "Odisha",
+   "site": "https://sundargarh.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://sundargarh.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Karaikal District Court",
+   "state": "Puducherry",
+   "site": "https://karaikal.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02d77e68596c15c53c2a33ad143739/uploads/2024/02/2024020752.pdf",
+   "vc_file_date": "2024-02-07",
+   "vc_file_title": "Hybrid mode Video Conferencing link Karaikal",
+   "search": "https://karaikal.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Mahe District Court",
+   "state": "Puducherry",
+   "site": "https://mahe.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02211ed78fe91938b90f84a51944b0/uploads/2024/02/2024020778.pdf",
+   "vc_file_date": "2024-02-07",
+   "vc_file_title": "Hybrid mode Video Conferencing link Mahe",
+   "search": "https://mahe.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Puducherry District Court",
+   "state": "Puducherry",
+   "site": "https://puducherry.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://puducherry.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Yanam District Court",
+   "state": "Puducherry",
+   "site": "https://yanam.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec029ef2ed4b7fd2c810847ffa5fa85b/uploads/2024/02/2024020760.pdf",
+   "vc_file_date": "2024-02-07",
+   "vc_file_title": "Hybrid mode Video Conferencing link Yanam",
+   "search": "https://yanam.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Amritsar",
+   "state": "Punjab",
+   "site": "https://amritsar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03f8037f94e53f17a2cc301033ca86/uploads/2026/09/2026090238.pdf",
+   "vc_file_date": "2026-09-02",
+   "vc_file_title": "Links for Video Conferencing in Courts",
+   "search": "https://amritsar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Barnala",
+   "state": "Punjab",
+   "site": "https://barnala.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://barnala.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Bathinda",
+   "state": "Punjab",
+   "site": "https://bathinda.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec01e9fb2eda3d9c55a0d89c98d6c54b/uploads/2026/10/2026101335.pdf",
+   "vc_file_date": "2026-10-13",
+   "vc_file_title": "Links for Video Conferencing in Courts",
+   "search": "https://bathinda.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Faridkot",
+   "state": "Punjab",
+   "site": "https://faridkot.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://faridkot.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Fatehgarh Sahib",
+   "state": "Punjab",
+   "site": "https://fatehgarhsahib.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec020613239e122094abb4ef998c01d1/uploads/2026/06/2026060247.pdf",
+   "vc_file_date": "2026-06-02",
+   "vc_file_title": "Links for Video Conferencing in the Courts at Fatehgarh Sahib Sessions Division",
+   "search": "https://fatehgarhsahib.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Fazilka",
+   "state": "Punjab",
+   "site": "https://fazilka.dcourts.gov.in/",
+   "vc_page": "https://fazilka.dcourts.gov.in/document-category/links-for-video-conferencing/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02c57abe86de4e516e12dfa386053f/uploads/2026/09/2026090747.pdf",
+   "vc_file_date": "2026-09-07",
+   "vc_file_title": null,
+   "search": "https://fazilka.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Ferozepur",
+   "state": "Punjab",
+   "site": "https://ferozepur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03b58ac8403eb9cf17fae1dcd16df7/uploads/2026/09/2026092369.pdf",
+   "vc_file_date": "2026-09-23",
+   "vc_file_title": "VC Link",
+   "search": "https://ferozepur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Gurdaspur",
+   "state": "Punjab",
+   "site": "https://gurdaspur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0352b738b303d90a884137546353e0/uploads/2026/10/2026100717.pdf",
+   "vc_file_date": "2026-10-07",
+   "vc_file_title": "Video Conferencing Link",
+   "search": "https://gurdaspur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Hoshiarpur",
+   "state": "Punjab",
+   "site": "https://hoshiarpur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03fa84632d742f2729dc32ce8cb5d4/uploads/2026/10/2026101491.pdf",
+   "vc_file_date": "2026-10-14",
+   "vc_file_title": "Video Conferencing Links Court wise",
+   "search": "https://hoshiarpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Jalandhar",
+   "state": "Punjab",
+   "site": "https://jalandhar.dcourts.gov.in/",
+   "vc_page": "https://jalandhar.dcourts.gov.in/document-category/video-conferencing-in-courts/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03d54ce9de9df77c579775a7b6b1a4/uploads/2026/09/2026091913.pdf",
+   "vc_file_date": "2026-09-19",
+   "vc_file_title": null,
+   "search": "https://jalandhar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Kapurthala",
+   "state": "Punjab",
+   "site": "https://kapurthala.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec01512fc3c5227f637e41437c999a2d/uploads/2026/10/2026101461.pdf",
+   "vc_file_date": "2026-10-14",
+   "vc_file_title": "Links for Video Conferencing in Courts",
+   "search": "https://kapurthala.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Ludhiana",
+   "state": "Punjab",
+   "site": "https://ludhiana.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://ludhiana.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Mansa",
+   "state": "Punjab",
+   "site": "https://mansa.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03a87d27f712df362cd22c7a8ef823/uploads/2026/05/2026052658.pdf",
+   "vc_file_date": "2026-05-26",
+   "vc_file_title": "Links for Video Conferencing in Courts",
+   "search": "https://mansa.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Moga",
+   "state": "Punjab",
+   "site": "https://moga.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec013b5020bb891119b9f5130f1fea9b/uploads/2026/06/2026062332.pdf",
+   "vc_file_date": "2026-06-23",
+   "vc_file_title": "Links for Video Conferencing in Courts",
+   "search": "https://moga.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Sri Mukatsar Sahib",
+   "state": "Punjab",
+   "site": "https://muktsarsahib.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec028deb8d1dd92840f975b6931ab3a3/uploads/2026/05/2026050535.pdf",
+   "vc_file_date": "2026-05-05",
+   "vc_file_title": "Links for Video Conferencing in Courts",
+   "search": "https://muktsarsahib.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Pathankot",
+   "state": "Punjab",
+   "site": "https://pathankot.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec01cc3d69ed781b16bce06687822ae5/uploads/2026/10/2026101527.pdf",
+   "vc_file_date": "2026-10-15",
+   "vc_file_title": "Video Conferencing links in Courts.",
+   "search": "https://pathankot.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Patiala",
+   "state": "Punjab",
+   "site": "https://patiala.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec032131f8ecf18db66a758f718dc729/uploads/2026/07/2026070453.pdf",
+   "vc_file_date": "2026-07-04",
+   "vc_file_title": "Links for Video Conferencing in Courts",
+   "search": "https://patiala.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Rupnagar",
+   "state": "Punjab",
+   "site": "https://rupnagar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec039c8661befae6dbcd08304dbf4dca/uploads/2026/03/2026032571.pdf",
+   "vc_file_date": "2026-03-25",
+   "vc_file_title": "Link for Video Conferencing in District Court Rupnagar",
+   "search": "https://rupnagar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Sangrur",
+   "state": "Punjab",
+   "site": "https://sangrur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://sangrur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court SAS Nagar",
+   "state": "Punjab",
+   "site": "https://sasnagar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0288e1ce84f9feef5a08d0df0334c5/uploads/2026/07/2026072251.pdf",
+   "vc_file_date": "2026-07-22",
+   "vc_file_title": "Links for video conferencing in Courts",
+   "search": "https://sasnagar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court SBS Nagar",
+   "state": "Punjab",
+   "site": "https://sbsnagar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec024ad13f04ef4373992c9d3046200a/uploads/2026/09/2026092496.pdf",
+   "vc_file_date": "2026-09-24",
+   "vc_file_title": "Links for Video Conferencing in Courts",
+   "search": "https://sbsnagar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Tarn Taran",
+   "state": "Punjab",
+   "site": "https://tarntaran.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://tarntaran.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court - Ajmer",
+   "state": "Rajasthan",
+   "site": "https://ajmer.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02907edb0aa6986220dbffb79a7885/uploads/2025/12/2025120922.pdf",
+   "vc_file_date": "2025-12-09",
+   "vc_file_title": "Zoom Meeting Links for the Courts",
+   "search": "https://ajmer.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Alwar",
+   "state": "Rajasthan",
+   "site": "https://alwar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0285ae750ad1dbdc5c2703bcfe97e7/uploads/2026/06/2026062312.pdf",
+   "vc_file_date": "2026-06-23",
+   "vc_file_title": "Email id,Contact Detail,VC Meeting Link for Alwar Judgeship",
+   "search": "https://alwar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "DISTRICT & SESSIONS COURT BALOTRA",
+   "state": "Rajasthan",
+   "site": "https://balotra.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02d309cd6396e744600c943fada20f/uploads/2024/04/2024042548.pdf",
+   "vc_file_date": "2024-04-25",
+   "vc_file_title": "VC Link of all Courts of Balotra Judgeship-Zoom Meeting",
+   "search": "https://balotra.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court Banswara",
+   "state": "Rajasthan",
+   "site": "https://banswara.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02ddcb155487b88aaa80aed158006b/uploads/2025/04/2025040483.pdf",
+   "vc_file_date": "2025-04-04",
+   "vc_file_title": "Link for CISCO WEBEX Meettings Video Conferencing facility of Banswara Judgeship",
+   "search": "https://banswara.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Baran",
+   "state": "Rajasthan",
+   "site": "https://baran.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02d15426b9c324676610fbb0136047/uploads/2026/04/2026040975.pdf",
+   "vc_file_date": "2026-04-09",
+   "vc_file_title": "Baran Judgeship NIC Mail Meeting VC Links",
+   "search": "https://baran.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court, Bharatpur",
+   "state": "Rajasthan",
+   "site": "https://bharatpur.dcourts.gov.in/",
+   "vc_page": "https://bharatpur.dcourts.gov.in/document-category/all-courts-of-cisco-webex-meeting-link-id/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02c3d377d10b13f8b39bf1218a60fe/uploads/2025/04/2025041723.pdf",
+   "vc_file_date": "2025-04-17",
+   "vc_file_title": null,
+   "search": "https://bharatpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Bhilwara",
+   "state": "Rajasthan",
+   "site": "https://bhilwara.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02df83971673de5c8e71ca1e264571/uploads/2025/05/2025051338.pdf",
+   "vc_file_date": "2025-05-13",
+   "vc_file_title": "WEBEX Meeting Link Bhilwara Judgeship",
+   "search": "https://bhilwara.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Bikaner",
+   "state": "Rajasthan",
+   "site": "https://bikaner.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02528aecdf9cf67e516dfd5eaa675c/uploads/2025/04/2025041955.pdf",
+   "vc_file_date": "2025-04-19",
+   "vc_file_title": "Webex VC Link and Email ID of all Courts of Bikaner Judgeship",
+   "search": "https://bikaner.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court, Bundi",
+   "state": "Rajasthan",
+   "site": "https://bundi.dcourts.gov.in/",
+   "vc_page": "https://bundi.dcourts.gov.in/document-category/video-conferencing/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec020d352b4d3a317e3eae221199fdb4/uploads/2026/10/2026100731.pdf",
+   "vc_file_date": "2026-10-07",
+   "vc_file_title": null,
+   "search": "https://bundi.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Chittorgarh",
+   "state": "Rajasthan",
+   "site": "https://chittorgarh.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0212e086066892a311b752673a2858/uploads/2025/04/2025040340.pdf",
+   "vc_file_date": "2025-04-03",
+   "vc_file_title": "CISCO Webex Meeting Link",
+   "search": "https://chittorgarh.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Churu",
+   "state": "Rajasthan",
+   "site": "https://churu.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0395177e528f8d6c7c28a5473fd5a4/uploads/2025/12/20251202100.pdf",
+   "vc_file_date": "2025-12-02",
+   "vc_file_title": "Webex VC Links",
+   "search": "https://churu.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "DISTRICT COURT DAUSA",
+   "state": "Rajasthan",
+   "site": "https://dausa.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02f87522788a2be2d171666752f97d/uploads/2026/08/2026081376.pdf",
+   "vc_file_date": "2026-08-13",
+   "vc_file_title": "NIC VC Link of Dausa Judgeship",
+   "search": "https://dausa.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Dholpur",
+   "state": "Rajasthan",
+   "site": "https://dholpur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://dholpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Dungarpur",
+   "state": "Rajasthan",
+   "site": "https://dungarpur.dcourts.gov.in/",
+   "vc_page": "https://dungarpur.dcourts.gov.in/document-category/video-conferencing-for-the-courts/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02040a99f23e8960763e680041c601/uploads/2026/09/2026092317.pdf",
+   "vc_file_date": "2026-09-23",
+   "vc_file_title": null,
+   "search": "https://dungarpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Sri Ganganagar District Court",
+   "state": "Rajasthan",
+   "site": "https://ganganagar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec01f42c7f9c8aeab0fc412031e192e2/uploads/2026/06/2026062043.pdf",
+   "vc_file_date": "2026-06-20",
+   "vc_file_title": "WEBEX MEETING ID SRI GANGANAGAR",
+   "search": "https://ganganagar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Hanumangarh District Court",
+   "state": "Rajasthan",
+   "site": "https://hanumangarh.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02c12706a7c6e8d6476c3d2b6ae004/uploads/2026/04/2026041721.pdf",
+   "vc_file_date": "2026-04-17",
+   "vc_file_title": "Video conferencing – NIC Meet, Meeting Link of Hanumangarh Judgeship",
+   "search": "https://hanumangarh.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court, Jaipur District",
+   "state": "Rajasthan",
+   "site": "https://jaipurdistrict.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03f4334c131c781e2a6f0a5e34814c/uploads/2023/06/2023062679.pdf",
+   "vc_file_date": "2023-06-26",
+   "vc_file_title": "Zoom VC Links for all Court Jaipur District, Jaipur",
+   "search": "https://jaipurdistrict.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court Jaipur Metropolitan I",
+   "state": "Rajasthan",
+   "site": "https://jaipurmetro1.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0294b5bde6de888ddf9cde6748ad25/uploads/2025/04/2025040370.pdf",
+   "vc_file_date": "2025-04-03",
+   "vc_file_title": "CISCO Webex Meeting ID for Video Conferencing",
+   "search": "https://jaipurmetro1.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Jaipur Metropolitan II",
+   "state": "Rajasthan",
+   "site": "https://jaipurmetro2.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02f5c150afbfbcef941def203e85cf/uploads/2025/04/2025041770.pdf",
+   "vc_file_date": "2025-04-17",
+   "vc_file_title": "CISCO WEBEX Meeting ID’s and links for Video Conferencing",
+   "search": "https://jaipurmetro2.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Jaisalmer District Court",
+   "state": "Rajasthan",
+   "site": "https://jaisalmer.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://jaisalmer.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Jalore",
+   "state": "Rajasthan",
+   "site": "https://jalore.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02aac61539fd1fb209b44b9f9d0d8d/uploads/2025/04/2025040877.pdf",
+   "vc_file_date": "2025-04-08",
+   "vc_file_title": "WEBEX VC Link for Case Hearing",
+   "search": "https://jalore.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court, Jhalawar",
+   "state": "Rajasthan",
+   "site": "https://jhalawar.dcourts.gov.in/",
+   "vc_page": "https://jhalawar.dcourts.gov.in/document-category/cisco-webex-software-application-video-conferencing-link-with-meeting-id/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02ae3539867aaeec609a4260c6feb7/uploads/2026/09/2026091618.pdf",
+   "vc_file_date": "2026-09-16",
+   "vc_file_title": "NIC Meeting VC Link Jhalawar Judgeship",
+   "search": "https://jhalawar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court Jhunjhunu",
+   "state": "Rajasthan",
+   "site": "https://jhunjhunu.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03cc9657884708170e160c8372d92f/uploads/2026/04/2026042023.pdf",
+   "vc_file_date": "2026-04-20",
+   "vc_file_title": "NIC Video Confrencing (VC) Meeting Link",
+   "search": "https://jhunjhunu.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court Jodhpur District",
+   "state": "Rajasthan",
+   "site": "https://jodhpur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://jodhpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court Jodhpur Metropolitan",
+   "state": "Rajasthan",
+   "site": "https://jodhpurmetro.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02032dd17b77fab7d51a476c5ff2b5/uploads/2026/09/2026091462.pdf",
+   "vc_file_date": "2026-09-14",
+   "vc_file_title": "Video Conferencing Links of All Courts",
+   "search": "https://jodhpurmetro.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Karauli, District Court",
+   "state": "Rajasthan",
+   "site": "https://karauli.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://karauli.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court, Kota",
+   "state": "Rajasthan",
+   "site": "https://kota.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0252edc4a5890adc59cec82cb60f8a/uploads/2025/04/2025040273.pdf",
+   "vc_file_date": "2025-04-02",
+   "vc_file_title": "WebEx VC Links and Meeting ID of Courts",
+   "search": "https://kota.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Merta (Nagaur)",
+   "state": "Rajasthan",
+   "site": "https://nagaur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02dff8e9c2ac33381546d96deea992/uploads/2024/05/2024052359.pdf",
+   "vc_file_date": "2024-05-23",
+   "vc_file_title": "Zoom VC links For Merta(Nagaur) Judgeship",
+   "search": "https://nagaur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Pali",
+   "state": "Rajasthan",
+   "site": "https://pali.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02a64bd53139f71961c5c31a9af03d/uploads/2025/04/2025043026.pdf",
+   "vc_file_date": "2025-04-30",
+   "vc_file_title": "Webex Meeting links and Meeting Numbers for Video Conferencing facility of Pali, Judgeship",
+   "search": "https://pali.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court, Pratapgarh",
+   "state": "Rajasthan",
+   "site": "https://pratapgarh.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec032996962656838a97af4c5f926fe6/uploads/2025/04/2025042564.pdf",
+   "vc_file_date": "2025-04-25",
+   "vc_file_title": "VC Link for All Courts",
+   "search": "https://pratapgarh.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Rajsamand",
+   "state": "Rajasthan",
+   "site": "https://rajsamand.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02544a4f59f691574154a60b8539eb/uploads/2025/04/2025041722.pdf",
+   "vc_file_date": "2025-04-17",
+   "vc_file_title": "WebEx VC Link for Rajsamand Judgeship",
+   "search": "https://rajsamand.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District And Sessions Court Sawai Madhopur",
+   "state": "Rajasthan",
+   "site": "https://sawaimadhopur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec025812f92450ccaf17275500841c70/uploads/2026/04/2026040237.pdf",
+   "vc_file_date": "2026-04-02",
+   "vc_file_title": "List of New VC Links (NIC) of Courts In Sawai Madhopur Judgeship",
+   "search": "https://sawaimadhopur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Sikar",
+   "state": "Rajasthan",
+   "site": "https://sikar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02687fd5c7e0142dfb2da70e5083b3/uploads/2026/04/2026040883.pdf",
+   "vc_file_date": "2026-04-08",
+   "vc_file_title": "Video Conferencing Link Of NIC Meeting For Courts of Sikar Judgeship",
+   "search": "https://sikar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court Sirohi",
+   "state": "Rajasthan",
+   "site": "https://sirohi.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0196629f1aac6ddb7a7cfa82574b67/uploads/2023/02/2023022495.pdf",
+   "vc_file_date": "2023-02-24",
+   "vc_file_title": "Courts Link for Zoom Meeting Video Conferencing facility of Sirohi Judgeship",
+   "search": "https://sirohi.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Tonk",
+   "state": "Rajasthan",
+   "site": "https://tonk.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0158191d2a914c6dae66371c9dcdc9/uploads/2026/08/2026080394.pdf",
+   "vc_file_date": "2026-08-03",
+   "vc_file_title": "06.04.2026 Regarding Email id, Webex Meeting Link and Meet NIC Mail Meeting Link for Tonk Judgeship",
+   "search": "https://tonk.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court, Udaipur",
+   "state": "Rajasthan",
+   "site": "https://udaipur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02b0169350cd35566c47ba83c6ec1d/uploads/2026/08/2026080719.pdf",
+   "vc_file_date": "2026-08-07",
+   "vc_file_title": "Webex Meeting ID and Email ID of the Courts of Udaipur Judgeship",
+   "search": "https://udaipur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Gangtok",
+   "state": "Sikkim",
+   "site": "https://gangtok.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://gangtok.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Complex Gyalshing",
+   "state": "Sikkim",
+   "site": "https://gyalshing.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://gyalshing.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court, Mangan",
+   "state": "Sikkim",
+   "site": "https://mangan.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://mangan.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court, Namchi, Sikkim",
+   "state": "Sikkim",
+   "site": "https://namchi.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://namchi.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Ariyalur District Court",
+   "state": "Tamil Nadu",
+   "site": "https://ariyalur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec04def7924e3199be5e18060bb3e1d5/uploads/2026/09/2026092275.pdf",
+   "vc_file_date": "2026-09-22",
+   "vc_file_title": "Hybrid mode VC link for Ariyalur District",
+   "search": "https://ariyalur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Chennai City Courts",
+   "state": "Tamil Nadu",
+   "site": "https://chennai.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://chennai.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Coimbatore District Court",
+   "state": "Tamil Nadu",
+   "site": "https://coimbatore.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://coimbatore.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Cuddalore District Court",
+   "state": "Tamil Nadu",
+   "site": "https://cuddalore.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://cuddalore.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Dharmapuri District Court",
+   "state": "Tamil Nadu",
+   "site": "https://dharmapuri.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec04758be1f9f7a7efac938ed8bd97c0/uploads/2025/08/2025082671.pdf",
+   "vc_file_date": "2025-08-26",
+   "vc_file_title": "Hybrid VC Links for all Courts in Dharmapuri District",
+   "search": "https://dharmapuri.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Dindigul District Court",
+   "state": "Tamil Nadu",
+   "site": "https://dindigul.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://dindigul.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Erode District Court",
+   "state": "Tamil Nadu",
+   "site": "https://erode.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec04caa202034f268232c26fac9435f5/uploads/2026/06/2026061169.pdf",
+   "vc_file_date": "2026-06-11",
+   "vc_file_title": "Hybrid VC link for District Judiciary – Erode District",
+   "search": "https://erode.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Kanchipuram District Court",
+   "state": "Tamil Nadu",
+   "site": "https://kanchipuram.dcourts.gov.in/",
+   "vc_page": "https://kanchipuram.dcourts.gov.in/document-category/vc-links/",
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kanchipuram.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Kanniyakumari District Court",
+   "state": "Tamil Nadu",
+   "site": "https://kanniyakumari.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kanniyakumari.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Krishnagiri District Court",
+   "state": "Tamil Nadu",
+   "site": "https://krishnagiri.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://krishnagiri.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Madurai District Court",
+   "state": "Tamil Nadu",
+   "site": "https://madurai.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://madurai.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Nagapattinam District Court",
+   "state": "Tamil Nadu",
+   "site": "https://nagapattinam.dcourts.gov.in/",
+   "vc_page": "https://nagapattinam.dcourts.gov.in/document-category/hybrid-mode-vc/",
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://nagapattinam.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Namakkal District Court",
+   "state": "Tamil Nadu",
+   "site": "https://namakkal.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec04c5bbd980e5ab2c17413ec02bd757/uploads/2026/07/2026070628.pdf",
+   "vc_file_date": "2026-07-06",
+   "vc_file_title": "Case Hearing through Hybrid Video Conferencing – VC Links for Courts in Namakkal District",
+   "search": "https://namakkal.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "The Nilgiris District Court",
+   "state": "Tamil Nadu",
+   "site": "https://nilgiris.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec045b970a1d9be0fd100063fd6cd688/uploads/2026/10/2026101581.pdf",
+   "vc_file_date": "2026-10-15",
+   "vc_file_title": "Hybrid VC link for District Judiciary-The Nilgiris District",
+   "search": "https://nilgiris.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Perambalur District Court",
+   "state": "Tamil Nadu",
+   "site": "https://perambalur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://perambalur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Pudukkottai District Court",
+   "state": "Tamil Nadu",
+   "site": "https://pudukkottai.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://pudukkottai.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Ramanathapuram District Court",
+   "state": "Tamil Nadu",
+   "site": "https://ramanathapuram.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://ramanathapuram.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Salem District Court",
+   "state": "Tamil Nadu",
+   "site": "https://salem.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://salem.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Sivagangai District Court",
+   "state": "Tamil Nadu",
+   "site": "https://sivagangai.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://sivagangai.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Thanjavur District Court",
+   "state": "Tamil Nadu",
+   "site": "https://thanjavur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://thanjavur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Theni District Court",
+   "state": "Tamil Nadu",
+   "site": "https://theni.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://theni.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Thoothukudi District Court",
+   "state": "Tamil Nadu",
+   "site": "https://thoothukudi.dcourts.gov.in/",
+   "vc_page": "https://thoothukudi.dcourts.gov.in/document-category/hybrid-vc-links/",
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://thoothukudi.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Tiruchirappalli District Court",
+   "state": "Tamil Nadu",
+   "site": "https://tiruchirappalli.dcourts.gov.in/",
+   "vc_page": "https://tiruchirappalli.dcourts.gov.in/document-category/hybrid-vc-link/",
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://tiruchirappalli.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Tirunelveli District Court",
+   "state": "Tamil Nadu",
+   "site": "https://tirunelveli.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://tirunelveli.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Tiruppur District Court",
+   "state": "Tamil Nadu",
+   "site": "https://tiruppur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://tiruppur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Tiruvallur District Court",
+   "state": "Tamil Nadu",
+   "site": "https://tiruvallur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://tiruvallur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Tiruvannamalai District Court",
+   "state": "Tamil Nadu",
+   "site": "https://tiruvannamalai.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://tiruvannamalai.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Tiruvarur District Court",
+   "state": "Tamil Nadu",
+   "site": "https://tiruvarur.dcourts.gov.in/",
+   "vc_page": "https://tiruvarur.dcourts.gov.in/document-category/vc-link/",
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://tiruvarur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Vellore District Court",
+   "state": "Tamil Nadu",
+   "site": "https://vellore.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://vellore.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Villupuram District Court",
+   "state": "Tamil Nadu",
+   "site": "https://viluppuram.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec045d2c2cee8ab0b9a36bd1ed7196bd/uploads/2026/10/2026100538.pdf",
+   "vc_file_date": "2026-10-05",
+   "vc_file_title": "Links for Hybrid Video Conferencing Mode for hearing of cases",
+   "search": "https://viluppuram.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Virudhunagar District Court",
+   "state": "Tamil Nadu",
+   "site": "https://virudhunagar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://virudhunagar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Adilabad",
+   "state": "Telangana",
+   "site": "https://adilabad.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://adilabad.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Kumurambheem Asifabad",
+   "state": "Telangana",
+   "site": "https://asifabad.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://asifabad.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Jayashankar Bhupalapally District Judiciary",
+   "state": "Telangana",
+   "site": "https://bhupalapally.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://bhupalapally.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "JOGULAMBA GADWAL DISTRICT JUDICIARY",
+   "state": "Telangana",
+   "site": "https://gadwal.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://gadwal.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Judiciary Hanumakonda",
+   "state": "Telangana",
+   "site": "https://hanumakonda.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://hanumakonda.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "CITY SMALL CAUSES COURT - HYDERABAD",
+   "state": "Telangana",
+   "site": "https://hcscc.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec019f8684e630c4c30cad7b1f0935cd/uploads/2023/07/2023071995.pdf",
+   "vc_file_date": "2023-07-19",
+   "vc_file_title": "Cisco Webex Meeting I.D’s of each Court in the Unit of City Small Causes Court, Hyderabad",
+   "search": "https://hcscc.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Jagtial",
+   "state": "Telangana",
+   "site": "https://jagitial.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://jagitial.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "DISTRICT COURT - JANGAON",
+   "state": "Telangana",
+   "site": "https://jangoan.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://jangoan.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Karimnagar District Judiciary",
+   "state": "Telangana",
+   "site": "https://karimnagar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://karimnagar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Judiciary, Khammam",
+   "state": "Telangana",
+   "site": "https://khammam.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://khammam.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Judiciary Bhadradri Kothagudem",
+   "state": "Telangana",
+   "site": "https://kothagudem.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kothagudem.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Mahabubnagar District Judiciary",
+   "state": "Telangana",
+   "site": "https://mahabubnagar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://mahabubnagar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Mancherial",
+   "state": "Telangana",
+   "site": "https://mancherial.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://mancherial.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Medchal Malkajgiri",
+   "state": "Telangana",
+   "site": "https://medchalmalkajgiri.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://medchalmalkajgiri.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Judiciary Mulugu",
+   "state": "Telangana",
+   "site": "https://mulugu.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://mulugu.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Nagarkurnool District Judiciary",
+   "state": "Telangana",
+   "site": "https://nagarkurnool.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://nagarkurnool.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Nalgonda District Judiciary",
+   "state": "Telangana",
+   "site": "https://nalgonda.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://nalgonda.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Narayanpet",
+   "state": "Telangana",
+   "site": "https://narayanpet.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://narayanpet.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Nirmal",
+   "state": "Telangana",
+   "site": "https://nirmal.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://nirmal.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Judiciary, Nizamabad",
+   "state": "Telangana",
+   "site": "https://nizamabad.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://nizamabad.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Peddapalli District Judiciary",
+   "state": "Telangana",
+   "site": "https://peddapalli.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://peddapalli.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Rajanna Sircilla District Judiciary",
+   "state": "Telangana",
+   "site": "https://rajannasircilla.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://rajannasircilla.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Judiciary Ranga Reddy",
+   "state": "Telangana",
+   "site": "https://rangareddy.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://rangareddy.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Vikarabad",
+   "state": "Telangana",
+   "site": "https://vikarabad.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://vikarabad.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Judiciary Warangal",
+   "state": "Telangana",
+   "site": "https://warangal.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://warangal.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Judge Court, Dhalai Tripura",
+   "state": "Tripura",
+   "site": "https://dhalaitrp.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://dhalaitrp.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Judge Court, Gomati",
+   "state": "Tripura",
+   "site": "https://gomatitrp.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://gomatitrp.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Judge Court, Khowai District",
+   "state": "Tripura",
+   "site": "https://khowaitrp.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://khowaitrp.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Judge Court, North Tripura",
+   "state": "Tripura",
+   "site": "https://northtripura.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://northtripura.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Judge Court, Sepahijala District",
+   "state": "Tripura",
+   "site": "https://sepahijalatrp.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://sepahijalatrp.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Judge Court, South Tripura District",
+   "state": "Tripura",
+   "site": "https://southtripura.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://southtripura.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Judge Court, Unakoti District",
+   "state": "Tripura",
+   "site": "https://unakotitrp.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://unakotitrp.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Judge Court, Agartala",
+   "state": "Tripura",
+   "site": "https://westtripura.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://westtripura.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Agra",
+   "state": "Uttar Pradesh",
+   "site": "https://agra.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://agra.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Amroha",
+   "state": "Uttar Pradesh",
+   "site": "https://amroha.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://amroha.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District And Sessions Court Balrampur",
+   "state": "Uttar Pradesh",
+   "site": "https://balrampurup.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://balrampurup.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Banda",
+   "state": "Uttar Pradesh",
+   "site": "https://banda.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://banda.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Barabanki",
+   "state": "Uttar Pradesh",
+   "site": "https://barabanki.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://barabanki.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Bareilly",
+   "state": "Uttar Pradesh",
+   "site": "https://bareilly.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://bareilly.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Gautam Budh Nagar",
+   "state": "Uttar Pradesh",
+   "site": "https://gbnagar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://gbnagar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Ghaziabad",
+   "state": "Uttar Pradesh",
+   "site": "https://ghaziabad.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://ghaziabad.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court Gonda",
+   "state": "Uttar Pradesh",
+   "site": "https://gonda.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://gonda.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Gorakhpur",
+   "state": "Uttar Pradesh",
+   "site": "https://gorakhpur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://gorakhpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court Jalaun at Orai",
+   "state": "Uttar Pradesh",
+   "site": "https://jalaun.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://jalaun.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court Jaunpur",
+   "state": "Uttar Pradesh",
+   "site": "https://jaunpur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://jaunpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court Kannauj",
+   "state": "Uttar Pradesh",
+   "site": "https://kannauj.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kannauj.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court Kanpur Nagar",
+   "state": "Uttar Pradesh",
+   "site": "https://kanpurnagar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://kanpurnagar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court Lucknow",
+   "state": "Uttar Pradesh",
+   "site": "https://lucknow.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://lucknow.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Maharajganj",
+   "state": "Uttar Pradesh",
+   "site": "https://maharajganj.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://maharajganj.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Mathura",
+   "state": "Uttar Pradesh",
+   "site": "https://mathura.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://mathura.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Meerut",
+   "state": "Uttar Pradesh",
+   "site": "https://meerut.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://meerut.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Moradabad",
+   "state": "Uttar Pradesh",
+   "site": "https://moradabad.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://moradabad.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Prayagraj",
+   "state": "Uttar Pradesh",
+   "site": "https://prayagraj.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://prayagraj.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Saharanpur",
+   "state": "Uttar Pradesh",
+   "site": "https://saharanpur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://saharanpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Sonbhadra",
+   "state": "Uttar Pradesh",
+   "site": "https://sonbhadra.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://sonbhadra.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District and Sessions Court Sultanpur",
+   "state": "Uttar Pradesh",
+   "site": "https://sultanpur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://sultanpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Varanasi",
+   "state": "Uttar Pradesh",
+   "site": "https://varanasi.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://varanasi.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Almora",
+   "state": "Uttarakhand",
+   "site": "https://almora.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0105b8caaf6ba6f4bdb68675ab8b89/uploads/2025/01/2025010276.pdf",
+   "vc_file_date": "2025-01-02",
+   "vc_file_title": "Video Conferencing Link",
+   "search": "https://almora.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Bageshwar",
+   "state": "Uttarakhand",
+   "site": "https://bageshwar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03f24ad6f72d6cc4cb51464f2b29ab/uploads/2026/10/2026100868.pdf",
+   "vc_file_date": "2026-10-08",
+   "vc_file_title": "VC links for Virtual Hearing",
+   "search": "https://bageshwar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court, Chamoli",
+   "state": "Uttarakhand",
+   "site": "https://chamoli.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://chamoli.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Champawat",
+   "state": "Uttarakhand",
+   "site": "https://champawat.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03831b1ac54cc8db480e3babac5fa2/uploads/2024/09/2024092562.pdf",
+   "vc_file_date": "2024-09-25",
+   "vc_file_title": "VC link and email",
+   "search": "https://champawat.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Dehradun",
+   "state": "Uttarakhand",
+   "site": "https://dehradun.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec01748d6b6ed8e13f857ceaa6cfbdca/uploads/2026/08/2026080467.pdf",
+   "vc_file_date": "2026-08-04",
+   "vc_file_title": "Video Conferencing Link for Dehradun Judgeship",
+   "search": "https://dehradun.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District And Sessions Court Haridwar",
+   "state": "Uttarakhand",
+   "site": "https://haridwar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://haridwar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Nainital",
+   "state": "Uttarakhand",
+   "site": "https://nainital.dcourts.gov.in/",
+   "vc_page": "https://nainital.dcourts.gov.in/document-category/email-id-vc-link/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec032b7b82a7ec6de40781fd6ef338b4/uploads/2026/04/2026042921.pdf",
+   "vc_file_date": "2026-04-29",
+   "vc_file_title": null,
+   "search": "https://nainital.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court Pauri Garhwal",
+   "state": "Uttarakhand",
+   "site": "https://paurigarhwal.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03936824c0191953647ec609b4f49b/uploads/2026/08/2026080680.pdf",
+   "vc_file_date": "2026-08-06",
+   "vc_file_title": "VIDEO CONFERENCING LINKS FOR FAMILY COURT/J.J.B., PAURI GARHWAL",
+   "search": "https://paurigarhwal.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Pithoragarh",
+   "state": "Uttarakhand",
+   "site": "https://pithoragarh.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://pithoragarh.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District & Sessions Court Rudraprayag",
+   "state": "Uttarakhand",
+   "site": "https://rudraprayag.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://rudraprayag.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Tehri Garhwal",
+   "state": "Uttarakhand",
+   "site": "https://tehrigarhwal.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0316fc18d787294ad5171100e33d05/uploads/2026/03/2026031141.pdf",
+   "vc_file_date": "2026-03-11",
+   "vc_file_title": "Video Conferencing Link for Judgeship Tehri Garhwal",
+   "search": "https://tehrigarhwal.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Udham Singh Nagar",
+   "state": "Uttarakhand",
+   "site": "https://usnagar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec038a1d694707eb0fefe65871369074/uploads/2026/07/2026073019.pdf",
+   "vc_file_date": "2026-07-30",
+   "vc_file_title": "VC LINK FOR EVIDENCE",
+   "search": "https://usnagar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Uttarkashi",
+   "state": "Uttarakhand",
+   "site": "https://uttarkashi.dcourts.gov.in/",
+   "vc_page": "https://uttarkashi.dcourts.gov.in/document-category/video-conferencing-link/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec036fab6e3aa34248ec1e34a4aeedec/uploads/2026/02/2026020938.pdf",
+   "vc_file_date": "2026-02-09",
+   "vc_file_title": null,
+   "search": "https://uttarkashi.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Alipurduar District Court",
+   "state": "West Bengal",
+   "site": "https://alipurduar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://alipurduar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Bankura District Court",
+   "state": "West Bengal",
+   "site": "https://bankura.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://bankura.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Judgeship of Birbhum",
+   "state": "West Bengal",
+   "site": "https://birbhum.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://birbhum.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "City Civil Court, Calcutta",
+   "state": "West Bengal",
+   "site": "https://citycivilcourtcalcutta.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://citycivilcourtcalcutta.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "City Sessions Court, Calcutta",
+   "state": "West Bengal",
+   "site": "https://citysessions.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec05f92586a25bb3145facd64ab20fd5/uploads/2024/06/2024060771.pdf",
+   "vc_file_date": "2024-06-07",
+   "vc_file_title": "Google Meet VC link of Chief Judge, City Sessions court, Kolkata.",
+   "search": "https://citysessions.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Cooch Behar",
+   "state": "West Bengal",
+   "site": "https://coochbehar.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://coochbehar.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Dakshin Dinajpur",
+   "state": "West Bengal",
+   "site": "https://dakshindinajpur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://dakshindinajpur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Hooghly",
+   "state": "West Bengal",
+   "site": "https://hooghly.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://hooghly.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Howrah",
+   "state": "West Bengal",
+   "site": "https://howrah.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://howrah.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Jalpaiguri District Court",
+   "state": "West Bengal",
+   "site": "https://jalpaiguri.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://jalpaiguri.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Malda",
+   "state": "West Bengal",
+   "site": "https://malda.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://malda.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Murshidabad",
+   "state": "West Bengal",
+   "site": "https://murshidabad.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://murshidabad.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, Nadia",
+   "state": "West Bengal",
+   "site": "https://nadia.dcourts.gov.in/",
+   "vc_page": "https://nadia.dcourts.gov.in/document-category/video-conferencing-links/",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec057553e94d39fd4649ff75386a83ed/uploads/2024/12/2024121684.pdf",
+   "vc_file_date": "2024-12-16",
+   "vc_file_title": null,
+   "search": "https://nadia.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court North 24 Parganas",
+   "state": "West Bengal",
+   "site": "https://north24parganas.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://north24parganas.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Paschim Bardhaman",
+   "state": "West Bengal",
+   "site": "https://paschimbardhaman.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://paschimbardhaman.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Paschim Medinipur District Court",
+   "state": "West Bengal",
+   "site": "https://paschimmedinipur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://paschimmedinipur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Presidency Small Cause Court",
+   "state": "West Bengal",
+   "site": "https://psccourt.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://psccourt.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court of Purba Bardhaman",
+   "state": "West Bengal",
+   "site": "https://purbabardhaman.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://purbabardhaman.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "Purba Medinipur District Court",
+   "state": "West Bengal",
+   "site": "https://purbamedinipur.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://purbamedinipur.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court Purulia",
+   "state": "West Bengal",
+   "site": "https://purulia.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://purulia.dcourts.gov.in/?s=video+conferencing"
+  },
+  {
+   "court": "District Court, South-24 Parganas",
+   "state": "West Bengal",
+   "site": "https://south24parganas.dcourts.gov.in/",
+   "vc_page": null,
+   "vc_file": null,
+   "vc_file_date": null,
+   "vc_file_title": null,
+   "search": "https://south24parganas.dcourts.gov.in/?s=video+conferencing"
+  }
+ ]
+}
