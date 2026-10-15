@@ -1,0 +1,65 @@
+# Weekly refresh of the all-India district court VC directory
+#
+# Visits every district court website already listed in
+# data/india-district-courts.json (except Delhi, which fetch-vc-links.yml
+# handles judge-by-judge) and records the newest VC-links file each court has
+# published. Gentle by design: 4 courts at a time, paced requests, ~6 small
+# page loads per court per week. See scripts/fetch_india_court_vc.py.
+#
+# Commits the refreshed data file straight to main — only the data file,
+# never any page. The script refuses to write anything if too many court
+# sites are unreachable, keeps last week's entry for any court that was down,
+# and never swaps a newer VC file for an older one. Each run's report (newer
+# files found, unreachable courts, new court websites to add by hand) is shown
+# on the run's summary page in the Actions tab.
+#
+#   - Pause: Actions tab -> this workflow -> "..." -> Disable workflow.
+#   - Remove: delete this file and scripts/fetch_india_court_vc.py;
+#     data/india-district-courts.json stays usable as a plain data file.
+
+name: Refresh India Court VC Directory
+
+on:
+  schedule:
+    - cron: '30 2 * * 2'   # 02:30 UTC (08:00 IST) every Tuesday — a day apart from the Delhi check
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: india-vc-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Check every court's published VC links
+        env:
+          REPORT_PATH: ${{ runner.temp }}/india-vc-refresh-report.md
+        run: python3 scripts/fetch_india_court_vc.py
+
+      - name: Show report on the run summary
+        if: always()
+        run: cat "${{ runner.temp }}/india-vc-refresh-report.md" >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || true
+
+      - name: Commit refreshed directory
+        run: |
+          if git diff --quiet -- data/india-district-courts.json; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/india-district-courts.json
+          git commit -m "India court VC directory: weekly refresh"
+          git pull --rebase --quiet origin main
+          git push origin HEAD:main
