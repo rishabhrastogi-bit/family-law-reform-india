@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-15",
+ "checked": "2026-10-27",
  "source": "Official district court websites (*.dcourts.gov.in), discovered via certificate-transparency logs and each site's own Documents page and search",
  "courts": [
   {
@@ -697,9 +697,9 @@
    "state": "Chhattisgarh",
    "site": "https://balrampur.dcourts.gov.in/",
    "vc_page": null,
-   "vc_file": null,
-   "vc_file_date": null,
-   "vc_file_title": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec036c349155b122aa8ad5c877007e05/uploads/2024/05/2024051691.pdf",
+   "vc_file_date": "2024-05-16",
+   "vc_file_title": "Video Conferencing Link",
    "search": "https://balrampur.dcourts.gov.in/?s=video+conferencing"
   },
   {
@@ -1437,8 +1437,8 @@
    "state": "Haryana",
    "site": "https://faridabad.dcourts.gov.in/",
    "vc_page": "https://faridabad.dcourts.gov.in/document-category/video-conferencing/",
-   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec018004d637b6236202217be3dfcdd8/uploads/2026/09/2026092486.pdf",
-   "vc_file_date": "2026-09-24",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec018004d637b6236202217be3dfcdd8/uploads/2026/10/2026101533.pdf",
+   "vc_file_date": "2026-10-15",
    "vc_file_title": null,
    "search": "https://faridabad.dcourts.gov.in/?s=video+conferencing"
   },
@@ -1447,8 +1447,8 @@
    "state": "Haryana",
    "site": "https://fatehabad.dcourts.gov.in/",
    "vc_page": null,
-   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03bfbb56bee68d99affaa64f189045/uploads/2026/08/2026080570.pdf",
-   "vc_file_date": "2026-08-05",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03bfbb56bee68d99affaa64f189045/uploads/2026/10/2026101792.pdf",
+   "vc_file_date": "2026-10-17",
    "vc_file_title": "Links for Video Conferencing in Courts",
    "search": "https://fatehabad.dcourts.gov.in/?s=video+conferencing"
   },
@@ -1507,8 +1507,8 @@
    "state": "Haryana",
    "site": "https://karnal.dcourts.gov.in/",
    "vc_page": null,
-   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03485843481a7edacbfce101ecb1e4/uploads/2026/10/2026101356.pdf",
-   "vc_file_date": "2026-10-13",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03485843481a7edacbfce101ecb1e4/uploads/2026/10/2026102375.pdf",
+   "vc_file_date": "2026-10-23",
    "vc_file_title": "Links for VC relating to Sessions Division, Karnal",
    "search": "https://karnal.dcourts.gov.in/?s=video+conferencing"
   },
@@ -1587,8 +1587,8 @@
    "state": "Haryana",
    "site": "https://rohtak.dcourts.gov.in/",
    "vc_page": null,
-   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec033f7bcd0b3ea822683bba8fc530f1/uploads/2026/09/2026091577.pdf",
-   "vc_file_date": "2026-09-15",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec033f7bcd0b3ea822683bba8fc530f1/uploads/2026/10/2026101934.pdf",
+   "vc_file_date": "2026-10-19",
    "vc_file_title": "Links for Video Conferencing in Courts",
    "search": "https://rohtak.dcourts.gov.in/?s=video+conferencing"
   },
@@ -3717,8 +3717,8 @@
    "state": "Punjab",
    "site": "https://mansa.dcourts.gov.in/",
    "vc_page": null,
-   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03a87d27f712df362cd22c7a8ef823/uploads/2026/05/2026052658.pdf",
-   "vc_file_date": "2026-05-26",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03a87d27f712df362cd22c7a8ef823/uploads/2026/10/2026102716.pdf",
+   "vc_file_date": "2026-10-27",
    "vc_file_title": "Links for Video Conferencing in Courts",
    "search": "https://mansa.dcourts.gov.in/?s=video+conferencing"
   },
@@ -3757,8 +3757,8 @@
    "state": "Punjab",
    "site": "https://patiala.dcourts.gov.in/",
    "vc_page": null,
-   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec032131f8ecf18db66a758f718dc729/uploads/2026/07/2026070453.pdf",
-   "vc_file_date": "2026-07-04",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec032131f8ecf18db66a758f718dc729/uploads/2026/10/2026102198.pdf",
+   "vc_file_date": "2026-10-21",
    "vc_file_title": "Links for Video Conferencing in Courts",
    "search": "https://patiala.dcourts.gov.in/?s=video+conferencing"
   },
@@ -3937,9 +3937,9 @@
    "state": "Rajasthan",
    "site": "https://dholpur.dcourts.gov.in/",
    "vc_page": null,
-   "vc_file": null,
-   "vc_file_date": null,
-   "vc_file_title": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec02b6d67a24906e8a8541291882f81d/uploads/2025/04/2025040547.pdf",
+   "vc_file_date": "2025-04-05",
+   "vc_file_title": "Dholpur Judgeship Zoom VC Application Hyper Link & Email ID",
    "search": "https://dholpur.dcourts.gov.in/?s=video+conferencing"
   },
   {
@@ -4287,9 +4287,9 @@
    "state": "Tamil Nadu",
    "site": "https://kanchipuram.dcourts.gov.in/",
    "vc_page": "https://kanchipuram.dcourts.gov.in/document-category/vc-links/",
-   "vc_file": null,
-   "vc_file_date": null,
-   "vc_file_title": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec042d2c8394e31101a261abf1784302/uploads/2024/12/2024120742.pdf",
+   "vc_file_date": "2024-12-07",
+   "vc_file_title": "VC Links",
    "search": "https://kanchipuram.dcourts.gov.in/?s=video+conferencing"
   },
   {
@@ -4357,9 +4357,9 @@
    "state": "Tamil Nadu",
    "site": "https://perambalur.dcourts.gov.in/",
    "vc_page": null,
-   "vc_file": null,
-   "vc_file_date": null,
-   "vc_file_title": null,
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0471a5c0514ab83382d98154e5a5f9/uploads/2026/06/2026060838.pdf",
+   "vc_file_date": "2026-06-08",
+   "vc_file_title": "HYBRID MODE VC LINKS OF EACH COURT IN PERAMBALUR DISTRICT JUDICIARY",
    "search": "https://perambalur.dcourts.gov.in/?s=video+conferencing"
   },
   {
