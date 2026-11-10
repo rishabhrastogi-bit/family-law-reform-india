@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-03",
+ "checked": "2026-11-10",
  "source": "Official district court websites (*.dcourts.gov.in), discovered via certificate-transparency logs and each site's own Documents page and search",
  "courts": [
   {
@@ -1607,9 +1607,9 @@
    "state": "Haryana",
    "site": "https://sonepat.dcourts.gov.in/",
    "vc_page": null,
-   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03f0eaf559f89ca17022783964ebe9/uploads/2025/08/2025081883.pdf",
-   "vc_file_date": "2025-08-18",
-   "vc_file_title": "“Links for Video Conferencing in Courts”",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03f0eaf559f89ca17022783964ebe9/uploads/2026/11/2026110526.pdf",
+   "vc_file_date": "2026-11-05",
+   "vc_file_title": "Link for Video Conferencing (Court Wise)",
    "search": "https://sonepat.dcourts.gov.in/?s=video+conferencing"
   },
   {
@@ -3597,8 +3597,8 @@
    "state": "Punjab",
    "site": "https://amritsar.dcourts.gov.in/",
    "vc_page": null,
-   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03f8037f94e53f17a2cc301033ca86/uploads/2026/11/2026110326.pdf",
-   "vc_file_date": "2026-11-03",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03f8037f94e53f17a2cc301033ca86/uploads/2026/11/2026110646.pdf",
+   "vc_file_date": "2026-11-06",
    "vc_file_title": "Links for Video Conferencing in Courts",
    "search": "https://amritsar.dcourts.gov.in/?s=video+conferencing"
   },
@@ -3617,8 +3617,8 @@
    "state": "Punjab",
    "site": "https://bathinda.dcourts.gov.in/",
    "vc_page": null,
-   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec01e9fb2eda3d9c55a0d89c98d6c54b/uploads/2026/11/2026110258.pdf",
-   "vc_file_date": "2026-11-02",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec01e9fb2eda3d9c55a0d89c98d6c54b/uploads/2026/11/2026110628.pdf",
+   "vc_file_date": "2026-11-06",
    "vc_file_title": "Links for Video Conferencing in Courts",
    "search": "https://bathinda.dcourts.gov.in/?s=video+conferencing"
   },
@@ -3657,8 +3657,8 @@
    "state": "Punjab",
    "site": "https://ferozepur.dcourts.gov.in/",
    "vc_page": null,
-   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03b58ac8403eb9cf17fae1dcd16df7/uploads/2026/11/2026110385.pdf",
-   "vc_file_date": "2026-11-03",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03b58ac8403eb9cf17fae1dcd16df7/uploads/2026/11/2026110691.pdf",
+   "vc_file_date": "2026-11-06",
    "vc_file_title": "VC Link",
    "search": "https://ferozepur.dcourts.gov.in/?s=video+conferencing"
   },
@@ -3667,8 +3667,8 @@
    "state": "Punjab",
    "site": "https://gurdaspur.dcourts.gov.in/",
    "vc_page": null,
-   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0352b738b303d90a884137546353e0/uploads/2026/11/2026110393.pdf",
-   "vc_file_date": "2026-11-03",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0352b738b303d90a884137546353e0/uploads/2026/11/2026110637.pdf",
+   "vc_file_date": "2026-11-06",
    "vc_file_title": "Video Conferencing Link",
    "search": "https://gurdaspur.dcourts.gov.in/?s=video+conferencing"
   },
@@ -3687,8 +3687,8 @@
    "state": "Punjab",
    "site": "https://jalandhar.dcourts.gov.in/",
    "vc_page": "https://jalandhar.dcourts.gov.in/document-category/video-conferencing-in-courts/",
-   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03d54ce9de9df77c579775a7b6b1a4/uploads/2026/09/2026091913.pdf",
-   "vc_file_date": "2026-09-19",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec03d54ce9de9df77c579775a7b6b1a4/uploads/2026/11/2026110526.pdf",
+   "vc_file_date": "2026-11-05",
    "vc_file_title": null,
    "search": "https://jalandhar.dcourts.gov.in/?s=video+conferencing"
   },
@@ -3697,8 +3697,8 @@
    "state": "Punjab",
    "site": "https://kapurthala.dcourts.gov.in/",
    "vc_page": null,
-   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec01512fc3c5227f637e41437c999a2d/uploads/2026/11/2026110335.pdf",
-   "vc_file_date": "2026-11-03",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec01512fc3c5227f637e41437c999a2d/uploads/2026/11/2026110447.pdf",
+   "vc_file_date": "2026-11-04",
    "vc_file_title": "Links for Video Conferencing in Courts",
    "search": "https://kapurthala.dcourts.gov.in/?s=video+conferencing"
   },
