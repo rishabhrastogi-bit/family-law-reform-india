@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-17",
+ "checked": "2026-11-24",
  "source": "Official district court websites (*.dcourts.gov.in), discovered via certificate-transparency logs and each site's own Documents page and search",
  "courts": [
   {
@@ -3617,8 +3617,8 @@
    "state": "Punjab",
    "site": "https://bathinda.dcourts.gov.in/",
    "vc_page": null,
-   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec01e9fb2eda3d9c55a0d89c98d6c54b/uploads/2026/11/2026111398.pdf",
-   "vc_file_date": "2026-11-13",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec01e9fb2eda3d9c55a0d89c98d6c54b/uploads/2026/11/2026111963.pdf",
+   "vc_file_date": "2026-11-19",
    "vc_file_title": "Links for Video Conferencing in Courts",
    "search": "https://bathinda.dcourts.gov.in/?s=video+conferencing"
   },
@@ -3667,8 +3667,8 @@
    "state": "Punjab",
    "site": "https://gurdaspur.dcourts.gov.in/",
    "vc_page": null,
-   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0352b738b303d90a884137546353e0/uploads/2026/11/2026111322.pdf",
-   "vc_file_date": "2026-11-13",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec0352b738b303d90a884137546353e0/uploads/2026/11/2026112047.pdf",
+   "vc_file_date": "2026-11-20",
    "vc_file_title": "Video Conferencing Link",
    "search": "https://gurdaspur.dcourts.gov.in/?s=video+conferencing"
   },
@@ -3957,8 +3957,8 @@
    "state": "Rajasthan",
    "site": "https://ganganagar.dcourts.gov.in/",
    "vc_page": null,
-   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec01f42c7f9c8aeab0fc412031e192e2/uploads/2026/06/2026062043.pdf",
-   "vc_file_date": "2026-06-20",
+   "vc_file": "https://cdnbbsr.s3waas.gov.in/s3ec01f42c7f9c8aeab0fc412031e192e2/uploads/2026/11/2026111887.pdf",
+   "vc_file_date": "2026-11-18",
    "vc_file_title": "WEBEX MEETING ID SRI GANGANAGAR",
    "search": "https://ganganagar.dcourts.gov.in/?s=video+conferencing"
   },
